@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  /* background-color: black; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  gap: 3rem;
+}
+
+.nav-bar {
+  float: right;
+  display: flex;
+  padding: 3px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff66;
+  border-radius: 20px;
+  background: #2f2f2f;
+  backdrop-filter: blur(10px);
+}
+
+.nav-element {
+  padding-left: 24px; 
+  padding-right: 24px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: #ffffff80;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 300ms, color 300ms;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.nav-element:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.metakgp-logo-one-line {
+  float: left;
+}
