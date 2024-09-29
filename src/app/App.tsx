@@ -1,5 +1,6 @@
 import React from 'react';
 import { HeaderSection } from '../sections/Header';
+import { HeroSection } from '../sections/Hero';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <HeaderSection />
+        <HeroSection />
       </header>
     </div>
   );

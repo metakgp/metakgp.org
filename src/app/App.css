@@ -2,8 +2,9 @@
   text-align: center;
 }
 
+/* Header Element Styling*/
+
 .header {
-  /* background-color: black; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -45,6 +46,46 @@
   color: #000000;
 }
 
-.metakgp-logo-one-line {
+.metakgp-logo {
   float: left;
+}
+
+.bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.black {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Hero Section Styling */
+
+.main-header {
+  text-transform: uppercase;
+  font-size: 6rem;
+  font-weight: 900;
+  text-align: left;
+  font-family: "Titillium Web", sans-serif;
+  line-height: 0.01;
+
+}
+
+.main-header-container {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.hero-description {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: left;
+  color: #fcfcfcbf;
 }
