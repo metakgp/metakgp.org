@@ -1,4 +1,4 @@
-import React from 'react';
+import { AboutSection } from '../sections/About';
 import { HeaderSection } from '../sections/Header';
 import { HeroSection } from '../sections/Hero';
 import './App.css';
@@ -9,6 +9,7 @@ function App() {
       <header className="App-header">
         <HeaderSection />
         <HeroSection />
+        <AboutSection />
       </header>
     </div>
   );
