@@ -21,9 +21,11 @@
   padding: 3px;
   border-style: solid;
   border-width: 2px;
-  border-color: #ffffff66;
+  /* border-color: #ffffff66; */
+  border-color: #fff;
   border-radius: 20px;
-  background: #2f2f2f;
+  /* background: #2f2f2f; */
+  background: #000;
   backdrop-filter: blur(10px);
 }
 
@@ -32,7 +34,8 @@
   padding-right: 24px;
   padding-top: 4px;
   padding-bottom: 4px;
-  color: #ffffff80;
+  /* color: #ffffff80; */
+  color: #fff;
   border-radius: 20px;
   font-weight: bold;
   text-decoration: none;
@@ -98,5 +101,6 @@
   font-style: normal;
   font-size: 1.2rem;
   text-align: left;
-  color: #fcfcfcbf;
+  /* color: #fcfcfcbf; */
+  color: #fff;
 }
