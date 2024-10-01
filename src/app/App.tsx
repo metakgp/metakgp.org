@@ -1,3 +1,4 @@
+import React from 'react';
 import { AboutSection } from '../sections/About';
 import { HeaderSection } from '../sections/Header';
 import { HeroSection } from '../sections/Hero';

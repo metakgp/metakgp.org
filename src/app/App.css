@@ -64,6 +64,11 @@
 
 /* Hero Section Styling */
 
+.hero-container {
+  display: flex;
+  flex: space-between;
+}
+
 .main-header {
   text-transform: uppercase;
   font-size: 6rem;
@@ -74,10 +79,16 @@
 
 }
 
-.main-header-container {
+.hero-header-container {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.hero-card-container {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   padding-right: 3rem;
 }
 
