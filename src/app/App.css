@@ -70,15 +70,17 @@
 .hero-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .main-header {
   text-transform: uppercase;
-  font-size: 6rem;
+  /* font-size: 6rem; */
   font-weight: 900;
   text-align: left;
   font-family: "Titillium Web", sans-serif;
   line-height: 0.01;
+  font-size: clamp(2rem, 5vw, 6rem);
 }
 
 .hero-header-container {
@@ -93,8 +95,11 @@
   padding-top: 3.75rem;
   padding-bottom: 3.75rem;
   padding-right: 3rem;
+  padding-left: 3rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
 }
 
