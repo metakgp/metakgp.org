@@ -69,7 +69,7 @@
 
 .hero-container {
   display: flex;
-  flex: space-between;
+  justify-content: space-between;
 }
 
 .main-header {
@@ -79,7 +79,6 @@
   text-align: left;
   font-family: "Titillium Web", sans-serif;
   line-height: 0.01;
-
 }
 
 .hero-header-container {
@@ -87,12 +86,16 @@
   padding-bottom: 0.75rem;
   padding-left: 3rem;
   padding-right: 3rem;
+  white-space: nowrap;
 }
 
 .hero-card-container {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
   padding-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .hero-description {
@@ -102,5 +105,13 @@
   font-size: 1.2rem;
   text-align: left;
   /* color: #fcfcfcbf; */
-  color: #fff;
+  color: #000;
+}
+
+.hero-button-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 2rem;
+  padding-left: 0px;
 }
