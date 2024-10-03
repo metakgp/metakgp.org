@@ -120,3 +120,22 @@
   padding: 2rem;
   padding-left: 0px;
 }
+
+/* About Section Styling */
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.about-left {
+  padding: 3rem;
+}
+
+.about-right {
+  padding: 3rem;
+  width: 500px;
+}
