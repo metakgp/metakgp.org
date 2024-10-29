@@ -4,10 +4,10 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   /* background: #191919; */
-  /* background: linear-gradient(90deg, #28313b, #485461); */
+  background: linear-gradient(90deg, #28313b, #485461);
   /* background: linear-gradient(90deg, #2c3e50, #000000); */
   animation: gradient_anim 23s ease infinte;
-  /* color: #fcfcfc; */
+  color: #fcfcfc;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -16,9 +16,11 @@ body {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }

@@ -10,7 +10,6 @@ function App() {
       <header className="App-header">
         <HeaderSection />
         <HeroSection />
-        <AboutSection />
       </header>
     </div>
   );

@@ -3,7 +3,7 @@
 export const AboutSection = () => {
   return (
     <div>
-      <h1>What is <span className="bold">meta</span><span className="black">KGP</span>?</h1>
+      <h1 className="about-header">What is <span className="bold">meta</span><span className="black">KGP</span>?</h1>
       <div className="about-container">
         <div className="about-left">
           <p>
