@@ -2,6 +2,7 @@ import React from 'react';
 import { AboutSection } from '../sections/About';
 import { HeaderSection } from '../sections/Header';
 import { HeroSection } from '../sections/Hero';
+import { StatsSection } from '../sections/Statistics';
 import './App.css';
 
 function App() {
@@ -9,8 +10,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <HeaderSection />
-        <HeroSection />
       </header>
+      <HeroSection />
+      <StatsSection />
     </div>
   );
 }

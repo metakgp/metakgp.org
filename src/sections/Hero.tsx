@@ -1,5 +1,3 @@
-import { HeroCard } from "../components/HeroCard"
-import metakgpLogo from "../assets/metakgp_logo_one_line-cropped.svg"
 import devFocus from "../assets/undraw_pair_programming_re_or4x.svg";
 
 export const HeroSection = () => {
@@ -15,7 +13,7 @@ export const HeroSection = () => {
           <h1 className="main-header">For The People</h1>
           <h1 className="main-header">By The People</h1>
           <p className="hero-description">
-            metaKGP is IIT Kharagpur's only true open-source society. We are dedicated to solving KGP's problems, one tech project at a time
+            metaKGP is IIT Kharagpur's (open) community for open-source enthuasists. We are dedicated to solving KGP's problems, one tech project at a time.
           </p>
           <div className="hero-button-container">
             <button className="project-button">See our Projects!</button>

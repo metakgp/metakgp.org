@@ -22,10 +22,8 @@
   border-style: solid;
   border-width: 2px;
   border-color: #ffffff66;
-  /* border-color: #fff; */
   border-radius: 20px;
   background: #2f2f2f;
-  /* background: #000; */
   backdrop-filter: blur(10px);
 }
 
@@ -35,7 +33,6 @@
   padding-top: 4px;
   padding-bottom: 4px;
   color: #ffffff80;
-  /* color: #fff; */
   border-radius: 20px;
   font-weight: bold;
   text-decoration: none;
@@ -73,12 +70,12 @@
   justify-content: space-between;
   align-items: center;
   margin: 0;
+  margin-top: 2rem;
   padding: 0;
 }
 
 .main-header {
   text-transform: uppercase;
-  /* font-size: 6rem; */
   font-weight: 900;
   text-align: left;
   font-family: "Titillium Web", sans-serif;
@@ -101,7 +98,6 @@
   text-align: left;
   color: #fcfcfcbf;
   text-wrap: wrap;
-  /* color: #000; */
 }
 
 .hero-button-container {
@@ -126,6 +122,7 @@
 
 .hero-image-container {
   margin: 0;
+  margin-top: 2rem;
   max-width: 50%;
   padding: 0 4rem;
   height: auto;
@@ -140,8 +137,6 @@
 }
 
 .about-button:hover {
-  /* background: #fff; */
-  /* color: #000; */
   scale: 1.08;
 }
 
@@ -159,32 +154,20 @@
 }
 
 .project-button:hover {
-  /* background: #2f2f2f; */
-  /* color: #fff; */
   scale: 1.08;
 }
 
+/* Cards Styling */
 
-/* About Section Styling */
-
-.about-container {
-  padding: 4rem;
+.stats-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  text-align: left;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  margin: 0 4rem;
+  gap: 1rem;
 }
 
-.about-left {
-  padding: 3rem;
-}
-
-.about-right {
-  padding: 3rem;
-  width: 500px;
-}
-
-.about-header {
-  padding: 3rem;
-}
+/* About Section Styling */
