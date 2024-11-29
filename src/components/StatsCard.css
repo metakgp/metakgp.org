@@ -34,8 +34,10 @@
 }
 
 .card-stat {
-  font-size: 4rem;
-  font-weight: bold;
+  font-size: 3rem;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   margin: 0;
 }
 
@@ -46,4 +48,7 @@
 .card-description {
   font-size: 1rem;
   color: #f0f0f0;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
