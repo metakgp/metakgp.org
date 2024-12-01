@@ -1,4 +1,5 @@
 import devFocus from "../assets/undraw_pair_programming_re_or4x.svg";
+import { Link } from "react-router-dom";
 
 export const HeroSection = () => {
   // <div className="hero-card-container">
@@ -16,8 +17,12 @@ export const HeroSection = () => {
             metaKGP is IIT Kharagpur's (open) community for open-source enthuasists. We are dedicated to solving KGP's problems, one tech project at a time.
           </p>
           <div className="hero-button-container">
-            <button className="project-button">See our Projects!</button>
-            <button className="about-button">Learn more about what we do!</button>
+          <Link to="/projects">
+    <button className="project-button">See our Projects!</button>
+  </Link>
+  <Link to="/about">
+    <button className="about-button">Learn more about what we do!</button>
+  </Link>
           </div>
         </div>
         <div className="hero-image-container">
