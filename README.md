@@ -108,8 +108,10 @@ To get a local copy up and running follow these simple example steps.
 
 * install dependencies and set up frontend
   ```sh
-  npm install
-  node start
+  # Install dependencies using  pnpm
+  pnpm install
+  pnpm start
+
   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
