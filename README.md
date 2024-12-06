@@ -109,7 +109,7 @@ To get a local copy up and running follow these simple example steps.
 * install dependencies and set up frontend
   ```sh
   # Install dependencies using  pnpm
-  pnpm instal
+  pnpm install
   pnpm start
 
   ```
