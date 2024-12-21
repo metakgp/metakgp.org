@@ -260,3 +260,47 @@
   align-items: center;
   justify-content: center;
 }
+
+
+/*Footer Section Styling*/
+.footer-section{
+  font-family: "Space Mono", monospace;
+  display: flex;
+  flex-wrap: wrap;
+ background-color:  #1a1717;
+ justify-content: center;
+padding-top:5px ;
+}
+.footer-col{
+  width: 33%;
+}
+.social-icons{
+ display: flex;
+  justify-content: center;
+}
+.social-icons a{
+  text-decoration: none;
+  padding:9px;
+ 
+  margin:5px;
+  border-radius: 25%;
+}
+.social-icons a i{
+  font-size: 1.7rem;
+  color: white;
+  
+}
+.privacy-policy a{
+  text-decoration: none;
+ 
+}
+
+/*hover effect on social media icons */
+.social-icons a:hover{
+  background-color: #fff;
+  transition: .5s;
+}
+.social-icons a:hover i{
+  color: black;
+  transition: .5s;
+}
