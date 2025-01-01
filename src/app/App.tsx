@@ -3,7 +3,7 @@ import { HeaderSection } from '../sections/Header';
 import { HeroSection } from '../sections/Hero';
 import { StatsSection } from '../sections/Statistics';
 import { FooterSection } from '../sections/Footer';
-import './App.css';
+import './style/App.css';
 
 function App() {
   return (
