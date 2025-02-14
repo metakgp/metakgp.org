@@ -1,0 +1,59 @@
+/* Header Element Styling*/
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  gap: 3rem;
+}
+
+.nav-bar {
+  float: right;
+  display: flex;
+  padding: 3px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff66;
+  border-radius: 20px;
+  background: #2f2f2f;
+  backdrop-filter: blur(10px);
+}
+
+.nav-element {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: #ffffff80;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 300ms, color 300ms;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.nav-element:hover {
+  background: rgba(256, 256, 256, 0.8);
+  border: solid 1px #000;
+  color: #000000;
+}
+
+.active-nav-element {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: #000;
+  background: #ffffff;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 300ms, color 300ms;
+  white-space: nowrap;
+  overflow: hidden;
+}
