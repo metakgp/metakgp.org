@@ -7,7 +7,8 @@ import Contribute from "./pages/Contribute";
 import DCPage from "./pages/DCPage";
 import Projects from "./pages/Projects";
 import reportWebVitals from "./tests/reportWebVitals";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
@@ -15,11 +16,13 @@ const root = ReactDOM.createRoot(
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/contribute" element={<Contribute />} />
-      <Route path="/dc" element={<DCPage />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/" element={<Navigate to="/about" replace />} />
+      <Route path="/" element={<App />}>
+        <Route index path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contribute" element={<Contribute />} />
+        <Route path="/dc" element={<DCPage />} />
+      </Route>
     </Routes>
   </BrowserRouter>
 );
@@ -27,4 +30,4 @@ root.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+reportWebVitals(console.log);
