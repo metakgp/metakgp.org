@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./app/App";
+import "./styles/global.css";
+import App from "./pages/App";
 import About from "./pages/About";
 import Contribute from "./pages/Contribute";
 import DCPage from "./pages/DCPage";
 import Projects from "./pages/Projects";
-import reportWebVitals from "./reportWebVitals";
+import reportWebVitals from "./tests/reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

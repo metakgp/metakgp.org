@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import "./StatsCard.css";
+import "../styles/components/StatsCard.css";
 
 interface CardProps {
   cardStat: string;

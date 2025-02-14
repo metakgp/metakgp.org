@@ -1,5 +1,6 @@
-import "../app/style/dc.css";
-import dcImage from '../assets/dc-image.png';
+import React from "react";
+import "../styles/dc.css";
+import dcImage from "../assets/dc-image.png";
 
 function DCPage() {
   return (
@@ -9,7 +10,7 @@ function DCPage() {
           “Happiness doesn’t result from what we get,
           <br /> but from what we give."   ~ Ben Carson
           <br />
-           
+
         </div>
         <div className="dc-image">
           <img
