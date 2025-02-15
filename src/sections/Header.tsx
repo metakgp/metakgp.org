@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 
 const NavElement = ({ route, isActive }: { route: string, isActive: boolean }) => {
   return (
-    <Link to={route} className={isActive ? `active-nav-element` : `nav-element`}>{route != "dc" ? route.charAt(0).toUpperCase() + route.slice(1) : "DC++"}</Link>
+    <Link to={route} className={isActive ? `active-nav-element` : `nav-element`}>{route !== "dc" ? route.charAt(0).toUpperCase() + route.slice(1) : "DC++"}</Link>
   )
 }
 
@@ -18,7 +18,7 @@ export const HeaderSection = () => {
       ><span className='bold'>meta</span><span className='black'>KGP</span></h1>
       <nav className="nav-bar">
         {pages.map((page) => (
-          <NavElement route={page} isActive={location.pathname.slice(1) == page} />
+          <NavElement route={page} isActive={location.pathname.slice(1) === page} />
         ))}
       </nav>
     </div>

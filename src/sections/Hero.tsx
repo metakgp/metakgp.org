@@ -23,7 +23,7 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className="hero-image-container">
-          <img className="hero-image" src={devFocus} />
+          <img className="hero-image" src={devFocus} alt="hero-image" />
         </div>
       </div>
     </section>
