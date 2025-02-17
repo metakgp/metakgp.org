@@ -30,6 +30,7 @@
   padding-bottom: 4px;
   color: #ffffff80;
   border-radius: 20px;
+  border: 1px solid transparent;
   font-weight: bold;
   text-decoration: none;
   transition: background 300ms, color 300ms;
@@ -39,21 +40,21 @@
 
 .nav-element:hover {
   background: rgba(256, 256, 256, 0.8);
-  border: solid 1px #000;
+  border-color: #000;
   color: #000000;
 }
 
 .active-nav-element {
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  box-sizing: border-box;
+  padding: 4px 24px;
   color: #000;
   background: #ffffff;
   border-radius: 20px;
+  border: 1px solid transparent;
   font-weight: bold;
   text-decoration: none;
-  transition: background 300ms, color 300ms;
+  transition: all 300ms ease;
   white-space: nowrap;
   overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
