@@ -1,11 +1,11 @@
-name: Deploy to Github Pages
+name: Integration Test (Build)
 
 on:
-  push:
+  pull_request:
+    types:
+      - opened
+      - synchronize
     branches:
-      - main
-  pull_request: 
-    branches: 
       - main
 
 jobs:
@@ -37,16 +37,14 @@ jobs:
       if: steps.pnpm-cache.outputs.cache-hit != 'true'
       run: |
         pnpm install
-    
-    - name: Download Artifacts
-      id: download-artifact
-      uses: dawidd6/action-download-artifact@v8
-      with:
-        workflow: build-ci-test.yaml
-        github_token: ${{secrets.GITHUB_TOKEN}}
-        path: ./
 
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@v4
+    - name: Build the application
+      run: | 
+        pnpm run build
+
+    - name: Save build artifacts
+      if: success()
+      uses: actions/upload-artifact@v4
       with:
-        folder: ./build
+        name: build
+        path: ./build
