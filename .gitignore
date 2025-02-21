@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Garbage & not required config files
+.DS_Store
+.vscode
