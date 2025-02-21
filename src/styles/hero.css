@@ -1,0 +1,94 @@
+/* Hero Section Styling */
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  margin-top: 2rem;
+  padding: 0;
+}
+
+.main-header {
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: left;
+  font-family: "Titillium Web", sans-serif;
+  line-height: 0.01;
+  font-size: clamp(4rem, 5vw, 6rem);
+}
+
+.hero-header-container {
+  padding: 0.75rem 4rem;
+  padding-right: 0.5rem;
+  white-space: nowrap;
+  width: 50%;
+}
+
+.hero-description {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  text-align: left;
+  color: #fcfcfcbf;
+  text-wrap: wrap;
+}
+
+.hero-button-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 2rem 0;
+}
+
+.contribute-button {
+  padding: 1rem;
+  font-size: 1rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff66;
+  border-radius: 20px;
+  background: #2f2f2f;
+  color: #fff;
+  font-weight: 700;
+  transition: background 300ms, color 300ms, scale 300ms;
+}
+
+.contribute-button:hover {
+  scale: 1.08;
+}
+
+.hero-image-container {
+  margin: 0;
+  margin-top: 2rem;
+  max-width: 50%;
+  padding: 0 4rem;
+  height: auto;
+}
+
+.hero-image {
+  max-width: 100%;
+  max-height: 45vh;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.project-button {
+  padding: 1rem;
+  font-size: 1rem;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff66;
+  border-radius: 20px;
+  background: #fff;
+  color: #000;
+  font-weight: 700;
+  transition: scale 300ms, background 300ms, color 300ms;
+}
+
+.project-button:hover {
+  scale: 1.08;
+}

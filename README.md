@@ -1,3 +1,23 @@
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a id="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
+
+
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 <div id="top"></div>
 
 <!-- PROJECT SHIELDS -->
@@ -15,115 +35,142 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<!-- UPDATE -->
 <div align="center">
-  <a href="https://github.com/metakgp/PROJECT_NAME">
-     <img width="140" alt="image" src="https://raw.githubusercontent.com/metakgp/design/main/logos/logo.jpg">
+  <a href="https://github.com/metakgp/metakgp.org">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F11089056%3Fs%3D280%26v%3D4&f=1&nofb=1&ipt=256d00f50ccece811f04675b62fb37d0857a0bcd7f8e2fdc59483c08d2eed445&ipo=images" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">PROJECT_NAME</h3>
+  <h3 align="center">MetaKGP Website</h3>
 
   <p align="center">
-  <!-- UPDATE -->
-    <i>Project one liner slogan goes here</i>
+    Website for metaKGP to display their projects
     <br />
-    <a href="https://UPDATE.metakgp.org">Website</a>
+    <a href="https://github.com/metakgp/metakgp.org">No demo yet</a>
     ·
-    <a href="https://github.com/proffapt/PROJECT_NAME/issues">Request Feature / Report Bug</a>
+    <a href="https://github.com/metakgp/metakgp.org/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/metakgp/metakgp.org/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
 <summary>Table of Contents</summary>
 
 - [About The Project](#about-the-project)
-  - [Supports](#supports)
+  - [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
 - [Contact](#contact)
   - [Maintainer(s)](#maintainers)
   - [creators(s)](#creators)
 - [Additional documentation](#additional-documentation)
+- [Acknowledgments](#acknowledgments)
 
 </details>
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<!-- UPDATE -->
-<div align="center">
-  <a href="https://github.com/metakgp/PROJECT_NAME">
-    <img width="80%" alt="image" src="https://user-images.githubusercontent.com/86282911/206632547-a3b34b47-e7ae-4186-a1e6-ecda7ddb38e6.png">
-  </a>
-</div>
 
-_Detailed explaination of the project goes here_
+We need a landing page for [MetaKGP](https://wiki.metakgp.org) that 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+1. "sells" the projects
+1. Describes MetaKGP
 
-<div id="supports"></div>
+The current landing page is [here](https://metakgp.github.io/) which looks janky
+so ["metakgp.org"](https://metakgp.org) just redirects to the wiki instead. 
 
-### Supports:
-<!-- UPDATE -->
-1. Shells
-    * `bash`
-    * `zsh`
-2. OS(s)
-    * any `*nix`[`GNU+Linux` and `Unix`]
+Our goal is to incorporate some modern web design principles. However directly using UI
+frameworks defeats the purpose of the learning culture of metaKGP which is why we will
+be writing our own `css` and designing stuff from scratch.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
+### Built With
+
+* [![React][React.js]][React-url]
+* [![TypeScript][TypeScript]][TypeScript-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-To set up a local instance of the application, follow the steps below.
-
-### Prerequisites
-The following dependencies are required to be installed for the project to function properly:
-<!-- UPDATE -->
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-_Now that the environment has been set up and configured to properly compile and run the project, the next step is to install and configure the project locally on your system._
-<!-- UPDATE -->
-1. Clone the repository
-   ```sh
-   git clone https://github.com/metakgp/PROJECT_NAME.git
-   ```
-2. Make the script executable
-   ```sh
-   cd ./PROJECT_NAME
-   chmod +x ./PROJECT_NAME
-   ```
-3. Execute the script
-   ```sh
-   ./PROJECT_NAME
-   ```
+* install dependencies and set up frontend
+  ```sh
+  # Install dependencies using  pnpm
+  pnpm install
+  pnpm start
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+  ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Project Structure
+
+```sh
+.//
+├── public/
+├── src/
+│   ├── app/
+│   ├── assets/
+│   ├── components/
+│   ├── sections/
+│   ├── index.css
+│   └── index.tsx
+├── README.md
+└── tsconfig.json
+```
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Migrate from `npm` to `pnpm`
+- [ ] Design some fire project cards
+- [x] Add `react-router` to setup the various pages
+- [ ] Add the projects sections and relatedly the projects page
+- [ ] Add the contribute page
+- [ ] Add the DC++ page :)
+- [ ] Add a Footer
+- [ ] Use an API to get metaKGP stats (look into organisation stats github apis)
+
+See the [open issues](https://github.com/metakgp/metakgp.org/issues) for a full list of proposed features (and known issues).
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
-<!-- UPDATE -->
-Use this space to show useful examples of how this project can be used. Additional screenshots, code examples and demos work well in this space.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<div align="center">
-  <a href="https://github.com/metakgp/PROJECT_NAME">
-    <img width="80%" alt="image" src="https://user-images.githubusercontent.com/86282911/206632640-40dc440e-5ef3-4893-be48-618f2bd85f37.png">
-  </a>
-</div>
+<!-- CONTRIBUTING -->
+## Contributing
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+### Top contributors:
+
+<a href="https://github.com/metakgp/metakgp.org/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=metakgp/metakgp.org" alt="contrib.rocks image" />
+</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
 
@@ -174,18 +221,42 @@ Honoring the original creator(s) and ideator(s) of this project.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Img Shields](https://shields.io)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/metakgp/PROJECT_NAME.svg?style=for-the-badge
-[contributors-url]: https://github.com/metakgp/PROJECT_NAME/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/metakgp/PROJECT_NAME.svg?style=for-the-badge
-[forks-url]: https://github.com/metakgp/PROJECT_NAME/network/members
-[stars-shield]: https://img.shields.io/github/stars/metakgp/PROJECT_NAME.svg?style=for-the-badge
-[stars-url]: https://github.com/metakgp/PROJECT_NAME/stargazers
-[issues-shield]: https://img.shields.io/github/issues/metakgp/PROJECT_NAME.svg?style=for-the-badge
-[issues-url]: https://github.com/metakgp/PROJECT_NAME/issues
-[license-shield]: https://img.shields.io/github/license/metakgp/PROJECT_NAME.svg?style=for-the-badge
-[license-url]: https://github.com/metakgp/PROJECT_NAME/blob/master/LICENSE
 [wiki-shield]: https://custom-icon-badges.demolab.com/badge/metakgp_wiki-grey?logo=metakgp_logo&style=for-the-badge
 [wiki-url]: https://wiki.metakgp.org
 [slack-url]: https://slack.metakgp.org
+[contributors-shield]: https://img.shields.io/github/contributors/metakgp/metakgp.org.svg?style=for-the-badge
+[contributors-url]: https://github.com/metakgp/metakgp.org/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/metakgp/metakgp.org.svg?style=for-the-badge
+[forks-url]: https://github.com/metakgp/metakgp.org/network/members
+[stars-shield]: https://img.shields.io/github/stars/metakgp/metakgp.org.svg?style=for-the-badge
+[stars-url]: https://github.com/metakgp/metakgp.org/stargazers
+[issues-shield]: https://img.shields.io/github/issues/metakgp/metakgp.org.svg?style=for-the-badge
+[issues-url]: https://github.com/metakgp/metakgp.org/issues
+[license-shield]: https://img.shields.io/github/license/metakgp/metakgp.org.svg?style=for-the-badge
+[license-url]: https://github.com/metakgp/metakgp.org/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/Majestic9169
+[product-screenshot]: images/screenshot.png
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[TypeScript]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+[TypeScript-url]: https://www.typescriptlang.org/
+
