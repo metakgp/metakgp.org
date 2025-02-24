@@ -18,6 +18,46 @@
   font-style: normal;
 }
 
+.page-container {
+  margin: 50px 15%;
+  /* width: 100%; */
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.description {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-wrap: wrap;
+}
+
+.topic-section {
+  width: 100%;
+  text-align: left;
+}
+
+.section-header-left {
+  /* Make Sure parent width is 100%*/
+  width: 100%;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: clamp(3rem, 2vw, 4rem);
+  text-align: left;
+}
+
+.centered-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 /* Cards Styling */
 
 .stats-container {
@@ -27,7 +67,6 @@
   justify-content: center;
   align-items: center;
   padding: 4rem 0;
-  margin: 0 4rem;
   gap: 1rem;
 }
 
@@ -39,7 +78,6 @@
   justify-content: center;
   align-items: center;
   text-align: left;
-  margin: 0 4rem;
 }
 
 .about-content {
@@ -71,57 +109,6 @@
   width: 100%;
   padding: 8px;
 }
-
-.grid {
-  display: grid;
-  height: 100%;
-  width: 100%;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 16px;
-  border-radius: 8px;
-}
-
-.grid-1 {
-  grid-column: span 2;
-  grid-row: span 1;
-  background-color: black;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.grid-2 {
-  grid-column: span 2;
-  grid-row: span 1;
-  background-color: black;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.grid-3 {
-  grid-column: span 3;
-  grid-row: span 1;
-  background-color: black;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.grid-4 {
-  grid-column: span 1;
-  grid-row: span 1;
-  background-color: black;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 
 /*Footer Section Styling*/
 .footer-section {
