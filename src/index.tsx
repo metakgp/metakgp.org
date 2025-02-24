@@ -6,14 +6,14 @@ import About from "./pages/About";
 import Contribute from "./pages/Contribute";
 import DCPage from "./pages/DCPage";
 import Projects from "./pages/Projects";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate, HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<Navigate to="/about" replace />} />
       <Route path="/" element={<App />}>
@@ -23,5 +23,5 @@ root.render(
         <Route path="/dc" element={<DCPage />} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );

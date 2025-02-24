@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-  pull_request: 
-    branches: 
+  pull_request:
+    branches:
       - main
 
 jobs:
@@ -37,14 +37,10 @@ jobs:
       if: steps.pnpm-cache.outputs.cache-hit != 'true'
       run: |
         pnpm install
-    
-    - name: Download Artifacts
-      id: download-artifact
-      uses: dawidd6/action-download-artifact@v8
-      with:
-        workflow: build-ci-test.yaml
-        github_token: ${{secrets.GITHUB_TOKEN}}
-        path: ./
+
+    - name: Build
+      run: |
+        pnpm build
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4

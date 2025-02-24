@@ -7,6 +7,9 @@ on:
       - synchronize
     branches:
       - main
+  push:
+    branches:
+     - main
 
 jobs:
   build:
@@ -39,7 +42,7 @@ jobs:
         pnpm install
 
     - name: Build the application
-      run: | 
+      run: |
         pnpm run build
 
     - name: Save build artifacts
