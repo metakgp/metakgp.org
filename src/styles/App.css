@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+}
+
+.App-footer {
+  margin-top: auto;
+  justify-self: flex-end;
 }
 
 .metakgp-logo {
