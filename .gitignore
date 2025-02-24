@@ -2,7 +2,9 @@
 
 # dependencies
 /node_modules
-/.pnp
+/build
+/dist
+/.pnpm
 .pnp.js
 
 # testing
