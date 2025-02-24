@@ -1,42 +1,23 @@
-
-.quote{
-    display:flex;
+.quote {
+    display: flex;
     padding: 5% 0 0 5%;
     font-size: 1.4rem;
-    color: #cfcfe6;  
+    color: #cfcfe6;
     font-family: 'Merriweather', serif;
     line-height: 2rem;
-
-
 }
-.dc-image{
+
+.dc-image {
     display: flex;
     justify-content: end;
 }
-.dc-image img{
+
+.dc-image img {
     width: 20%;
     border-radius: 12px;
-
-}
-.title{
-    font-family: "Titillium Web", sans-serif;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: clamp(3rem, 2vw, 4rem);
-}
-.container{
-padding:2% 5% 2% 5%;
 }
 
-.description{
-    font-family: "Space Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.2rem;
-    text-wrap: wrap;
-}
-.button{
-
+.button {
     padding: 1rem;
     font-size: 1rem;
     border-style: solid;
@@ -44,20 +25,22 @@ padding:2% 5% 2% 5%;
     border-color: #ffffff66;
     border-radius: 20px;
     background: #fff;
-  color: #000;
+    color: #000;
     font-weight: 700;
     transition: background 300ms, color 300ms, scale 300ms;
-    cursor:pointer;
+    cursor: pointer;
 }
+
 .button:hover {
     scale: 1.08;
-  }
+}
 
-  .button-container{
+.button-container {
     margin: 1rem;
-  }
-  @media (max-width:729px){
-    .dc-image{
+}
+
+@media (max-width:729px) {
+    .dc-image {
         display: none;
     }
-  }
+}

@@ -4,7 +4,7 @@ import { StatsSection } from "../sections/Statistics";
 
 function About() {
   return (
-    <div>
+    <div className='page-container'>
       <HeroSection />
       <StatsSection />
     </div>
