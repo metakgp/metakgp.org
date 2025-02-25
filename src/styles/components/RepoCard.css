@@ -1,0 +1,91 @@
+/* Overall container objects */
+
+.gh-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  padding: 1rem;
+  width: 400px;
+}
+
+.gh-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+}
+
+.gh-card-body {
+  width: 100%;
+  text-wrap: wrap;
+  overflow-x: hidden;
+  padding: 0.5rem 0;
+  color: #333
+}
+
+.gh-card-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Header Objects */
+
+.book-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
+.gh-repo-name {
+  color: #4BA7F8;
+  font-weight: 700;
+}
+
+/* Body Objects */
+
+/* Footer Objects */
+
+.gh-card-circle {
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #4BA7F8;
+}
+
+.gh-card-star-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gh-card-star-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+}
+
+.gh-card-forks-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gh-card-fork-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+}

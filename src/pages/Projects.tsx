@@ -1,5 +1,11 @@
-function Projects() {
-  return <div>this is Projects page </div>;
+import RepoCard from "../components/GithubCard";
+
+const Projects = () => {
+  return (
+    <div className="page-container">
+      <RepoCard repoName="chillzone" />
+    </div>
+  )
 }
 
 export default Projects;
