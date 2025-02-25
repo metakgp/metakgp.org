@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/dc.css";
+import "../styles/pages/dc.css";
 import dcImage from "../assets/dc-image.png";
 
 function DCPage() {

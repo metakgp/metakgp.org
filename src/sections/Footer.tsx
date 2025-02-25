@@ -9,7 +9,7 @@ export const FooterSection = () => {
         referrerPolicy="no-referrer"
       />
       <div className="footer-section">
-    
+
         <div className="icon-col footer-col">
           Connect with us
           <div className="social-icons ">
@@ -27,7 +27,7 @@ export const FooterSection = () => {
             </a>
           </div>
         </div>
-       
+
       </div>
     </>
   );
