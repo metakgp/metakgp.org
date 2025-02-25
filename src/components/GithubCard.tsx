@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../styles/components/RepoCard.css";
+import useCache from "../hooks/Cache";
 
 interface RepoData {
   description: string;
@@ -9,6 +10,7 @@ interface RepoData {
 }
 
 const RepoCard = ({ repoName }: { repoName: string }) => {
+  const { data, isCached, setCache } = useCache(`${repoName}_data`, 60 * 60 * 1000);
   const [repoData, setRepoData] = useState<RepoData>({
     description: "Find a place to chill during class hours in IIT KGP",
     language: "HTML",
@@ -16,18 +18,30 @@ const RepoCard = ({ repoName }: { repoName: string }) => {
     forks: 27,
   })
 
-  useEffect(() => {
+  const fetchData = () => {
     fetch(`https://api.github.com/repos/metakgp/${repoName}`)
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-        const desc = data.description;
-        const star = data.stargazers_count;
-        const lang = data.language;
-        const fork = data.forks_count;
+      .then(res => res.json())
+      .then(result => {
+        const desc = result.description;
+        const star = result.stargazers_count;
+        const lang = result.language;
+        const fork = result.forks_count;
         setRepoData({ description: desc, language: lang, stars: star, forks: fork });
+        setCache(repoData);
+        console.log("Called api")
       })
-  })
+  }
+
+  useEffect(() => {
+    if (!isCached) {
+      console.log("isCatched = ", isCached);
+      fetchData();
+    } else {
+      setRepoData(data!);
+      console.log(data);
+      console.log(localStorage.getItem("chillzone_data_time"));
+    }
+  }, [isCached]);
 
   return (
     <div className="gh-card-container">
