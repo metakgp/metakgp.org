@@ -1,7 +1,7 @@
 import React from 'react';
 import { HeaderSection } from '../sections/Header';
 import { FooterSection } from '../sections/Footer';
-import "../styles/App.css"
+import "../styles/pages/App.css"
 import { Outlet } from 'react-router-dom';
 
 function App() {

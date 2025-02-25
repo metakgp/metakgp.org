@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/contribute.css";
+import "../styles/pages/contribute.css";
 import helloImage from "../assets/undraw_hello_ccwj.svg";
 import TerminalDisplay from "../components/TerminalDisplay";
 import { Link } from "react-router-dom";
