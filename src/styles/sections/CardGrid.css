@@ -7,19 +7,21 @@
 }
 
 /* Default layout for all cards */
-.gh-card-grid {
+.gh-card-grid.all {
   grid-template-columns: repeat(3, 1fr);
 }
 
 /* Prominent layout for fewer cards */
 .gh-card-grid.featured {
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   max-width: 800px;
   margin: auto;
 }
 
-@media (max-width: 600px) {
-  .gh-card-grid {
-    grid-template-columns: 1fr;
+@media (max-width: 768px) {
+
+  .gh-card-grid.all,
+  .gh-card-grid.gh-card-grid.featured {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
