@@ -1,0 +1,25 @@
+.gh-card-grid {
+  box-sizing: border-box;
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+/* Default layout for all cards */
+.gh-card-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Prominent layout for fewer cards */
+.gh-card-grid.featured {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  max-width: 800px;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .gh-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
