@@ -1,6 +1,6 @@
 import React from "react";
 import devFocus from "../assets/undraw_pair_programming_re_or4x.svg";
-import "../styles/hero.css";
+import "../styles/sections/hero.css";
 import { Link } from "react-router-dom";
 
 export const HeroSection = () => {

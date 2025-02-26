@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+}
+
+.App-footer {
+  margin-top: auto;
+  justify-self: flex-end;
+}
+
+.metakgp-logo {
+  float: left;
+}
+
+.bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.black {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.page-container {
+  margin: 50px 15%;
+  /* width: 100%; */
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.description {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-wrap: wrap;
+}
+
+.topic-section {
+  width: 100%;
+  text-align: left;
+}
+
+.section-header-left {
+  /* Make Sure parent width is 100%*/
+  width: 100%;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: clamp(3rem, 2vw, 4rem);
+  text-align: left;
+}
+
+.centered-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

@@ -1,0 +1,32 @@
+.contri-intro {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  align-items: center;
+  max-width: 100%;
+}
+
+.contri-intro-para {
+  max-width: 500px;
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.contri-intro-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contri-intro-image {
+  max-width: 100%;
+  height: 200px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .contribution-container {
+    width: 95%;
+    padding: 15px;
+  }
+}

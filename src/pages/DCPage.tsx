@@ -1,16 +1,15 @@
 import React from "react";
-import "../styles/dc.css";
+import "../styles/pages/dc.css";
 import dcImage from "../assets/dc-image.png";
 
 function DCPage() {
   return (
-    <div>
+    <div className="page-container">
       <div className="header">
         <div className="quote">
           “Happiness doesn’t result from what we get,
           <br /> but from what we give."   ~ Ben Carson
           <br />
-
         </div>
         <div className="dc-image">
           <img
@@ -20,8 +19,8 @@ function DCPage() {
         </div>
       </div>
 
-      <div className="container">
-        <div className="title">Introducing DC++</div>
+      <div>
+        <h2 className="section-header-left">Introducing DC++</h2>
         <div className="description">
           DC++ is the heart of file sharing at IIT Kharagpur. It's a
           peer-to-peer (P2P) platform that allows students to connect directly
@@ -33,8 +32,8 @@ function DCPage() {
         </div>
       </div>
 
-      <div className="container">
-        <div className="title">Why use it?</div>
+      <div>
+        <h2 className="section-header-left">Why Use It?</h2>
         <div className="description">
           <ul>
             <li>
@@ -58,19 +57,19 @@ function DCPage() {
         </div>
       </div>
 
-      <div className="container">
-        <div className="title">How to use it?</div>
-        <div className="description">
+      <section className="topic-section">
+        <h2 className="section-header-left">How To Use It?</h2>
+        <p className="description">
           Getting started with DC++ at IIT KGP is easy :-) <br />
           Just follow these steps
-        </div>
+        </p>
         <div className="button-container">
           <a href="https://proffapt.hashnode.dev/dc-client-setup">
             <button className="button">Get Started</button>
           </a>
         </div>
-      </div>
-    </div>
+      </section>
+    </div >
   );
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/header.css";
+import "../styles/sections/header.css";
 import { Link, useLocation } from "react-router-dom";
 
 const NavElement = ({ route, isActive }: { route: string, isActive: boolean }) => {

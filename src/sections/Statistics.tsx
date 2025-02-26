@@ -2,6 +2,7 @@ import { StatsCard } from "../components/StatsCard"
 import { FaCode } from "react-icons/fa";
 import { FaProjectDiagram } from "react-icons/fa";
 import { FaPeopleGroup } from "react-icons/fa6";
+import "../styles/sections/Statistics.css";
 
 export const StatsSection = () => {
   return (
