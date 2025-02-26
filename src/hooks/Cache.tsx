@@ -11,17 +11,17 @@ const useCache = (cacheKey: string, ttl: number) => {
     const isExpired = () => {
       if (!cachedTime) return true;
       const now = new Date().getTime();
-      console.log("Current time: ", now);
-      console.log("Expiry time: ", parseInt(cachedTime) + ttl);
+      // console.log("Current time: ", now);
+      // console.log("Expiry time: ", parseInt(cachedTime) + ttl);
       return now > parseInt(cachedTime) + ttl;
     };
 
     if (cachedData && !isExpired()) {
-      console.log("Data is already present in cache")
+      console.log(`${cacheKey} is already present in cache`)
       setIsCached(true);
       setData(JSON.parse(cachedData));
     } else {
-      console.log("Data is not in cache");
+      console.log(`${cacheKey} is not in cache`);
       setIsCached(false);
     }
   }, [cacheKey, ttl])

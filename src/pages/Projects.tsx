@@ -29,13 +29,14 @@ const Projects = () => {
 
   const fetchDummyData = () => {
     const data = JSON.parse(dummyRepoList)
-    setCache(data);
+    // setCache(data);
     setRepoList(data)
   }
 
   useEffect(() => {
     if (isCached) {
-      setRepoList(data!);
+      // setRepoList(data!);
+      fetchDummyData();
     } else {
       // fetchData();
       fetchDummyData();
