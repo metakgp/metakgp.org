@@ -12,6 +12,12 @@ function About() {
         <h2 className="section-header-left">Featured Projects</h2>
         <CardGrid names={["iqps-go", "metakgp.org"]} displayMode='featured' />
       </section>
+      <section className="topic-section">
+        <h2 className="section-header-left">About MetaKGP</h2>
+        <p className="description">
+          About metaKGP! Add a nice a writeup and images here!
+        </p>
+      </section>
     </div>
   )
 }

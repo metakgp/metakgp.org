@@ -1,0 +1,11 @@
+/* Cards Styling */
+
+.stats-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  gap: 1rem;
+}
