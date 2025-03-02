@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "../styles/components/RepoCard.css";
-import useCache from "../hooks/Cache";
 import { RepoData } from "../utils/types";
 import { RepoMap } from "../utils/dummyData";
 
 const RepoCard = ({ repoName }: { repoName: string }) => {
-  // const { data, isCached, setCache } = useCache(`${repoName}_data`, 60 * 60 * 1000);
   const [repoData, setRepoData] = useState<RepoData>({
     description: "Find a place to chill during class hours in IIT KGP",
     language: "HTML",
@@ -13,36 +11,13 @@ const RepoCard = ({ repoName }: { repoName: string }) => {
     forks: 27,
   })
 
-  const fetchData = () => {
-    fetch(`https://api.github.com/repos/metakgp/${repoName}`)
-      .then(res => res.json())
-      .then(result => {
-        const desc = result.description;
-        const star = result.stargazers_count;
-        const lang = result.language;
-        const fork = result.forks_count;
-        setRepoData({ description: desc, language: lang, stars: star, forks: fork });
-        // setCache(repoData);
-        console.log("Called api")
-      })
-  }
-
   const fetchDummyData = () => {
     const data = JSON.parse(RepoMap[`${repoName}_data`])
     setRepoData(data);
-    // setCache(data);
     console.log("Fetched dummy data")
   }
 
   useEffect(() => {
-    // if (!isCached) {
-    //   console.log(`${repoName} isCatched = ${isCached}`);
-    //   fetchDummyData();
-    //   // fetchData();
-    // } else {
-    //   // setRepoData(data!);
-    //   fetchDummyData();
-    // }
     fetchDummyData();
   });
 
