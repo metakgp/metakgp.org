@@ -1,32 +1,15 @@
-import { useContext, useEffect, useState } from "react";
-import RepoCard from "../components/GithubCard";
+import { useState } from "react";
 import CardGrid from "../sections/CardGrid";
-import { dummyRepoList, RepoMap } from "../utils/dummyData";
 import "../styles/pages/Projects.css";
-import { RepoData } from "../utils/types";
+import { REPO_DATA_TYPE } from "../utils/types";
+import RepoData from '../data/repo_data.json';
 
 const Projects = () => {
-  const [repoList, setRepoList] = useState<string[]>([]);
-  const [languages, setLanguages] = useState<string[]>([]);
+  const repoList: REPO_DATA_TYPE[] = RepoData as REPO_DATA_TYPE[]
+
+  const languages = [...new Set(repoList.map(repo => repo.language))];
   const [selectedLanguage, setSelectedLanguage] = useState<string[]>([]);
 
-  const fetchDummyData = () => {
-    const data = JSON.parse(dummyRepoList)
-    setRepoList(data)
-  }
-
-  useEffect(() => {
-    fetchDummyData();
-  });
-
-  useEffect(() => {
-    const repoData = repoList
-      .map(name => JSON.parse(RepoMap[`${name}_data`]));
-
-    const allLanguages = [...new Set(repoData.map(repo => repo.language))];
-
-    setLanguages([...allLanguages]);
-  }, [repoList]);
 
   const toggleLanguage = (lang: string) => {
     setSelectedLanguage(prev => {
@@ -39,11 +22,10 @@ const Projects = () => {
     });
   };
 
-  const filteredRepos = repoList.filter(name => {
-    const repoData: RepoData = JSON.parse(RepoMap[`${name}_data`]);
+  const filteredRepos = repoList.filter(repo => {
     if (selectedLanguage.length === 0)
       return true;
-    return selectedLanguage.includes(repoData.language);
+    return selectedLanguage.includes(repo.language);
   })
 
   return (
@@ -66,7 +48,7 @@ const Projects = () => {
           </button>
         ))}
       </div>
-      <CardGrid names={filteredRepos} displayMode="all" />
+      <CardGrid repos={filteredRepos} displayMode="all" />
     </div>
   )
 }
