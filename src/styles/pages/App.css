@@ -58,6 +58,18 @@
   font-style: normal;
   font-size: clamp(3rem, 2vw, 4rem);
   text-align: left;
+  margin: 1.5rem 0;
+}
+
+.section-subheader-left {
+  /* Make Sure parent width is 100%*/
+  width: 100%;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: clamp(2rem, 2vw, 3rem);
+  text-align: left;
+  margin: 1.0rem 0;
 }
 
 .centered-div {

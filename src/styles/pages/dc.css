@@ -1,46 +1,33 @@
-.quote {
+.dc-image-container {
     display: flex;
-    padding: 5% 0 0 5%;
-    font-size: 1.4rem;
-    color: #cfcfe6;
-    font-family: 'Merriweather', serif;
-    line-height: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+}
+
+.dc-image-container figcaption {
+    text-align: center;
+    font-style: italic;
 }
 
 .dc-image {
-    display: flex;
-    justify-content: end;
+    width: 80%;
 }
 
-.dc-image img {
-    width: 20%;
-    border-radius: 12px;
+.client-table {
+    margin: 2rem 0;
+    max-width: 800px;
+    width: 100%;
+    border-collapse: collapse;
 }
 
-.button {
-    padding: 1rem;
-    font-size: 1rem;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #ffffff66;
-    border-radius: 20px;
-    background: #fff;
-    color: #000;
-    font-weight: 700;
-    transition: background 300ms, color 300ms, scale 300ms;
-    cursor: pointer;
-}
-
-.button:hover {
-    scale: 1.08;
-}
-
-.button-container {
-    margin: 1rem;
-}
-
-@media (max-width:729px) {
-    .dc-image {
-        display: none;
-    }
+.client-table th,
+td {
+    padding: 0.5rem;
+    border: 1px solid black;
+    text-align: left;
 }
