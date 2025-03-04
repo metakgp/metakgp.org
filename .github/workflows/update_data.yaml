@@ -1,0 +1,41 @@
+name: Update Projects Data
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  main:
+    name: Generate and push latest data
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Configure python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Run Python Script
+        run: python get_repos.py
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -n "$(git status --porcelain src/data/)" ]; then
+            echo "[+] src/data has been updated"
+            git add src/data/
+            git commit -m "chore(data): update projects data"
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
+          else
+            echo "[-] No change in src/data/"
+          fi
+
