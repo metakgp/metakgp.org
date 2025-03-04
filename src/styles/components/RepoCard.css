@@ -27,7 +27,9 @@
   text-wrap: wrap;
   overflow-x: hidden;
   padding: 0.5rem 0;
-  color: #333
+  color: #333;
+  text-align: left;
+  width: 100%;
 }
 
 .gh-card-footer {
@@ -57,6 +59,10 @@
 
 /* Footer Objects */
 
+.gh-card-footer {
+  color: #000;
+}
+
 .gh-card-circle {
   width: 12px;
   height: 12px;
@@ -70,6 +76,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #000;
 }
 
 .gh-card-star-icon {
@@ -83,6 +90,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #000;
 }
 
 .gh-card-fork-icon {
