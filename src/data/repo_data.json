@@ -49,13 +49,6 @@
         "language": "Python"
     },
     {
-        "name": "odins-vault",
-        "description": "Home to many of Odin's valuables, served through our metaploy network.",
-        "stars": 0,
-        "forks": 0,
-        "language": "Dockerfile"
-    },
-    {
         "name": "wimp",
         "description": "Where is my Prof?",
         "stars": 48,
@@ -105,25 +98,11 @@
         "language": "Go"
     },
     {
-        "name": "iit-kgp-network",
-        "description": "Information repository and Solutions on IIT KGP Internet Problems.",
-        "stars": 52,
-        "forks": 4,
-        "language": null
-    },
-    {
         "name": "iitkgp-erp-login-go",
         "description": "The only golang package you will ever need to implement login process in ERP for IIT-KGP",
         "stars": 3,
         "forks": 0,
         "language": "Go"
-    },
-    {
-        "name": "design",
-        "description": "Posters, Icons and graphics used by Metakgp",
-        "stars": 2,
-        "forks": 2,
-        "language": null
     },
     {
         "name": "mfins",
@@ -203,27 +182,6 @@
         "language": "TypeScript"
     },
     {
-        "name": "leprechaun",
-        "description": "[DEPRECATED, NEW HEIMDALL SERVES SIMILAR PURPOSE] Connect an email ID to your IIT KGP roll number!",
-        "stars": 16,
-        "forks": 3,
-        "language": "Go"
-    },
-    {
-        "name": "naarad-news",
-        "description": "[MIGRATED TO NAARAD] aggregating news since antiquity",
-        "stars": 36,
-        "forks": 17,
-        "language": "Python"
-    },
-    {
-        "name": "kronos-the-gradekeeper",
-        "description": "[MIGRATED TO KRONOS] A webapp to serve past year records-grade distributions of IITKGP",
-        "stars": 29,
-        "forks": 22,
-        "language": "Python"
-    },
-    {
         "name": "gyft2",
         "description": "Get Your Freaking Timetable REBORN , A version of metakgp/gyft that does not need password",
         "stars": 20,
@@ -238,39 +196,11 @@
         "language": "PHP"
     },
     {
-        "name": "erp-auto-login",
-        "description": "[ARCHIVED] Shifted development to new repository, check below.",
-        "stars": 32,
-        "forks": 25,
-        "language": "JavaScript"
-    },
-    {
-        "name": "mfqp",
-        "description": "[DEPRECATED | MIGRATED TO IQPS] Question paper search",
-        "stars": 43,
-        "forks": 23,
-        "language": "JavaScript"
-    },
-    {
-        "name": "git-exercise",
-        "description": "Repository to try out Pull Requests and other basic git commands involved",
-        "stars": 0,
-        "forks": 10,
-        "language": null
-    },
-    {
         "name": "metakgp.github.io",
         "description": null,
         "stars": 4,
         "forks": 2,
         "language": "HTML"
-    },
-    {
-        "name": "mfqp-source",
-        "description": "[DEPRECATED | MIGRATED TO IQPS] Crowd-source question papers from students and put them up on MFQP!",
-        "stars": 11,
-        "forks": 11,
-        "language": "Ruby"
     },
     {
         "name": "fERP",
@@ -280,164 +210,10 @@
         "language": "JavaScript"
     },
     {
-        "name": "sarathi",
-        "description": "[DEPRECATED | ApnaInsti HAS IT] A web application to connect people with similar journey details and share rides",
-        "stars": 19,
-        "forks": 6,
-        "language": "JavaScript"
-    },
-    {
-        "name": "mcmp",
-        "description": "My Choice My Prof [PRESENT IN IITKGP WEBSITE]",
-        "stars": 10,
-        "forks": 6,
-        "language": "Python"
-    },
-    {
-        "name": "eva",
-        "description": "A Hubot for the Metakgp Slack channel",
-        "stars": 7,
-        "forks": 9,
-        "language": "CoffeeScript"
-    },
-    {
         "name": "hermes",
         "description": "The messenger of the gods himself delivering important notices from various IITKGP noticeboards",
         "stars": 6,
         "forks": 2,
-        "language": "Python"
-    },
-    {
-        "name": "gyft-serve",
-        "description": "[Moved to gyft] Webapp for GYFT",
-        "stars": 4,
-        "forks": 9,
-        "language": "CSS"
-    },
-    {
-        "name": "pywikibot",
-        "description": "unnecessay , non-useful.",
-        "stars": 5,
-        "forks": 2,
-        "language": "Python"
-    },
-    {
-        "name": "Zoom",
-        "description": "[Deprecated- Use Naarad instead] Delivering Facebook posts and tweets of MetaKGP realm to  FlashPoint ",
-        "stars": 0,
-        "forks": 2,
-        "language": "Python"
-    },
-    {
-        "name": "dashboard-beta",
-        "description": "[Unused and Unmaintained Now] Repository for IIT Kharagpur's dashboard for the Inter-IIT 'Dashboard' event  :computer:",
-        "stars": 6,
-        "forks": 5,
-        "language": "CSS"
-    },
-    {
-        "name": "batman",
-        "description": "[Deprecated: Robin Took Over] The hero Metakgp deserves, but doesn't need.",
-        "stars": 0,
-        "forks": 1,
-        "language": "Python"
-    },
-    {
-        "name": "chillzone-frontend",
-        "description": "[Deprecated] - Incorporated in Chillzone repo. Find an empty room during class hours in IIT KGP!",
-        "stars": 6,
-        "forks": 11,
-        "language": "JavaScript"
-    },
-    {
-        "name": ".github",
-        "description": "About Metakgp",
-        "stars": 0,
-        "forks": 0,
-        "language": null
-    },
-    {
-        "name": "veritas",
-        "description": "[MERGED & REVAMPED IN HERMES] The greek goddess of truth, here to help Hermes with maintaining KGP's noticeboard data",
-        "stars": 2,
-        "forks": 0,
-        "language": "Python"
-    },
-    {
-        "name": "tithi",
-        "description": "[ABORTED] Given a list of subjects (and their slots), give the user a preview of how their midsem and endsem schedule might look like.",
-        "stars": 3,
-        "forks": 1,
-        "language": null
-    },
-    {
-        "name": "naarad-old-data",
-        "description": "[Refer to Naarad-Source]",
-        "stars": 6,
-        "forks": 3,
-        "language": "Python"
-    },
-    {
-        "name": "work-in-progress",
-        "description": "[USE GITHUB PROJECTS] A list of metakgp supported projects that are still not mature enough to be released to the public",
-        "stars": 0,
-        "forks": 0,
-        "language": null
-    },
-    {
-        "name": "MetaBot",
-        "description": "A virtual assistant chatbot for IIT Kharagpur",
-        "stars": 0,
-        "forks": 1,
-        "language": "C#"
-    },
-    {
-        "name": "lord-varys",
-        "description": "Scrapes news articles from iitkgp.ac.in website [NOT RELEVANT ANYMORE]",
-        "stars": 2,
-        "forks": 1,
-        "language": "Ruby"
-    },
-    {
-        "name": "sparrow",
-        "description": "A small, fast DC client.",
-        "stars": 0,
-        "forks": 0,
-        "language": "JavaScript"
-    },
-    {
-        "name": "kgp_cab_centrale",
-        "description": "ARCHIVED",
-        "stars": 0,
-        "forks": 0,
-        "language": "Python"
-    },
-    {
-        "name": "opsa",
-        "description": "Our Precious Slack Archives",
-        "stars": 1,
-        "forks": 0,
-        "language": "Python"
-    },
-    {
-        "name": "metakgp",
-        "description": "A repository for managing Metakgp issues",
-        "stars": 6,
-        "forks": 0,
-        "language": null
-    },
-    {
-        "name": "what-slot",
-        "description": "This repo is archived. Please refer to GYFE.",
-        "stars": 2,
-        "forks": 5,
-        "language": "CSS"
-    },
-    {
-        "name": "FaceMail",
-        "description": "This script sends email when a new post is posted on the Facebook page and also can post the body of the message via facebook page.",
-        "stars": 2,
-        "forks": 1,
         "language": "Python"
     },
     {
@@ -467,12 +243,5 @@
         "stars": 3,
         "forks": 1,
         "language": "CSS"
-    },
-    {
-        "name": "AWC",
-        "description": "AWC - Active Wiki Contributors ",
-        "stars": 0,
-        "forks": 1,
-        "language": null
     }
 ]

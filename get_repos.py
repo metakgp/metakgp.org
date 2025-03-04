@@ -3,12 +3,14 @@ import json
 
 ORG_NAME = 'metakgp'
 
+BLACKLISTED_LANGUAGES = {"Dockerfile", None, "Ruby", "CoffeeScript"}
+
 def get_repositories(org_name):
     url = f'https://api.github.com/orgs/{org_name}/repos'
     
     repos = []
     
-    response = requests.get(url, params={'sort':'updated', 'per_page': 100}) # we only have like 70 repos so don't need to handle pagination yet
+    response = requests.get(url, params={'sort':'updated', 'per_page': 100, 'type': 'public'}) # we only have like 70 repos so don't need to handle pagination yet
     
     if response.status_code != 200:
         print(f"Error fetching repositories: {response.status_code} - {response.text}")
@@ -17,13 +19,14 @@ def get_repositories(org_name):
     data = response.json()
     
     for repo in data:
-        repos.append({
-            'name': repo['name'],
-            'description': repo['description'],
-            'stars': repo['stargazers_count'],
-            'forks': repo['forks_count'],
-            'language': repo['language']
-        })
+        if repo['archived'] == False and repo['language'] not in BLACKLISTED_LANGUAGES:
+            repos.append({
+                'name': repo['name'],
+                'description': repo['description'],
+                'stars': repo['stargazers_count'],
+                'forks': repo['forks_count'],
+                'language': repo['language']
+            })
     
     return repos
 
