@@ -3,6 +3,10 @@ name: Update Projects Data
 on:
   schedule:
     - cron: "0 0 * * *"
+  push:
+    paths:
+    - "get_repos.py"
+    - ".github/workflows/update_data.yaml"
 
 jobs:
   main:
