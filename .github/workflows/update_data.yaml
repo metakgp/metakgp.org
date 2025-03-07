@@ -23,7 +23,7 @@ jobs:
           python-version: '3.13'
 
       - name: Install Requirements
-        run: pip install --no-cache-dir requests json
+        run: pip install --no-cache-dir requests
 
       - name: Run Python Script
         run: python get_repos.py
