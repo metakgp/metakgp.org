@@ -7,11 +7,18 @@
         "language": "TypeScript"
     },
     {
-        "name": "iqps-go",
-        "description": "Search for question papers when the library can't save you.",
-        "stars": 23,
-        "forks": 13,
-        "language": "TypeScript"
+        "name": "naarad",
+        "description": "Self-hosted ntfy.sh server for metakgp",
+        "stars": 14,
+        "forks": 3,
+        "language": "Go"
+    },
+    {
+        "name": "gyft",
+        "description": "Get Your Freaking Timetable",
+        "stars": 57,
+        "forks": 63,
+        "language": "Python"
     },
     {
         "name": "events-board",
@@ -19,6 +26,13 @@
         "stars": 1,
         "forks": 0,
         "language": "JavaScript"
+    },
+    {
+        "name": "iqps-go",
+        "description": "Search for question papers when the library can't save you.",
+        "stars": 23,
+        "forks": 13,
+        "language": "TypeScript"
     },
     {
         "name": "Dynac",
@@ -33,13 +47,6 @@
         "stars": 9,
         "forks": 9,
         "language": "JavaScript"
-    },
-    {
-        "name": "gyft",
-        "description": "Get Your Freaking Timetable",
-        "stars": 58,
-        "forks": 63,
-        "language": "Python"
     },
     {
         "name": "mftp",
@@ -68,13 +75,6 @@
         "stars": 23,
         "forks": 20,
         "language": "Python"
-    },
-    {
-        "name": "naarad",
-        "description": "Self-hosted ntfy.sh server for metakgp",
-        "stars": 13,
-        "forks": 3,
-        "language": "Go"
     },
     {
         "name": "iitkgp-erp-login-pypi",
