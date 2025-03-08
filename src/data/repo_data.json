@@ -7,6 +7,13 @@
         "language": "TypeScript"
     },
     {
+        "name": "travel-buddy",
+        "description": "Helps find people for ridesharing.",
+        "stars": 9,
+        "forks": 9,
+        "language": "JavaScript"
+    },
+    {
         "name": "naarad",
         "description": "Self-hosted ntfy.sh server for metakgp",
         "stars": 14,
@@ -39,13 +46,6 @@
         "description": "Dynamic CV Viewer Browser Extension",
         "stars": 9,
         "forks": 2,
-        "language": "JavaScript"
-    },
-    {
-        "name": "travel-buddy",
-        "description": "Helps find people for ridesharing.",
-        "stars": 9,
-        "forks": 9,
         "language": "JavaScript"
     },
     {
