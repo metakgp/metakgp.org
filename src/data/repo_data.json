@@ -1,10 +1,10 @@
 [
     {
-        "name": "metakgp-wiki",
-        "description": "Dockerized source for the metakgp wiki.",
-        "stars": 23,
-        "forks": 20,
-        "language": "Python"
+        "name": "travel-buddy",
+        "description": "Helps find people for ridesharing.",
+        "stars": 8,
+        "forks": 9,
+        "language": "JavaScript"
     },
     {
         "name": "metakgp.org",
@@ -14,11 +14,11 @@
         "language": "TypeScript"
     },
     {
-        "name": "travel-buddy",
-        "description": "Helps find people for ridesharing.",
-        "stars": 9,
-        "forks": 9,
-        "language": "JavaScript"
+        "name": "metakgp-wiki",
+        "description": "Dockerized source for the metakgp wiki.",
+        "stars": 23,
+        "forks": 20,
+        "language": "Python"
     },
     {
         "name": "naarad",
