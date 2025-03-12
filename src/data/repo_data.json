@@ -1,10 +1,10 @@
 [
     {
-        "name": "travel-buddy",
-        "description": "Helps find people for ridesharing.",
-        "stars": 8,
-        "forks": 9,
-        "language": "JavaScript"
+        "name": "gyft",
+        "description": "Get Your Freaking Timetable",
+        "stars": 57,
+        "forks": 63,
+        "language": "Python"
     },
     {
         "name": "metakgp.org",
@@ -12,6 +12,13 @@
         "stars": 3,
         "forks": 3,
         "language": "TypeScript"
+    },
+    {
+        "name": "travel-buddy",
+        "description": "Helps find people for ridesharing.",
+        "stars": 8,
+        "forks": 9,
+        "language": "JavaScript"
     },
     {
         "name": "metakgp-wiki",
@@ -26,13 +33,6 @@
         "stars": 14,
         "forks": 3,
         "language": "Go"
-    },
-    {
-        "name": "gyft",
-        "description": "Get Your Freaking Timetable",
-        "stars": 57,
-        "forks": 63,
-        "language": "Python"
     },
     {
         "name": "events-board",
