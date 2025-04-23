@@ -1,10 +1,24 @@
 [
     {
-        "name": "metaploy",
-        "description": "The metakgp nginx deployment architecture.",
-        "stars": 3,
-        "forks": 0,
-        "language": "Shell"
+        "name": "societytable",
+        "description": "A periodic table of the KGPian societies. Originally created by TSA.",
+        "stars": 2,
+        "forks": 7,
+        "language": "TypeScript"
+    },
+    {
+        "name": "dob",
+        "description": "Database of Babel contains every possible bit of information required by any MetaKGP project",
+        "stars": 0,
+        "forks": 1,
+        "language": "Python"
+    },
+    {
+        "name": "iqps-go",
+        "description": "Search for question papers when the library can't save you.",
+        "stars": 23,
+        "forks": 13,
+        "language": "TypeScript"
     },
     {
         "name": "metakgp.org",
@@ -14,18 +28,18 @@
         "language": "TypeScript"
     },
     {
+        "name": "metaploy",
+        "description": "The metakgp nginx deployment architecture.",
+        "stars": 3,
+        "forks": 0,
+        "language": "Shell"
+    },
+    {
         "name": "events-board",
         "description": "[WIP] A noticeboard that lists upcoming and previous society events.",
         "stars": 1,
         "forks": 0,
         "language": "JavaScript"
-    },
-    {
-        "name": "iqps-go",
-        "description": "Search for question papers when the library can't save you.",
-        "stars": 23,
-        "forks": 13,
-        "language": "TypeScript"
     },
     {
         "name": "gyft",
@@ -75,13 +89,6 @@
         "stars": 48,
         "forks": 26,
         "language": "Python"
-    },
-    {
-        "name": "societytable",
-        "description": "A periodic table of the KGPian societies. Originally created by TSA.",
-        "stars": 2,
-        "forks": 7,
-        "language": "TypeScript"
     },
     {
         "name": "iitkgp-erp-login-pypi",
@@ -138,13 +145,6 @@
         "stars": 0,
         "forks": 0,
         "language": "CSS"
-    },
-    {
-        "name": "dob",
-        "description": "Database of Babel contains every possible bit of information required by any MetaKGP project",
-        "stars": 0,
-        "forks": 1,
-        "language": "Python"
     },
     {
         "name": "chillzone",
