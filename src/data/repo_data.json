@@ -1,5 +1,19 @@
 [
     {
+        "name": "travel-buddy",
+        "description": "Helps find people for ridesharing.",
+        "stars": 8,
+        "forks": 8,
+        "language": "JavaScript"
+    },
+    {
+        "name": "metakgp.org",
+        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki. (To be deployed at metakg.org)",
+        "stars": 3,
+        "forks": 3,
+        "language": "TypeScript"
+    },
+    {
         "name": "societytable",
         "description": "A periodic table of the KGPian societies. Originally created by TSA.",
         "stars": 2,
@@ -18,13 +32,6 @@
         "description": "Search for question papers when the library can't save you.",
         "stars": 23,
         "forks": 13,
-        "language": "TypeScript"
-    },
-    {
-        "name": "metakgp.org",
-        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki. (To be deployed at metakg.org)",
-        "stars": 3,
-        "forks": 3,
         "language": "TypeScript"
     },
     {
@@ -47,13 +54,6 @@
         "stars": 57,
         "forks": 63,
         "language": "Python"
-    },
-    {
-        "name": "travel-buddy",
-        "description": "Helps find people for ridesharing.",
-        "stars": 8,
-        "forks": 8,
-        "language": "JavaScript"
     },
     {
         "name": "metakgp-wiki",
@@ -159,13 +159,6 @@
         "stars": 7,
         "forks": 9,
         "language": "TypeScript"
-    },
-    {
-        "name": "README.md",
-        "description": "Template repository containing all the things required for good SEO.",
-        "stars": 0,
-        "forks": 1,
-        "language": "Shell"
     },
     {
         "name": "slack-archive",
