@@ -5,3 +5,10 @@ export interface REPO_DATA_TYPE {
   stars: number;
   forks: number;
 }
+
+export interface FEATURED_REPO {
+  screenshot_img: string;
+  swimlane_img: string;
+  usage: string;
+  repo: REPO_DATA_TYPE;
+}
