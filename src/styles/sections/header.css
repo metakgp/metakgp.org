@@ -58,3 +58,27 @@
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.slack-link {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: #4a124c;
+  color: #fff;
+  border-radius: 20px;
+  border: 1px solid #ffffff66;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 300ms, color 300ms;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.slack-link:hover {
+  background-color: #fff;
+  color: #4a124c;
+}
