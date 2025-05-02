@@ -1,5 +1,9 @@
 /* Header Element Styling*/
 
+.metakgp-logo-link {
+  color: #fff;
+}
+
 .header {
   display: flex;
   flex-direction: row;

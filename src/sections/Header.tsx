@@ -14,7 +14,9 @@ export const HeaderSection = () => {
 
   return (
     <div className="header">
-      <h1 className='metakgp-logo' data-set="metaKGP" ><span className='bold'>meta</span><span className='black'>KGP</span></h1>
+      <Link to={"https://wiki.metakgp.org"} className="metakgp-logo-link">
+        <h1 className='metakgp-logo' data-set="metaKGP" ><span className='bold'>meta</span><span className='black'>KGP</span></h1>
+      </Link>
       <nav className="nav-bar">
         {pages.map((page) => (
           <NavElement route={page} isActive={location.pathname.slice(1) === page} />
