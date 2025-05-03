@@ -25,7 +25,8 @@ def get_repositories(org_name):
                 'description': repo['description'],
                 'stars': repo['stargazers_count'],
                 'forks': repo['forks_count'],
-                'language': repo['language']
+                'language': repo['language'],
+                'homepage': repo['homepage']
             })
     
     return repos

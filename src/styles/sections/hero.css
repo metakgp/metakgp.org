@@ -44,12 +44,12 @@
 }
 
 .contribute-button {
-  padding: 1rem;
+  padding: 0.75rem;
   font-size: 1rem;
   border-style: solid;
   border-width: 2px;
   border-color: #ffffff66;
-  border-radius: 20px;
+  border-radius: 15px;
   background: #2f2f2f;
   color: #fff;
   font-weight: 700;
@@ -77,12 +77,12 @@
 }
 
 .project-button {
-  padding: 1rem;
+  padding: 0.75rem;
   font-size: 1rem;
   border-style: solid;
   border-width: 2px;
   border-color: #ffffff66;
-  border-radius: 20px;
+  border-radius: 15px;
   background: #fff;
   color: #000;
   font-weight: 700;
