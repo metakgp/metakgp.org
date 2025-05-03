@@ -16,9 +16,8 @@
 .carousel-content-wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
   overflow: hidden;
-  width: 80%;
+  width: 75%;
   height: 100%;
 }
 
@@ -27,6 +26,10 @@
   transition: all 250ms ease;
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.carousel-content .gh-card-container {
+  width: 25%;
 }
 
 /* hide scrollbar in webkit browser */
