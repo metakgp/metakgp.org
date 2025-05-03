@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../styles/components/Carousel.css"
 
-const Carousel = (props) => {
+const Carousel = (props: { children: React.ReactNode[] }) => {
   const { children } = props;
   const [currentIndex, setCurrentIndex] = useState(0)
   const [length, setLength] = useState(children.length)
