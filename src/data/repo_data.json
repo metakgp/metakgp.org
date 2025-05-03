@@ -16,6 +16,13 @@
         "homepage": "https://travel.metakgp.org"
     },
     {
+        "name": "travel-buddy",
+        "description": "Helps find people for ridesharing.",
+        "stars": 8,
+        "forks": 8,
+        "language": "JavaScript"
+    },
+    {
         "name": "societytable",
         "description": "A periodic table of the KGPian societies. Originally created by TSA.",
         "stars": 2,
