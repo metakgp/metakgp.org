@@ -16,16 +16,6 @@ const FeaturedSection = () => {
 
   const Repos: REPO_DATA_TYPE[] = RepoData as REPO_DATA_TYPE[];
 
-  // eventually replace carousel list with just the same repos as featured list
-  const carouselReposList: string[] = ["iqps-go", "metakgp.org", "travel-buddy", "metakgp-wiki", "gyft", "naarad"];
-  const carouselRepos: REPO_DATA_TYPE[] = Repos.filter(repo => carouselReposList.includes(repo.name)) ?? [{
-    name: "ERROR",
-    description: "You seem to have inputted a wrong repo name in the featured repos list, please check that your names are valid",
-    stars: 69,
-    forks: 420,
-    language: "ERROR"
-  }];
-
   const featuredReposList: featured_json[] = FeaturedData as featured_json[];
   const featuredRepos: FEATURED_REPO[] = featuredReposList.map((featured_repo) => {
     return {
@@ -56,8 +46,8 @@ const FeaturedSection = () => {
         </div>
       </div>
       <Carousel>
-        {carouselRepos.map((repo, index) => (
-          <RepoCard repoData={repo} key={index} />
+        {featuredRepos.map((repo, index) => (
+          <RepoCard repoData={repo.repo} key={index} />
         ))}
       </Carousel>
     </section>
