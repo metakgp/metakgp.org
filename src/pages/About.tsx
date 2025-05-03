@@ -21,8 +21,7 @@ function About() {
 
   const featuredRepo: FEATURED_REPO = {
     screenshot_img: "http://0x0.st/84N_.png",
-    swimlane_img: "http://0x0.st/84Nz.png",
-    usage: "Login with your ERP credentials to download your time table in an easy to use format!\nAlternatively upload an image of your tiemtable to generate a .ics file for it!",
+    usage: "Using GYFT you can get your KGP time table directly in your calendar app such as Google Calendar or [whatever else people use]. Either login with your ERP credentials or upload a screenshot of your timetable.",
     repo: Repos.find(repo => repo.name == "gyft")!
   }
 
@@ -41,15 +40,7 @@ function About() {
               <a href={`https://github.com/metakgp/${featuredRepo.repo.name}`}>
                 <h2 className='section-header-left'>{featuredRepo.repo.name}</h2>
               </a>
-              <p className='description'>{featuredRepo.repo.description}</p>
-            </div>
-          </div>
-          <div className='featured-bottom'>
-            <div className='featured-desc-container'>
               <p className='description'>{featuredRepo.usage}</p>
-            </div>
-            <div className='featured-swimlane'>
-              <img src={featuredRepo.swimlane_img} />
             </div>
           </div>
         </div>
