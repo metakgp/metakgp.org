@@ -8,5 +8,20 @@
     "screenshot_img": "http://0x0.st/84Wx.png",
     "usage": "Finding travel companions for going home during the vacations? Travel Buddy helps you do exactly that! Enter your trip details to find others on the same journey!",
     "name": "travel-buddy"
+  },
+  {
+    "screenshot_img": "https://private-user-images.githubusercontent.com/86282911/344537277-21633e13-eb62-4ed6-b188-77514dfdc414.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDYyNTUzMTIsIm5iZiI6MTc0NjI1NTAxMiwicGF0aCI6Ii84NjI4MjkxMS8zNDQ1MzcyNzctMjE2MzNlMTMtZWI2Mi00ZWQ2LWIxODgtNzc1MTRkZmRjNDE0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTAzVDA2NTAxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThhM2JmMWE4Mjg3MGE3NDBlY2M4NmYwMjIwYTIyZTI5ODI2MzQyMWYxNDA4MDU4YTUyYzJlMGExNDk5NzVhMjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.GZZ_CqrN4gvflPsH5LyRmvZRgaqyUe4nMmSRkusYS0Q",
+    "usage": "Our Naarad serves news (notices) to the KGP community. It is a self-hosted ntfy.sh instance with custom configuration. It is protected by heimdall, allowing access only to KGPians.",
+    "name": "naarad"
+  },
+  {
+    "screenshot_img": "http://0x0.st/844z.png",
+    "usage": "The metakgp wiki is an open repository of community knowledge about IIT Kharagpur that anyone can edit. This is your first stop for information about KGP",
+    "name": "metakgp-wiki"
+  },
+  {
+    "screenshot_img": "http://0x0.st/844H.png",
+    "usage": "IQPS is a platform for searching and uploading previous year question papers for IIT Kharagpur students. Search for previous year papers here. Upload your question papers to help future batches",
+    "name": "iqps-go"
   }
 ]
