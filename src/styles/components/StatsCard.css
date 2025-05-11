@@ -10,6 +10,8 @@
   gap: 2rem;
   color: #fff;
   transition: scale 0.2s, box-shadow 0.2s, background-color 0.2s;
+  min-width: fit-content;
+  width: 20%;
 }
 
 .card:hover {
