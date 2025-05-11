@@ -1,10 +1,24 @@
 [
     {
+        "name": "metaploy",
+        "description": "The metakgp nginx deployment architecture.",
+        "stars": 4,
+        "forks": 0,
+        "language": "Shell"
+    },
+    {
         "name": "metakgp.org",
         "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki. (To be deployed at metakg.org)",
         "stars": 3,
         "forks": 3,
         "language": "TypeScript"
+    },
+    {
+        "name": "events-board",
+        "description": "[WIP] A noticeboard that lists upcoming and previous society events.",
+        "stars": 1,
+        "forks": 0,
+        "language": "JavaScript"
     },
     {
         "name": "travel-buddy",
@@ -33,20 +47,6 @@
         "stars": 23,
         "forks": 13,
         "language": "TypeScript"
-    },
-    {
-        "name": "metaploy",
-        "description": "The metakgp nginx deployment architecture.",
-        "stars": 3,
-        "forks": 0,
-        "language": "Shell"
-    },
-    {
-        "name": "events-board",
-        "description": "[WIP] A noticeboard that lists upcoming and previous society events.",
-        "stars": 1,
-        "forks": 0,
-        "language": "JavaScript"
     },
     {
         "name": "gyft",
