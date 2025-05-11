@@ -18,13 +18,11 @@ interface featured_json {
 const FeaturedSection = () => {
 
   const [nav1, setNav1] = useState<Slider | null>(null);
-  const [nav2, setNav2] = useState<Slider | null>(null);
   let nav1Ref = useRef<Slider>(null);
   let nav2Ref = useRef<Slider>(null);
 
   useEffect(() => {
     setNav1(nav1Ref.current);
-    setNav2(nav2Ref.current);
   }, []);
 
   const Repos: REPO_DATA_TYPE[] = RepoData as REPO_DATA_TYPE[];
@@ -44,6 +42,7 @@ const FeaturedSection = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
     autoplay: true,
     autoplaySpeed: 7000,
   };
