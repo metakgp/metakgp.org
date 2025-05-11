@@ -5,7 +5,9 @@ import FeaturedData from "../data/featured_data.json";
 import RepoData from "../data/repo_data.json";
 import RepoCard from "../components/GithubCard";
 import "../styles/components/FeaturedDisplay.css"
-import { useCallback, useEffect, useState } from "react";
+import "../styles/components/Carousel.css";
+import { useEffect, useRef, useState } from "react";
+import Slider from "react-slick";
 
 interface featured_json {
   screenshot_img: string;
@@ -14,6 +16,16 @@ interface featured_json {
 }
 
 const FeaturedSection = () => {
+
+  const [nav1, setNav1] = useState<Slider | null>(null);
+  const [nav2, setNav2] = useState<Slider | null>(null);
+  let nav1Ref = useRef<Slider>(null);
+  let nav2Ref = useRef<Slider>(null);
+
+  useEffect(() => {
+    setNav1(nav1Ref.current);
+    setNav2(nav2Ref.current);
+  }, []);
 
   const Repos: REPO_DATA_TYPE[] = RepoData as REPO_DATA_TYPE[];
 
@@ -25,39 +37,43 @@ const FeaturedSection = () => {
       repo: Repos.find(repo => repo.name == featured_repo.name)!
     }
   })
-  const [featuredRepo, setFeaturedRepo] = useState(featuredRepos[Math.floor(Math.random() * featuredRepos.length)]);
-  const shuffle = useCallback(() => {
-    const index = Math.floor(Math.random() * featuredRepos.length);
-    setFeaturedRepo(featuredRepos[index]);
-    console.log(featuredRepo.repo.homepage)
-  }, [])
-  useEffect(() => {
-    const intervalID = setInterval(shuffle, 10000);
-    return () => clearInterval(intervalID);
-  }, [shuffle])
+
+  const display_settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 7000,
+  };
 
   return (
     <section className="topic-section">
       <h2 className="section-header-left">Featured Projects</h2>
-      <div className='featured-display'>
-        <div className='featured-top'>
-          <Link to={featuredRepo.repo.homepage}>
-            <div className='featured-screenshot'>
-              <img src={featuredRepo.screenshot_img} />
+      <Slider {...display_settings} ref={nav1Ref}>
+        {featuredRepos.map((featuredRepo, index) => (
+          <div className='featured-display' key={index}>
+            <div className='featured-top'>
+              <Link to={featuredRepo.repo.homepage}>
+                <div className='featured-screenshot'>
+                  <img src={featuredRepo.screenshot_img} />
+                </div>
+              </Link>
+              <div className='featured-desc-container'>
+                <a href={`https://github.com/metakgp/${featuredRepo.repo.name}`} className="no-highlight featured-repo-title">
+                  <h2 className='section-header-left'>{featuredRepo.repo.name}</h2>
+                </a>
+                <p className='description'>{featuredRepo.usage}</p>
+                <Link to={featuredRepo.repo.homepage} className='no-highlight'>
+                  <button className="contribute-button">Check it out!</button>
+                </Link>
+              </div>
             </div>
-          </Link>
-          <div className='featured-desc-container'>
-            <a href={`https://github.com/metakgp/${featuredRepo.repo.name}`} className="no-highlight featured-repo-title">
-              <h2 className='section-header-left'>{featuredRepo.repo.name}</h2>
-            </a>
-            <p className='description'>{featuredRepo.usage}</p>
-            <Link to={featuredRepo.repo.homepage} className='no-highlight'>
-              <button className="contribute-button">Check it out!</button>
-            </Link>
           </div>
-        </div>
-      </div>
-      <Carousel>
+        ))}
+      </Slider>
+      <Carousel ref={nav2Ref} asNavFor={nav1}>
         {featuredRepos.map((repo, index) => (
           <RepoCard repoData={repo.repo} key={index} />
         ))}
