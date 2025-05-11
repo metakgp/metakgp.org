@@ -5,6 +5,7 @@ import FeaturedData from "../data/featured_data.json";
 import RepoData from "../data/repo_data.json";
 import RepoCard from "../components/GithubCard";
 import "../styles/components/FeaturedDisplay.css"
+import { useCallback, useEffect, useState } from "react";
 
 interface featured_json {
   screenshot_img: string;
@@ -24,16 +25,27 @@ const FeaturedSection = () => {
       repo: Repos.find(repo => repo.name == featured_repo.name)!
     }
   })
-  const featuredRepo = featuredRepos[Math.floor(Math.random() * featuredRepos.length)];
+  const [featuredRepo, setFeaturedRepo] = useState(featuredRepos[Math.floor(Math.random() * featuredRepos.length)]);
+  const shuffle = useCallback(() => {
+    const index = Math.floor(Math.random() * featuredRepos.length);
+    setFeaturedRepo(featuredRepos[index]);
+    console.log(featuredRepo.repo.homepage)
+  }, [])
+  useEffect(() => {
+    const intervalID = setInterval(shuffle, 10000);
+    return () => clearInterval(intervalID);
+  }, [shuffle])
 
   return (
     <section className="topic-section">
       <h2 className="section-header-left">Featured Projects</h2>
       <div className='featured-display'>
         <div className='featured-top'>
-          <div className='featured-screenshot'>
-            <img src={featuredRepo.screenshot_img} />
-          </div>
+          <Link to={featuredRepo.repo.homepage}>
+            <div className='featured-screenshot'>
+              <img src={featuredRepo.screenshot_img} />
+            </div>
+          </Link>
           <div className='featured-desc-container'>
             <a href={`https://github.com/metakgp/${featuredRepo.repo.name}`}>
               <h2 className='section-header-left'>{featuredRepo.repo.name}</h2>
