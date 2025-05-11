@@ -1,44 +1,21 @@
-import React, { useEffect, useState } from "react";
+import React from "react"
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 import "../styles/components/Carousel.css"
 
 const Carousel = (props: { children: React.ReactNode[] }) => {
-  const { children } = props;
-  const [currentIndex, setCurrentIndex] = useState(0)
-  const [length, setLength] = useState(children.length)
-
-  // Set the length to match current children from props
-  useEffect(() => {
-    setLength(children.length)
-  }, [children])
-
-  const next = () => {
-    if (currentIndex < (length - 3)) {
-      setCurrentIndex(prevState => prevState + 1)
-    }
-  }
-
-  const prev = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(prevState => prevState - 1)
-    }
-  }
-
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1
+  };
   return (
-    <div className="carousel-container">
-      <div className="carousel-wrapper">
-        <button className="left-arrow" onClick={prev}>
-          &lt;
-        </button>
-        <div className="carousel-content-wrapper">
-          <div className="carousel-content" style={{ transform: `translateX(-${currentIndex * 27}%)` }}>
-            {children}
-          </div>
-        </div>
-        <button className="right-arrow" onClick={next}>
-          &gt;
-        </button>
-      </div>
-    </div >
+    <Slider {...settings} className="carousel-container">
+      {props.children}
+    </Slider>
   )
 }
 
