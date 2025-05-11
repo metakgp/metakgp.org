@@ -33,17 +33,18 @@ code {
     monospace;
 }
 
-a:not(.nav-element):not(.active-nav-element):not(.slack-link):not(.metakgp-logo-link) {
+
+a:not(.nav-element):not(.active-nav-element):not(.slack-link):not(.metakgp-logo-link):not(.no-highlight) {
   color: #00FFFF;
   text-decoration: none;
 }
 
-a:hover:not(.nav-element):not(.active-nav-element):not(.slack-link):not(.metakgp-logo-link) {
+a:hover:not(.nav-element):not(.active-nav-element):not(.slack-link):not(.metakgp-logo-link):not(.no-highlight) {
   color: #00BFFF;
   text-decoration: underline;
 }
 
-a:visited:not(.nav-element):not(.active-nav-element):not(.slack-link):not(.metakgp-logo-link) {
+a:visited:not(.nav-element):not(.active-nav-element):not(.slack-link):not(.metakgp-logo-link):not(.no-highlight) {
   color: #FF00FF;
 }
 
