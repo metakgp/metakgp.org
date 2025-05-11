@@ -47,7 +47,7 @@ const FeaturedSection = () => {
             </div>
           </Link>
           <div className='featured-desc-container'>
-            <a href={`https://github.com/metakgp/${featuredRepo.repo.name}`}>
+            <a href={`https://github.com/metakgp/${featuredRepo.repo.name}`} className="no-highlight featured-repo-title">
               <h2 className='section-header-left'>{featuredRepo.repo.name}</h2>
             </a>
             <p className='description'>{featuredRepo.usage}</p>

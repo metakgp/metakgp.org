@@ -46,3 +46,8 @@
   padding: 0;
   margin: 0;
 }
+
+.featured-repo-title {
+  color: white;
+  text-decoration: none;
+}
