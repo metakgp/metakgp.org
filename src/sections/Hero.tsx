@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export const HeroSection = () => {
   return (
-    <section>
+    <section className="topic-section">
       <div className="hero-container">
         <div className="hero-header-container">
           <h1 className="main-header">For The People</h1>

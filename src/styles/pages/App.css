@@ -3,12 +3,28 @@
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.App-main,
+.App-header {
   width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
 .App-footer {
   margin-top: auto;
   justify-self: flex-end;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
 .metakgp-logo {
@@ -77,4 +93,10 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .page-container {
+    margin: 10px 5%;
+  }
 }

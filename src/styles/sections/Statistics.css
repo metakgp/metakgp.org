@@ -10,3 +10,35 @@
   gap: 1rem;
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .stats-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+  }
+
+  .card {
+    height: 100px;
+    width: 40%;
+    max-width: 250px;
+    min-width: min-content;
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+  }
+
+  .card-icon>* {
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    margin: 0;
+  }
+
+  .card-stat {
+    font-size: 1.5rem;
+  }
+
+  .card-description {
+    font-size: 0.875rem;
+  }
+}

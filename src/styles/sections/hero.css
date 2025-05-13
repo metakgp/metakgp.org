@@ -92,3 +92,59 @@
 .project-button:hover {
   scale: 1.08;
 }
+
+@media screen and (max-width: 480px) {
+  .hero-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .hero-header-container {
+    width: 100%;
+    padding: 0;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .main-header {
+    font-size: clamp(3rem, 8vw, 4rem);
+    line-height: 0.8;
+    text-align: left;
+    margin: 1rem 0;
+  }
+
+  .hero-description {
+    margin: 2rem 0;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .hero-button-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0;
+  }
+
+  .project-button,
+  .contribute-button {
+    font-size: 0.8rem;
+    padding: 0.4rem;
+    width: 200px;
+    text-align: center;
+  }
+
+  .hero-image-container {
+    padding: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hero-image {
+    max-width: 80%;
+    height: auto;
+  }
+}
