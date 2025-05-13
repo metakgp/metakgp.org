@@ -24,9 +24,17 @@
 }
 
 /* Mobile Responsive */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .contribution-container {
     width: 95%;
     padding: 15px;
+  }
+
+  .contri-intro {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+    max-width: 100%;
   }
 }

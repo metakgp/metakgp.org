@@ -24,4 +24,8 @@
   .gh-card-grid.gh-card-grid.featured {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .gh-card-container {
+    width: 90%;
+  }
 }
