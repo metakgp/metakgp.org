@@ -7,9 +7,9 @@ import "../styles/sections/Statistics.css";
 export const StatsSection = () => {
   return (
     <div className="stats-container">
-      <StatsCard cardDescription="projects" cardIcon={<FaProjectDiagram />} cardStat={"60+"} />
-      <StatsCard cardDescription="lines of code" cardIcon={<FaCode />} cardStat={"1M+"} />
-      <StatsCard cardDescription="contributors" cardIcon={<FaPeopleGroup />} cardStat={"30+"} />
+      <StatsCard cardDescription="subs" cardIcon={<FaProjectDiagram />} cardStat={"60+"} />
+      <StatsCard cardDescription="views" cardIcon={<FaCode />} cardStat={"1M+"} />
+      <StatsCard cardDescription="vids" cardIcon={<FaPeopleGroup />} cardStat={"30+"} />
     </div>
   )
 }
