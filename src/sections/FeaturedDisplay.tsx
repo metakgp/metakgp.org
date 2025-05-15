@@ -25,14 +25,12 @@ const FeaturedSection = () => {
     setNav1(nav1Ref.current);
   }, []);
 
-  const Repos: REPO_DATA_TYPE[] = RepoData as REPO_DATA_TYPE[];
-
   const featuredReposList: featured_json[] = FeaturedData as featured_json[];
   const featuredRepos: FEATURED_REPO[] = featuredReposList.map((featured_repo) => {
     return {
       screenshot_img: featured_repo.screenshot_img,
       usage: featured_repo.usage,
-      repo: Repos.find(repo => repo.name == featured_repo.name)!
+      name: featured_repo.name
     }
   })
 
@@ -54,28 +52,27 @@ const FeaturedSection = () => {
         {featuredRepos.map((featuredRepo, index) => (
           <div className='featured-display' key={index}>
             <div className='featured-top'>
-              <Link to={featuredRepo.repo.homepage}>
+              <Link to="/">
                 <div className='featured-screenshot'>
                   <img src={featuredRepo.screenshot_img} />
                 </div>
               </Link>
               <div className='featured-desc-container'>
-                <a href={`https://github.com/metakgp/${featuredRepo.repo.name}`} className="no-highlight featured-repo-title">
-                  <h2 className='section-header-left'>{featuredRepo.repo.name}</h2>
-                </a>
+                {/* <a href={`https://github.com/metakgp/${featuredRepo.repo.name}`} className="no-highlight featured-repo-title"> */}
+                  <h2 className='section-header-left'>{featuredRepo.name}</h2>
+                {/* </a> */}
                 <p className='description'>{featuredRepo.usage}</p>
-                <Link to={featuredRepo.repo.homepage} className='no-highlight'>
+                {/* <Link to={featuredRepo.repo.homepage} className='no-highlight'>
                   <button className="contribute-button">Check it out!</button>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
         ))}
       </Slider>
       <Carousel ref={nav2Ref} asNavFor={nav1}>
-        {featuredRepos.map((repo, index) => (
-          <RepoCard repoData={repo.repo} key={index} />
-        ))}
+        <div></div>
+        <div></div>
       </Carousel>
     </section>
 

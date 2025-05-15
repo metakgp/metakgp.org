@@ -10,5 +10,5 @@ export interface REPO_DATA_TYPE {
 export interface FEATURED_REPO {
   screenshot_img: string;
   usage: string;
-  repo: REPO_DATA_TYPE;
+  name: string;
 }
