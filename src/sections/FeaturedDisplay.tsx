@@ -64,9 +64,9 @@ const FeaturedSection = () => {
                   <h2 className='section-header-left'>{featuredRepo.repo.name}</h2>
                 </a>
                 <p className='description'>{featuredRepo.usage}</p>
-                <Link to={featuredRepo.repo.homepage} className='no-highlight'>
-                  <button className="contribute-button">Check it out!</button>
-                </Link>
+                <a href={featuredRepo.repo.homepage} className='featured-button no-highlight'>
+                  <p>Check it out!</p>
+                </a>
               </div>
             </div>
           </div>

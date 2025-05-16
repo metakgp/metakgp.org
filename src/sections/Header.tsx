@@ -21,7 +21,6 @@ export const HeaderSection = () => {
         {pages.map((page) => (
           <NavElement route={page} isActive={location.pathname.slice(1) === page} />
         ))}
-        <Link to={"https://slack.metakgp.org"} className="slack-link"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffreepnglogo.com%2Fimages%2Fall_img%2F1707837044slack-icon-png.png&f=1&nofb=1&ipt=295e07f40f4184171119bf2ef9d839481d89cf7773ed9ffb63c4a8a987da6489" width={16} height={16} /> Contact</Link>
       </nav>
     </div>
   )

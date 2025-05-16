@@ -36,30 +36,6 @@
   text-wrap: wrap;
 }
 
-.hero-button-container {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-  padding: 2rem 0;
-}
-
-.contribute-button {
-  padding: 0.75rem;
-  font-size: 1rem;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #ffffff66;
-  border-radius: 15px;
-  background: #2f2f2f;
-  color: #fff;
-  font-weight: 700;
-  transition: background 300ms, color 300ms, scale 300ms;
-}
-
-.contribute-button:hover {
-  scale: 1.08;
-}
-
 .hero-image-container {
   margin: 0;
   margin-top: 2rem;
@@ -76,21 +52,75 @@
   padding: 0;
 }
 
-.project-button {
-  padding: 0.75rem;
+.hero-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  gap: 0.5rem;
+  padding: 2rem 0;
+  width: auto;
+  max-width: 300px;
+}
+
+.samesite-links {
+  display: flex;
+  gap: 0.4rem;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+.contribute-button, .project-button, .featured-button {
+  width: 100%;
+  padding: 0 0.75rem;
+  border-radius: 50px;
   font-size: 1rem;
   border-style: solid;
   border-width: 2px;
   border-color: #ffffff66;
-  border-radius: 15px;
-  background: #fff;
-  color: #000;
+  background: #2f2f2f;
+  color: #fff;
   font-weight: 700;
-  transition: scale 300ms, background 300ms, color 300ms;
+  transition: background 300ms, color 300ms, scale 300ms;
+  text-decoration: none;
+  text-align: center;
 }
 
-.project-button:hover {
-  scale: 1.08;
+.contribute-button:hover, .project-button:hover {
+  color: #2f2f2f;
+  background-color: #fff;
+}
+
+.project-button {
+  border-radius: 50px 0 0 50px;
+}
+
+.contribute-button {
+    border-radius: 0 50px 50px 0;
+}
+
+.slack-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #4a124c;
+  color: #fff;
+  border: 1px solid #ffffff66;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 300ms, color 300ms;
+}
+
+.slack-link:hover {
+  background-color: #fff;
+  color: #4a124c;
 }
 
 @media screen and (max-width: 480px) {
@@ -122,19 +152,20 @@
   }
 
   .hero-button-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
+    gap: 0.4rem;
     padding: 0;
   }
 
   .project-button,
   .contribute-button {
-    font-size: 0.8rem;
-    padding: 0.4rem;
-    width: 200px;
-    text-align: center;
+    font-size: 0.9rem;
+    padding: 0 0.4rem;
+  }
+
+  .slack-link {
+    gap: 0.4rem;
+    width: 100%;
+    padding: 0;
   }
 
   .hero-image-container {
