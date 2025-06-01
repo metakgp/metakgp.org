@@ -9,7 +9,11 @@
   overflow-x: auto;
   white-space: nowrap;
 }
-
+.filter-container{
+  
+display: flex;
+justify-content: space-between;
+}
 .filter-button {
   border: none;
   padding: 8px 15px;
@@ -29,4 +33,10 @@
   background: #4BA7F8;
   color: #f3f3f3;
   font-weight: bold;
+}
+
+@media (max-width:1024px){
+  .filter-container{
+    flex-direction: column;
+  }
 }
