@@ -3,12 +3,14 @@
   display: grid;
   gap: 1rem;
   padding: 1rem;
+ 
   justify-content: center;
 }
 
 /* Default layout for all cards */
 .gh-card-grid.all {
-  grid-template-columns: repeat(3, 1fr);
+   
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /* Prominent layout for fewer cards */
