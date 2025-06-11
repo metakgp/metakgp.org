@@ -8,9 +8,8 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
 }
 
 .selected {
-  font-weight: 800;
-  background-color: #fff;
-  color: #2f2f2f;
+  background-color: #393737;
+  border-radius: 0 0 5px 5px;
 }
 .sort-button {
   background-color: #2f2f2f;
@@ -18,21 +17,30 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
   border: none;
   padding: 8px 15px;
   font-size: 14px;
-  font-weight: 700;
-  width: 255px;
+  border-radius: 5px;
+   
   cursor: pointer;
-  border-style: solid;
-  border-width: 2px 2px 0 2px;
-  border-bottom-width: 2px;
-  border-color: #ffffff66;
+  width: 200px;
   transition: background 300ms, color 300ms, scale 300ms;
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
+ 
 }
-.sort-downArrow {
+.sort-button button{
+  color: #fcfcfc;
+  background-color: #2f2f2f;
+  width: 100%;
+  text-align: left;
+  border: none;
+}
+.sort-Arrow-container{
+  display: flex;
+}
+
+.sort-Arrow {
   width: 15px;
+  
   filter: brightness(0) invert(1);
   color: white;
 }
@@ -41,13 +49,11 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
   opacity: 0;
   transition: opacity 0.3s ease, transform 0.3s ease;
   position: absolute;
-  border-style: solid;
-  border-width: 0 2px 2px 2px;
-  border-color: #ffffff66;
+  border-radius: 0 0 5px 5px;
   background-color: #2f2f2f;
-  color: #fcfcfc;
-  width: 251px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ color: #fcfcfc;
+ width: 230px;
+ 
   z-index: 1;
 }
 
@@ -61,11 +67,12 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
 
 .dropdown-item {
   text-align: center;
+ font-size: small;
   transition: background 300ms, color 300ms, scale 300ms;
 }
 .dropdown-item:hover {
-  background-color: #fff;
-  color: #2f2f2f;
+  background-color: #393737;
+ border-radius: 0 0 5px 5px;
 }
 
 
@@ -76,20 +83,24 @@ for large screens toggle  on hover  */
   transform: translateY(0);
 }
 
+.dropdown:hover  .sort-button{
+   border-radius: 5px 5px 0 0;
+}
+
 /* 
 for small screens toggling on click */
 .dropdown-content.show {
   opacity: 1;
   transform: translateY(0);
+ 
+}
+.dropdown.show .sort-button{
+border-radius: 5px 5px 0 0 ;
+ 
 }
 
-.arrow {
-  margin-left: auto;
-}
 
-.divider {
-  border-top: 1px solid #f0f0f0;
-}
+
 
 
 
@@ -98,4 +109,5 @@ for small screens toggling on click */
   .dropdown:hover .dropdown-content {
     display: none;
   }
+
 }

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/components/SortDropdown.css";
 import downArrow from "../assets/down.png";
+import upArrow from "../assets/up-arrow.png";
 import { SortDropdownProps } from "../utils/types";
 const SortDropdown: React.FC<SortDropdownProps> = ({
   setSortField,
@@ -10,23 +11,32 @@ const SortDropdown: React.FC<SortDropdownProps> = ({
 }) => {
   const [showMenu, setShowMenu] = useState(false);
 
+  const toggleSort = () => {
+    setSortType(sortType === "desc" ? "asc" : "desc");
+  }
   const toggleDropdown = () => {
     setShowMenu(!showMenu);
   };
   const handleSortField = (field: string) => {
     setSortField(field);
   };
-  const handleSortType = (type: "asc" | "desc") => {
-    setSortType(type);
-  };
+  
   return (
-    <div className={`dropdown`}>
-      <button className="sort-button" onClick={toggleDropdown}>
-        Sort by: {sortField.toUpperCase()}{" "}
-        <img src={downArrow} className="sort-downArrow" alt="▼" />
-      </button>
-
-      <div className={`dropdown-content ${showMenu ? "show" : ""}`}>
+    <div className={`dropdown ${showMenu ? "show" : ""}`}>
+      <div className="sort-button">
+   <button disabled={window.innerWidth >= 760} onClick={toggleDropdown}>
+        Sort by:{" "}{sortField.charAt(0).toUpperCase()+sortField.slice(1)}
+        </button>
+        <div className="sort-Arrow-container" onClick={(e) => {
+      e.stopPropagation(); 
+      toggleSort();
+    }}>
+ <img src={sortType === "desc" ? downArrow : upArrow} className="sort-Arrow"   alt="▼" />
+     
+        </div>
+   
+      </div>
+    <div className={`dropdown-content ${showMenu ? "show" : ""}`}>
         <div className={`dropdown-item ${"name" === sortField ? "selected" : ""}`} onClick={() => handleSortField("name")}>
           {" "}
        
@@ -42,15 +52,7 @@ const SortDropdown: React.FC<SortDropdownProps> = ({
         
           Stars
         </div>
-        <div className="divider" > </div>
-        <div className={`dropdown-item ${"asc" === sortType ? "selected" : ""}`} onClick={() => handleSortType("asc")}>
-       
-          Ascending
-        </div>
-        <div className={`dropdown-item ${"desc" === sortType ? "selected" : ""}`} onClick={() => handleSortType("desc")}>
      
-          Descending
-        </div>
       </div>
     </div>
   );
