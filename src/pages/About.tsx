@@ -60,7 +60,7 @@ function About() {
               <a href='https://wiki.metakgp.org/w/Metakgp:About'>https://wiki.metakgp.org/w/Metakgp:About</a>
             </li>
             <li>
-              <a href='https://wiki.metakgp.org/w/User:Hargup/Why_metakgp%3F'>Why MetaKGP: by Hargup</a>
+              <a href='https://wiki.metakgp.org/w/User:Hargup/Why_metakgp%3F'>Why MetaKGP: by Harsh Gupta</a>
             </li>
             <li>
               <a href='https://wiki.metakgp.org/w/User:Amrav/Why_metakgp%3F'>Why MetaKGP: by Vikrant</a>
