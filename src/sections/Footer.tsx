@@ -13,7 +13,9 @@ export const FooterSection = () => {
       <div className="footer-section">
 
         <div className="icon-col footer-col">
-          Connect with us
+          Made with ❤️ and
+          &lt;/&gt;
+          by MetaKGP
           <div className="social-icons ">
             <a href="https://www.facebook.com/metakgp/">
               <i className="fa-brands fa-facebook"></i>
