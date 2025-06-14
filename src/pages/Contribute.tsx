@@ -9,17 +9,31 @@ const ContributePage = () => {
     <div className="page-container">
       <section>
         <div className="contri-intro">
-          <p className="contri-intro-para description">
-            Hi, we're so glad you want to contribute to metaKGP!
-            Open Source thrives on collaboration and contribution, and we appreciate all the help we can get!
-            <br />
-            <br />
-            The best way to get started is by asking for help in the #projects channel on our Slack server. This page aims
-            to help you get started on your own, but Slack is the best place to <i>ask</i> for help
-          </p>
+          <div className="contri-intro-container">
+            <p className="contri-intro-para description">
+              Hi, we're so glad you want to contribute to metaKGP!
+              Open Source thrives on collaboration and contribution, and we appreciate all the help we can get!
+              <br />
+              <br />
+              If you ever need help with anything, just ask us in the <code>#general</code> channel on our Slack server.
+            </p>
+            <a href={"https://slack.metakgp.org"} className="slack-link">
+              <img src="https://freepnglogo.com/images/all_img/1707837044slack-icon-png.png" width={16} height={16} />
+              <p>Join the Slack!</p>
+            </a>
+          </div>
           <div className="contri-intro-image-container">
             <img src={helloImage} alt="hello-image" className="contri-intro-image" />
           </div>
+        </div>
+      </section>
+      <section className="topic-section">
+        <div>
+          <h2 className="section-header-left">Wiki Contributions</h2>
+          <p className="description">
+            A simple way to contribute to metaKGP would be to keep the <a href="https://wiki.metakgp.org">MetaWiki</a> updated! You can help out by dropping feedback on any courses you took, keep your society pages updated, make sure content is accurate etc.
+            {/* TODO: add images with arrow to edit_article once wiki is back up*/}
+          </p>
         </div>
       </section>
       <section className="topic-section">
@@ -71,7 +85,19 @@ const ContributePage = () => {
       </section>
       <section className="topic-section">
         <h2 className="section-header-left">Resources</h2>
-        <p className="descripion"> WIP </p>
+        <p className="description">
+          <ul>
+            <li>
+              <a href="https://learngitbranching.js.org/">Learn Git Branching</a>
+            </li>
+            <li>
+              <a href="https://goodfirstissue.dev/">Good First Issues</a>
+            </li>
+            <li>
+              <a href="https://github.com/orgs/metakgp/projects/4">MetaKGP Dreams: some issues to work on in MetaKGP</a>
+            </li>
+          </ul>
+        </p>
       </section>
     </div>
   );
