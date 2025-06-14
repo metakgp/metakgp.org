@@ -8,19 +8,19 @@
         "homepage": "https://beta.metakgp.org/"
     },
     {
+        "name": "iqps-go",
+        "description": "Search for question papers when the library can't save you.",
+        "stars": 24,
+        "forks": 13,
+        "language": "TypeScript",
+        "homepage": "https://qp.metakgp.org"
+    },
+    {
         "name": "events-board",
         "description": "[WIP] A noticeboard that lists upcoming and previous society events.",
         "stars": 1,
         "forks": 0,
         "language": "JavaScript",
-        "homepage": ""
-    },
-    {
-        "name": "metaploy",
-        "description": "The metakgp nginx deployment architecture.",
-        "stars": 4,
-        "forks": 0,
-        "language": "Shell",
         "homepage": ""
     },
     {
@@ -32,10 +32,26 @@
         "homepage": "https://travel.metakgp.org"
     },
     {
+        "name": "metakgp-wiki",
+        "description": "Dockerized source for the metakgp wiki.",
+        "stars": 23,
+        "forks": 20,
+        "language": "Python",
+        "homepage": "https://wiki.metakgp.org"
+    },
+    {
+        "name": "metaploy",
+        "description": "The metakgp nginx deployment architecture.",
+        "stars": 4,
+        "forks": 0,
+        "language": "Shell",
+        "homepage": ""
+    },
+    {
         "name": "societytable",
         "description": "A periodic table of the KGPian societies. Originally created by TSA.",
         "stars": 2,
-        "forks": 7,
+        "forks": 6,
         "language": "TypeScript",
         "homepage": "https://soc.metakgp.org"
     },
@@ -48,28 +64,12 @@
         "homepage": ""
     },
     {
-        "name": "iqps-go",
-        "description": "Search for question papers when the library can't save you.",
-        "stars": 23,
-        "forks": 13,
-        "language": "TypeScript",
-        "homepage": "https://qp.metakgp.org"
-    },
-    {
         "name": "gyft",
         "description": "Get Your Freaking Timetable",
         "stars": 57,
         "forks": 63,
         "language": "Python",
         "homepage": "https://gyft.metakgp.org"
-    },
-    {
-        "name": "metakgp-wiki",
-        "description": "Dockerized source for the metakgp wiki.",
-        "stars": 23,
-        "forks": 20,
-        "language": "Python",
-        "homepage": "https://wiki.metakgp.org"
     },
     {
         "name": "naarad",
