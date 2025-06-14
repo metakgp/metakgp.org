@@ -1,3 +1,5 @@
 # https://www.robotstxt.org/robotstxt.html
+# hi there 
+# subzcuber was here
 User-agent: *
 Disallow:
