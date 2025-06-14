@@ -132,6 +132,10 @@
   }
 
   .hero-header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     padding: 0;
     white-space: normal;
@@ -152,6 +156,7 @@
   }
 
   .hero-button-container {
+    width: 100%;
     gap: 0.4rem;
     padding: 0;
   }
