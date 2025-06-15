@@ -5,10 +5,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
-  border: 1px solid #000;
+  background-color: #2f2f2fbf;
+  border: 1px solid #222;
+  border-radius: 0.375rem;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  color: #000;
+  color: #f3f3f3;
   padding: 1rem;
   width: 350px;
   text-align: left;
@@ -27,7 +28,7 @@
   text-wrap: wrap;
   overflow-x: hidden;
   padding: 0.5rem 0;
-  color: #333;
+  color: #f3f3f3;
   text-align: left;
   height: 100%;
 }
@@ -60,7 +61,7 @@
 /* Footer Objects */
 
 .gh-card-footer {
-  color: #000;
+  color: #f3f3f3;
 }
 
 .gh-card-circle {
@@ -76,7 +77,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000;
+  color: #f3f3f3;
 }
 
 .gh-card-star-icon {
@@ -90,7 +91,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000;
+  color: #f3f3f3;
 }
 
 .gh-card-fork-icon {
@@ -98,4 +99,9 @@
   justify-content: center;
   align-items: center;
   margin-right: 6px;
+}
+
+.octicon {
+  stroke: #f3f3f3;
+  fill: #f3f3f3;
 }

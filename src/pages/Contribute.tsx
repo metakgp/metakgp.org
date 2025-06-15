@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const ContributePage = () => {
   return (
     <div className="page-container">
-      <section>
+      <section className="contri-intro-section">
         <div className="contri-intro">
           <div className="contri-intro-container">
             <p className="contri-intro-para description">

@@ -6,7 +6,6 @@
     gap: 0.5rem;
     width: 100%;
     margin: 0;
-    padding: 1rem;
 }
 
 .dc-image-container figcaption {
@@ -15,7 +14,7 @@
 }
 
 .dc-image {
-    width: 80%;
+    width: 100%;
 }
 
 .client-table {
