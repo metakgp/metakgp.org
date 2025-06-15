@@ -10,7 +10,7 @@
 /* Default layout for all cards */
 .gh-card-grid.all {
    
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 /* Prominent layout for fewer cards */
@@ -19,6 +19,15 @@
   max-width: 800px;
   margin: auto;
 }
+@media (max-width: 1200px) {
+
+  .gh-card-grid.all,
+  .gh-card-grid.gh-card-grid.featured {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
 
 @media (max-width: 768px) {
 
