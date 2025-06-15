@@ -18,6 +18,11 @@ const Carousel = (props: { children: React.ReactNode[], ref: any, asNavFor: any 
       settings: {
         slidesToShow: 1,
       }
+    }, {
+      breakpoint: 918,
+      settings: {
+        slidesToShow: 2,
+      }
     }]}>
       {props.children}
     </Slider>
