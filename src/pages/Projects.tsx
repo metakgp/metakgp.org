@@ -6,8 +6,8 @@ import RepoData from '../data/repo_data.json';
 import SortDropdown from "../components/SortDropdown";
 const Projects = () => {
   const repoList: REPO_DATA_TYPE[] = RepoData as REPO_DATA_TYPE[]
-  const [sortField, setSortField] = useState("name");
-  const [sortType,setSortType]=useState("asc")
+  const [sortField, setSortField] = useState("activity");
+  const [sortType,setSortType]=useState("desc")
   const languages = [...new Set(repoList.map(repo => repo.language))];
   const [selectedLanguage, setSelectedLanguage] = useState<string[]>([]);
   const [FilteredRepos, setFilteredRepos] = useState<REPO_DATA_TYPE[]>(repoList);
@@ -40,6 +40,13 @@ const Projects = () => {
   return sortType === "asc" ? cmp : -cmp;
 });
       
+    }
+    else if (sortField === "activity") {
+      if (sortType === "asc") {
+        result = result.reverse();
+      }
+      
+
 }    
 setFilteredRepos(result)
 

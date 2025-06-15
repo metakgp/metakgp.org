@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/components/SortDropdown.css";
-import downArrow from "../assets/down.png";
-import upArrow from "../assets/up-arrow.png";
+import { FaChevronDown } from "react-icons/fa";
+import { FaChevronUp } from "react-icons/fa6";
 import { SortDropdownProps } from "../utils/types";
 const SortDropdown: React.FC<SortDropdownProps> = ({
   setSortField,
@@ -23,19 +23,17 @@ const SortDropdown: React.FC<SortDropdownProps> = ({
   
   return (
     <div className={`dropdown ${showMenu ? "show" : ""}`}>
-      <div className="sort-button">
-   <button disabled={window.innerWidth >= 760} onClick={toggleDropdown}>
+      <div className="sort-container">
+        <button disabled={window.innerWidth >= 1200} onClick={toggleDropdown} >
         Sort by:{" "}{sortField.charAt(0).toUpperCase()+sortField.slice(1)}
         </button>
-        <div className="sort-Arrow-container" onClick={(e) => {
-      e.stopPropagation(); 
-      toggleSort();
-    }}>
- <img src={sortType === "desc" ? downArrow : upArrow} className="sort-Arrow"   alt="▼" />
-     
+       
+        <div className="sort-Arrow-container" onClick={toggleSort}>
+          {sortType==="desc"?<FaChevronDown/>:<FaChevronUp/>}
         </div>
-   
-      </div>
+     </div>
+     
+    
     <div className={`dropdown-content ${showMenu ? "show" : ""}`}>
         <div className={`dropdown-item ${"name" === sortField ? "selected" : ""}`} onClick={() => handleSortField("name")}>
           {" "}
@@ -52,7 +50,12 @@ const SortDropdown: React.FC<SortDropdownProps> = ({
         
           Stars
         </div>
+        <div className={`dropdown-item ${"activity" === sortField ? "selected" : ""}`} onClick={() => handleSortField("activity")}>
+        
+         Activity 
+        </div>
      
+ 
       </div>
     </div>
   );
