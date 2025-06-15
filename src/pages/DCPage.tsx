@@ -4,7 +4,7 @@ import TerminalDisplay from "../components/TerminalDisplay";
 
 function DCPage() {
   return (
-    <div className="page-container">
+    <div className="content-page-container">
       <section className="topic-section">
         <h2 className="section-header-left">Introducing DC++</h2>
         <p className="description">

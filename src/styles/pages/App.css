@@ -44,7 +44,17 @@
 }
 
 .page-container {
-  margin: 50px 15%;
+  margin: 50px 20%;
+  /* width: 100%; */
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-page-container {
+  margin: 50px 30%;
   /* width: 100%; */
   text-align: left;
   display: flex;
@@ -95,8 +105,18 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1570px) {
+  .content-page-container {
+    margin: 15px 20%;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .page-container {
+    margin: 10px 5%;
+  }
+
+  .content-page-container {
     margin: 10px 5%;
   }
 }

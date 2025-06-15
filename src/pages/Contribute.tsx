@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const ContributePage = () => {
   return (
-    <div className="page-container">
+    <div className="content-page-container">
       <section className="contri-intro-section">
         <div className="contri-intro">
           <div className="contri-intro-container">
