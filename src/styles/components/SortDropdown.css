@@ -1,0 +1,106 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+  padding: 10px;
+}
+
+.selected {
+  background-color: #393737;
+  border-radius: 0 0 5px 5px;
+}
+.sort-container {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 300ms, color 300ms, scale 300ms;
+  display: flex;
+}
+.sort-container button{
+  color: #fcfcfc;
+  background-color: #2f2f2f;
+  width: 200px;
+  border-radius: 5px 0 0 5px;
+  text-align: left;
+  border: none;
+  padding: 8px 15px  ;
+
+}
+.sort-Arrow-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f2f2f;
+  width: 30px;
+  border-radius: 0 5px 5px 0;
+  border-left: 1px solid #4e4d4d;
+}
+
+
+.dropdown-content {
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  position: absolute;
+  border-radius: 0 0 5px 5px;
+  background-color: #2f2f2f;
+ color: #fcfcfc;
+ width: 200px;
+ 
+  z-index: 1;
+}
+
+.dropdown-content div {
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+
+  align-items: center;
+}
+
+.dropdown-item {
+  text-align: center;
+ font-size: small;
+  transition: background 300ms, color 300ms, scale 300ms;
+}
+.dropdown-item:hover {
+  background-color: #393737;
+ border-radius: 0 0 5px 5px;
+}
+
+
+/* 
+for large screens toggle  on hover  */
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.dropdown:hover  .sort-container button{
+   border-radius: 5px 0 0 0;
+}
+
+/* 
+for small screens toggling on click */
+.dropdown-content.show {
+  opacity: 1;
+  transform: translateY(0);
+ 
+}
+.dropdown.show .sort-container button{
+border-radius: 5px 0 0 0 ;
+ 
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
+
+}
