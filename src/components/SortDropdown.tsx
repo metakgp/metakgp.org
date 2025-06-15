@@ -34,7 +34,7 @@ const SortDropdown: React.FC<SortDropdownProps> = ({
      </div>
      
     
-    <div className={`dropdown-content ${showMenu ? "show" : ""}`}>
+    <div className={`dropdown-content ${showMenu ? "show" : "hidden"}`}>
         <div className={`dropdown-item ${"name" === sortField ? "selected" : ""}`} onClick={() => handleSortField("name")}>
           {" "}
        
