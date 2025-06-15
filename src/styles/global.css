@@ -6,7 +6,7 @@ body,
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  /* background: #191919; */
+  /* background: #2f2f2f69; */
   background: linear-gradient(90deg, #28313b, #485461);
   /* background: linear-gradient(90deg, #2c3e50, #000000); */
   animation: gradient_anim 23s ease infinte;
@@ -38,15 +38,15 @@ code {
 
 
 a:not(.nav-element):not(.active-nav-element):not(.slack-link):not(.metakgp-logo-link):not(.no-highlight) {
-  color: #00FFFF;
+  color: #93aff1;
   text-decoration: none;
 }
 
 a:hover:not(.nav-element):not(.active-nav-element):not(.slack-link):not(.metakgp-logo-link):not(.no-highlight) {
-  color: #00BFFF;
+  color: #5fb49c;
   text-decoration: underline;
 }
 
 a:visited:not(.nav-element):not(.active-nav-element):not(.slack-link):not(.metakgp-logo-link):not(.no-highlight) {
-  color: #FF00FF;
+  color: #e75a7c;
 }

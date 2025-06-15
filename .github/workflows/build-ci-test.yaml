@@ -1,5 +1,7 @@
 name: Integration Test (Build)
 
+# TODO: add linter
+
 on:
   pull_request:
     types:

@@ -69,4 +69,10 @@
   font-weight: 700;
   text-decoration: none;
   text-align: center;
+  transition: background 300ms, color 300ms;
+}
+
+.featured-button:hover {
+  color: #2f2f2f;
+  background-color: #fff;
 }

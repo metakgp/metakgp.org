@@ -3,6 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  max-width: 650px;
 }
 
 .image-container figcaption {
@@ -13,8 +15,36 @@
 
 .metakgp-image {
   width: 100%;
+  border-radius: 0.5rem;
 }
 
 .vikrant-quote {
   font-size: 1.3rem;
+}
+
+.about-top-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.about-bottom-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (max-width:1480px) {
+
+  .about-top-container,
+  .about-bottom-container {
+    flex-direction: column;
+  }
+
+  .image-container {
+    max-width: 100%;
+  }
 }

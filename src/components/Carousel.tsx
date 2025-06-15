@@ -14,12 +14,12 @@ const Carousel = (props: { children: React.ReactNode[], ref: any, asNavFor: any 
   };
   return (
     <Slider {...settings} className="carousel-container" asNavFor={props.asNavFor} responsive={[{
-      breakpoint: 480,
+      breakpoint: 990,
       settings: {
         slidesToShow: 1,
       }
     }, {
-      breakpoint: 918,
+      breakpoint: 1480,
       settings: {
         slidesToShow: 2,
       }
