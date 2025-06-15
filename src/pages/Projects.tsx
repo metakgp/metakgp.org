@@ -4,6 +4,7 @@ import "../styles/pages/Projects.css";
 import { REPO_DATA_TYPE } from "../utils/types";
 import RepoData from '../data/repo_data.json';
 import SortDropdown from "../components/SortDropdown";
+import PaginatedCardGrid from "../sections/CardGrid";
 const Projects = () => {
   const repoList: REPO_DATA_TYPE[] = RepoData as REPO_DATA_TYPE[]
   const [sortField, setSortField] = useState("activity");
@@ -99,7 +100,7 @@ const Projects = () => {
 
 
       </div>
-      <CardGrid repos={FilteredRepos} displayMode="all" />
+      <PaginatedCardGrid repos={FilteredRepos} displayMode="all" />
     </div>
   )
 }
