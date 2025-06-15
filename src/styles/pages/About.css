@@ -1,0 +1,20 @@
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container figcaption {
+  text-align: center;
+  font-style: italic;
+  width: 75%;
+}
+
+.metakgp-image {
+  width: 80%;
+}
+
+.vikrant-quote {
+  font-size: 1.3rem;
+}

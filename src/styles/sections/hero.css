@@ -74,7 +74,8 @@
   flex-direction: row;
 }
 
-.contribute-button, .project-button, .featured-button {
+.contribute-button,
+.project-button {
   width: 100%;
   padding: 0 0.75rem;
   border-radius: 50px;
@@ -90,7 +91,8 @@
   text-align: center;
 }
 
-.contribute-button:hover, .project-button:hover {
+.contribute-button:hover,
+.project-button:hover {
   color: #2f2f2f;
   background-color: #fff;
 }
@@ -100,7 +102,7 @@
 }
 
 .contribute-button {
-    border-radius: 0 50px 50px 0;
+  border-radius: 0 50px 50px 0;
 }
 
 .slack-link {
@@ -132,6 +134,10 @@
   }
 
   .hero-header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     padding: 0;
     white-space: normal;
@@ -152,6 +158,7 @@
   }
 
   .hero-button-container {
+    width: 100%;
     gap: 0.4rem;
     padding: 0;
   }

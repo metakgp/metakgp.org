@@ -8,6 +8,14 @@
         "homepage": "https://beta.metakgp.org/"
     },
     {
+        "name": "hermes",
+        "description": "WIP DC++ replacement for IIT Kharagpur",
+        "stars": 5,
+        "forks": 1,
+        "language": "Svelte",
+        "homepage": null
+    },
+    {
         "name": "iqps-go",
         "description": "Search for question papers when the library can't save you.",
         "stars": 24,
@@ -229,14 +237,6 @@
         "stars": 11,
         "forks": 0,
         "language": "JavaScript",
-        "homepage": ""
-    },
-    {
-        "name": "hermes",
-        "description": "The messenger of the gods himself delivering important notices from various IITKGP noticeboards",
-        "stars": 6,
-        "forks": 2,
-        "language": "Python",
         "homepage": ""
     },
     {

@@ -23,7 +23,7 @@ export const HeroSection = () => {
               </Link>
             </div>
             <a href={"https://slack.metakgp.org"} className="slack-link">
-              <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffreepnglogo.com%2Fimages%2Fall_img%2F1707837044slack-icon-png.png&f=1&nofb=1&ipt=295e07f40f4184171119bf2ef9d839481d89cf7773ed9ffb63c4a8a987da6489" width={16} height={16} />
+              <img src="https://freepnglogo.com/images/all_img/1707837044slack-icon-png.png" width={16} height={16} />
               <p>Contact</p>
             </a>
           </div>

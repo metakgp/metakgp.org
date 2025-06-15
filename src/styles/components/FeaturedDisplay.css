@@ -55,3 +55,18 @@
   color: white;
   text-decoration: none;
 }
+
+.featured-button {
+  width: 50%;
+  padding: 0 0.25rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff66;
+  background: #2f2f2f;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+}
