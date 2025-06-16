@@ -8,6 +8,22 @@
         "homepage": "https://beta.metakgp.org/"
     },
     {
+        "name": "heimdall",
+        "description": "Single source of authorising KGPians for all of metaKGP services",
+        "stars": 4,
+        "forks": 3,
+        "language": "Go",
+        "homepage": "https://heimdall.metakgp.org/"
+    },
+    {
+        "name": "metakgp-wiki",
+        "description": "Dockerized source for the metakgp wiki.",
+        "stars": 23,
+        "forks": 20,
+        "language": "Python",
+        "homepage": "https://wiki.metakgp.org"
+    },
+    {
         "name": "hermes",
         "description": "WIP DC++ replacement for IIT Kharagpur",
         "stars": 5,
@@ -38,14 +54,6 @@
         "forks": 8,
         "language": "JavaScript",
         "homepage": "https://travel.metakgp.org"
-    },
-    {
-        "name": "metakgp-wiki",
-        "description": "Dockerized source for the metakgp wiki.",
-        "stars": 23,
-        "forks": 20,
-        "language": "Python",
-        "homepage": "https://wiki.metakgp.org"
     },
     {
         "name": "metaploy",
@@ -126,14 +134,6 @@
         "forks": 4,
         "language": "Python",
         "homepage": "https://kronos.streamlit.app"
-    },
-    {
-        "name": "heimdall",
-        "description": "Single source of authorising KGPians for all of metaKGP services",
-        "stars": 4,
-        "forks": 3,
-        "language": "Go",
-        "homepage": "https://heimdall.metakgp.org/"
     },
     {
         "name": "iitkgp-erp-login-go",
