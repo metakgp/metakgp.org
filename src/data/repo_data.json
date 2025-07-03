@@ -1,5 +1,13 @@
 [
     {
+        "name": "events-board",
+        "description": "[WIP] A noticeboard that lists upcoming and previous society events.",
+        "stars": 1,
+        "forks": 1,
+        "language": "TypeScript",
+        "homepage": ""
+    },
+    {
         "name": "hermes",
         "description": "WIP DC++ replacement for IIT Kharagpur",
         "stars": 6,
@@ -46,14 +54,6 @@
         "forks": 13,
         "language": "TypeScript",
         "homepage": "https://qp.metakgp.org"
-    },
-    {
-        "name": "events-board",
-        "description": "[WIP] A noticeboard that lists upcoming and previous society events.",
-        "stars": 1,
-        "forks": 0,
-        "language": "JavaScript",
-        "homepage": ""
     },
     {
         "name": "travel-buddy",
