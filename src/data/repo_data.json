@@ -1,5 +1,21 @@
 [
     {
+        "name": "mftp",
+        "description": "CDC noticeboard scraper",
+        "stars": 39,
+        "forks": 44,
+        "language": "Python",
+        "homepage": ""
+    },
+    {
+        "name": "iitkgp-erp-auto-login",
+        "description": "[Browser Extension] Auto Login Utility for students' ERP at IIT Kharagpur :octocat:",
+        "stars": 4,
+        "forks": 2,
+        "language": "TypeScript",
+        "homepage": ""
+    },
+    {
         "name": "metakgp.org",
         "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki. (To be deployed at metakg.org)",
         "stars": 3,
@@ -14,14 +30,6 @@
         "forks": 3,
         "language": "Go",
         "homepage": "https://naarad.metakgp.org"
-    },
-    {
-        "name": "mftp",
-        "description": "CDC noticeboard scraper",
-        "stars": 38,
-        "forks": 44,
-        "language": "Python",
-        "homepage": ""
     },
     {
         "name": "iitkgp-erp-login-pypi",
@@ -198,14 +206,6 @@
         "forks": 0,
         "language": "Rust",
         "homepage": "https://archive.metakgp.org/"
-    },
-    {
-        "name": "iitkgp-erp-auto-login",
-        "description": "[Browser Extension] Auto Login Utility for students' ERP at IIT Kharagpur :octocat:",
-        "stars": 3,
-        "forks": 1,
-        "language": "TypeScript",
-        "homepage": ""
     },
     {
         "name": "gyft2",
