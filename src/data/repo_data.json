@@ -1,5 +1,21 @@
 [
     {
+        "name": "events-board",
+        "description": "[WIP] A noticeboard that lists upcoming and previous society events.",
+        "stars": 1,
+        "forks": 1,
+        "language": "TypeScript",
+        "homepage": ""
+    },
+    {
+        "name": "metakgp.org",
+        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki. (To be deployed at metakg.org)",
+        "stars": 3,
+        "forks": 4,
+        "language": "TypeScript",
+        "homepage": "https://beta.metakgp.org/"
+    },
+    {
         "name": "mftp",
         "description": "CDC noticeboard scraper",
         "stars": 39,
@@ -16,14 +32,6 @@
         "homepage": ""
     },
     {
-        "name": "metakgp.org",
-        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki. (To be deployed at metakg.org)",
-        "stars": 3,
-        "forks": 4,
-        "language": "TypeScript",
-        "homepage": "https://beta.metakgp.org/"
-    },
-    {
         "name": "naarad",
         "description": "Self-hosted ntfy.sh server for metakgp",
         "stars": 15,
@@ -38,14 +46,6 @@
         "forks": 7,
         "language": "Python",
         "homepage": "https://pypi.org/project/iitkgp-erp-login/"
-    },
-    {
-        "name": "events-board",
-        "description": "[WIP] A noticeboard that lists upcoming and previous society events.",
-        "stars": 1,
-        "forks": 1,
-        "language": "TypeScript",
-        "homepage": ""
     },
     {
         "name": "hermes",
