@@ -2,7 +2,7 @@
     {
         "name": "events-board",
         "description": "[WIP] A noticeboard that lists upcoming and previous society events.",
-        "stars": 1,
+        "stars": 2,
         "forks": 1,
         "language": "TypeScript",
         "homepage": ""
