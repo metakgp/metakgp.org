@@ -1,5 +1,21 @@
 [
     {
+        "name": "mftp",
+        "description": "CDC noticeboard scraper",
+        "stars": 40,
+        "forks": 43,
+        "language": "Python",
+        "homepage": ""
+    },
+    {
+        "name": "naarad",
+        "description": "Self-hosted ntfy.sh server for metakgp",
+        "stars": 16,
+        "forks": 3,
+        "language": "Go",
+        "homepage": "https://naarad.metakgp.org"
+    },
+    {
         "name": "events-board",
         "description": "[WIP] A noticeboard that lists upcoming and previous society events.",
         "stars": 2,
@@ -16,28 +32,12 @@
         "homepage": "https://beta.metakgp.org/"
     },
     {
-        "name": "mftp",
-        "description": "CDC noticeboard scraper",
-        "stars": 39,
-        "forks": 44,
-        "language": "Python",
-        "homepage": ""
-    },
-    {
         "name": "iitkgp-erp-auto-login",
         "description": "[Browser Extension] Auto Login Utility for students' ERP at IIT Kharagpur :octocat:",
         "stars": 4,
         "forks": 2,
         "language": "TypeScript",
         "homepage": ""
-    },
-    {
-        "name": "naarad",
-        "description": "Self-hosted ntfy.sh server for metakgp",
-        "stars": 15,
-        "forks": 3,
-        "language": "Go",
-        "homepage": "https://naarad.metakgp.org"
     },
     {
         "name": "iitkgp-erp-login-pypi",
