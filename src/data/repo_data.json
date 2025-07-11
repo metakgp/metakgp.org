@@ -1,5 +1,21 @@
 [
     {
+        "name": "iqps-go",
+        "description": "Search for question papers when the library can't save you.",
+        "stars": 24,
+        "forks": 13,
+        "language": "TypeScript",
+        "homepage": "https://qp.metakgp.org"
+    },
+    {
+        "name": "metakgp.org",
+        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki. (To be deployed at metakg.org)",
+        "stars": 3,
+        "forks": 4,
+        "language": "TypeScript",
+        "homepage": "https://beta.metakgp.org/"
+    },
+    {
         "name": "mftp",
         "description": "CDC noticeboard scraper",
         "stars": 40,
@@ -22,14 +38,6 @@
         "forks": 1,
         "language": "TypeScript",
         "homepage": ""
-    },
-    {
-        "name": "metakgp.org",
-        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki. (To be deployed at metakg.org)",
-        "stars": 3,
-        "forks": 4,
-        "language": "TypeScript",
-        "homepage": "https://beta.metakgp.org/"
     },
     {
         "name": "iitkgp-erp-auto-login",
@@ -78,14 +86,6 @@
         "forks": 20,
         "language": "Python",
         "homepage": "https://wiki.metakgp.org"
-    },
-    {
-        "name": "iqps-go",
-        "description": "Search for question papers when the library can't save you.",
-        "stars": 24,
-        "forks": 13,
-        "language": "TypeScript",
-        "homepage": "https://qp.metakgp.org"
     },
     {
         "name": "travel-buddy",
