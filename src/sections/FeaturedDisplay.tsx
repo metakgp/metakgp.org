@@ -66,11 +66,11 @@ const FeaturedSection = () => {
         ))}
       </Slider>
 
-      <Carousel ref={nav2Ref}>
+      {/* <Carousel ref={nav2Ref}>
         {featuredRepos.map((repo, index) => (
           <RepoCard repoData={repo.repo} key={index} />
         ))}
-      </Carousel>
+      </Carousel> */}
     </section>
 
   )
