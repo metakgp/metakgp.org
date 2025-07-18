@@ -60,7 +60,7 @@ function DCPage() {
           We will be providing a brief summary here:
         </p>
         <p className="description">
-          <ol>
+          <ol className="ordered-sections">
             <li>
               <h4 className="section-subheader-left">Install a client</h4>
               <p className="description">

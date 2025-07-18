@@ -87,7 +87,7 @@
   margin: 1.5rem 0;
 }
 
-.section-subheader-left {
+.section-subheader-left, ol.ordered-sections li::marker {
   /* Make Sure parent width is 100%*/
   width: 100%;
   font-family: "Titillium Web", sans-serif;
