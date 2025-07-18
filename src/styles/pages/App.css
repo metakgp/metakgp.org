@@ -67,8 +67,9 @@
   font-family: "Nanum Gothic Coding", monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-wrap: wrap;
+  line-height: 1.1;
 }
 
 .topic-section {

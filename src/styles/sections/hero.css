@@ -15,7 +15,7 @@
   font-weight: 900;
   text-align: left;
   font-family: "Titillium Web", sans-serif;
-  line-height: 0.01;
+  line-height: 0.1;
   font-size: clamp(4rem, 5vw, 6rem);
 }
 
@@ -30,7 +30,7 @@
   font-family: "Space Mono", monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-align: left;
   color: #fcfcfcbf;
   text-wrap: wrap;
