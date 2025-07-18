@@ -1,1 +1,274 @@
-[]
+[
+    {
+        "name": "metakgp-wiki",
+        "description": "Dockerized source for the metakgp wiki.",
+        "stars": 23,
+        "forks": 20,
+        "language": "Python",
+        "homepage": "https://wiki.metakgp.org"
+    },
+    {
+        "name": "gyft",
+        "description": "Get Your Freaking Timetable",
+        "stars": 57,
+        "forks": 64,
+        "language": "Python",
+        "homepage": "https://gyft.metakgp.org"
+    },
+    {
+        "name": "metakgp.org",
+        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki. (To be deployed at metakg.org)",
+        "stars": 3,
+        "forks": 4,
+        "language": "TypeScript",
+        "homepage": "https://beta.metakgp.org/"
+    },
+    {
+        "name": "wimp",
+        "description": "Where is my Prof?",
+        "stars": 48,
+        "forks": 26,
+        "language": "Python",
+        "homepage": "https://wimp.metakgp.org"
+    },
+    {
+        "name": "iqps-go",
+        "description": "Search for question papers when the library can't save you.",
+        "stars": 24,
+        "forks": 13,
+        "language": "TypeScript",
+        "homepage": "https://qp.metakgp.org"
+    },
+    {
+        "name": "mftp",
+        "description": "CDC noticeboard scraper",
+        "stars": 40,
+        "forks": 43,
+        "language": "Python",
+        "homepage": ""
+    },
+    {
+        "name": "naarad",
+        "description": "Self-hosted ntfy.sh server for metakgp",
+        "stars": 16,
+        "forks": 3,
+        "language": "Go",
+        "homepage": "https://naarad.metakgp.org"
+    },
+    {
+        "name": "events-board",
+        "description": "[WIP] A noticeboard that lists upcoming and previous society events.",
+        "stars": 2,
+        "forks": 1,
+        "language": "TypeScript",
+        "homepage": ""
+    },
+    {
+        "name": "iitkgp-erp-auto-login",
+        "description": "[Browser Extension] Auto Login Utility for students' ERP at IIT Kharagpur :octocat:",
+        "stars": 4,
+        "forks": 2,
+        "language": "TypeScript",
+        "homepage": ""
+    },
+    {
+        "name": "iitkgp-erp-login-pypi",
+        "description": "The only python package you will ever need to implement login process in ERP for IIT-KGP",
+        "stars": 28,
+        "forks": 7,
+        "language": "Python",
+        "homepage": "https://pypi.org/project/iitkgp-erp-login/"
+    },
+    {
+        "name": "hermes",
+        "description": "WIP DC++ replacement for IIT Kharagpur",
+        "stars": 6,
+        "forks": 1,
+        "language": "Svelte",
+        "homepage": null
+    },
+    {
+        "name": "kronos",
+        "description": "A webapp to serve past year grade distributions of IIT KGP students, for IIT KGP students",
+        "stars": 5,
+        "forks": 4,
+        "language": "Python",
+        "homepage": "https://kronos.streamlit.app"
+    },
+    {
+        "name": "heimdall",
+        "description": "Single source of authorising KGPians for all of metaKGP services",
+        "stars": 4,
+        "forks": 3,
+        "language": "Go",
+        "homepage": "https://heimdall.metakgp.org/"
+    },
+    {
+        "name": "travel-buddy",
+        "description": "Helps find people for ridesharing.",
+        "stars": 8,
+        "forks": 8,
+        "language": "JavaScript",
+        "homepage": "https://travel.metakgp.org"
+    },
+    {
+        "name": "metaploy",
+        "description": "The metakgp nginx deployment architecture.",
+        "stars": 4,
+        "forks": 0,
+        "language": "Shell",
+        "homepage": ""
+    },
+    {
+        "name": "societytable",
+        "description": "A periodic table of the KGPian societies. Originally created by TSA.",
+        "stars": 2,
+        "forks": 6,
+        "language": "TypeScript",
+        "homepage": "https://soc.metakgp.org"
+    },
+    {
+        "name": "dob",
+        "description": "Database of Babel contains every possible bit of information required by any MetaKGP project",
+        "stars": 0,
+        "forks": 1,
+        "language": "Python",
+        "homepage": ""
+    },
+    {
+        "name": "Dynac",
+        "description": "Dynamic CV Viewer Browser Extension",
+        "stars": 9,
+        "forks": 2,
+        "language": "JavaScript",
+        "homepage": "https://sites.google.com/view/dynac-kgp-erp"
+    },
+    {
+        "name": "iitkgp-erp-login-go",
+        "description": "The only golang package you will ever need to implement login process in ERP for IIT-KGP",
+        "stars": 3,
+        "forks": 0,
+        "language": "Go",
+        "homepage": null
+    },
+    {
+        "name": "mfins",
+        "description": "Pronounced as 'muffins' | My Freakin' Internal Noticeboard Scrapper",
+        "stars": 0,
+        "forks": 1,
+        "language": "Shell",
+        "homepage": ""
+    },
+    {
+        "name": "twerp",
+        "description": "Tethering Wiki to ERP",
+        "stars": 6,
+        "forks": 4,
+        "language": "Python",
+        "homepage": ""
+    },
+    {
+        "name": "naarad-ntfy",
+        "description": "Send push notifications to your phone or desktop using PUT/POST",
+        "stars": 0,
+        "forks": 1,
+        "language": "Go",
+        "homepage": "https://naarad.metakgp.org"
+    },
+    {
+        "name": "slack-invite",
+        "description": "Slack invite for MetaKGP with a sub-domain",
+        "stars": 0,
+        "forks": 0,
+        "language": "CSS",
+        "homepage": "https://slack.metakgp.org"
+    },
+    {
+        "name": "chillzone",
+        "description": "Find a place to chill during class hours in IIT KGP",
+        "stars": 22,
+        "forks": 27,
+        "language": "HTML",
+        "homepage": "https://chill.metakgp.org"
+    },
+    {
+        "name": "gyfe",
+        "description": "Get Your Freaking Electives :)",
+        "stars": 7,
+        "forks": 9,
+        "language": "TypeScript",
+        "homepage": ""
+    },
+    {
+        "name": "slack-archive",
+        "description": "Tool to view all the messages of slack workspaces. Checkmate capitalism",
+        "stars": 1,
+        "forks": 0,
+        "language": "Rust",
+        "homepage": "https://archive.metakgp.org/"
+    },
+    {
+        "name": "gyft2",
+        "description": "Get Your Freaking Timetable REBORN , A version of metakgp/gyft that does not need password",
+        "stars": 20,
+        "forks": 9,
+        "language": "Python",
+        "homepage": "https://xypnox.github.io/gyft2/"
+    },
+    {
+        "name": "SlackNotifications",
+        "description": "Slack Mediawiki - Integrate Slack with Mediawiki. Sends notifications into your Slack room when certain actions are being performed in your wiki (for example when article is being edited, new article was added...)",
+        "stars": 0,
+        "forks": 0,
+        "language": "PHP",
+        "homepage": "https://www.mediawiki.org/wiki/Extension:SlackNotifications"
+    },
+    {
+        "name": "metakgp.github.io",
+        "description": null,
+        "stars": 4,
+        "forks": 2,
+        "language": "HTML",
+        "homepage": "https://metakgp.github.io"
+    },
+    {
+        "name": "fERP",
+        "description": "Stands for Feedback-ERP. Automation extension for IIT KGP ERP feedback",
+        "stars": 11,
+        "forks": 0,
+        "language": "JavaScript",
+        "homepage": ""
+    },
+    {
+        "name": "kakashi",
+        "description": "The copy ninja",
+        "stars": 4,
+        "forks": 3,
+        "language": "Python",
+        "homepage": null
+    },
+    {
+        "name": "chitragupta",
+        "description": null,
+        "stars": 6,
+        "forks": 1,
+        "language": "Python",
+        "homepage": null
+    },
+    {
+        "name": "scripts",
+        "description": "Scripts used in generation and maintenance of metaKGP content",
+        "stars": 4,
+        "forks": 7,
+        "language": "Python",
+        "homepage": null
+    },
+    {
+        "name": "metacandy",
+        "description": "A nice flat, minimal skin for Metakgp. Forked and modified from the BRLCAD theme. ",
+        "stars": 3,
+        "forks": 1,
+        "language": "CSS",
+        "homepage": ""
+    }
+]

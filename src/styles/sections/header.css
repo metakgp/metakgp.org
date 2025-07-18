@@ -21,6 +21,7 @@
 .nav-bar {
   float: right;
   display: flex;
+  gap: 0.3rem;
   padding: 3px;
   border-style: solid;
   border-width: 2px;
