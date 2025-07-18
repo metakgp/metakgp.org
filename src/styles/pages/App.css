@@ -44,7 +44,7 @@
 }
 
 .page-container {
-  margin: 50px 20%;
+  margin: 50px 18%;
   /* width: 100%; */
   text-align: left;
   display: flex;
@@ -54,7 +54,7 @@
 }
 
 .content-page-container {
-  margin: 50px 30%;
+  margin: 50px 18%;
   /* width: 100%; */
   text-align: left;
   display: flex;
