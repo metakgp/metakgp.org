@@ -16,14 +16,7 @@ interface featured_json {
 }
 
 const FeaturedSection = () => {
-
-  const [nav1, setNav1] = useState<Slider | null>(null);
-  let nav1Ref = useRef<Slider>(null);
   let nav2Ref = useRef<Slider>(null);
-
-  useEffect(() => {
-    setNav1(nav1Ref.current);
-  }, []);
 
   const Repos: REPO_DATA_TYPE[] = RepoData as REPO_DATA_TYPE[];
 
@@ -50,7 +43,7 @@ const FeaturedSection = () => {
   return (
     <section className="topic-section">
       <h2 className="section-header-left">Featured Projects</h2>
-      <Slider {...display_settings} ref={nav1Ref}>
+      <Slider {...display_settings}>
         {featuredRepos.map((featuredRepo, index) => (
           <div className='featured-display' key={index}>
             <div className='featured-top'>
@@ -72,7 +65,8 @@ const FeaturedSection = () => {
           </div>
         ))}
       </Slider>
-      <Carousel ref={nav2Ref} asNavFor={nav1}>
+
+      <Carousel ref={nav2Ref}>
         {featuredRepos.map((repo, index) => (
           <RepoCard repoData={repo.repo} key={index} />
         ))}

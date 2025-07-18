@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import "../styles/components/Carousel.css"
 
-const Carousel = (props: { children: React.ReactNode[], ref: any, asNavFor: any }) => {
+const Carousel = (props: { children: React.ReactNode[], ref: any, asNavFor?: any }) => {
   var settings = {
     dots: true,
     infinite: true,
