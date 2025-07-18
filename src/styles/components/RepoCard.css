@@ -6,13 +6,18 @@
   justify-content: center;
   align-items: center;
   background-color: #2f2f2f;
-  border: 1px solid #222;
+  /* border: 1px solid #222; */
   border-radius: 0.375rem;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
   color: #f3f3f3;
   padding: 1rem;
   width: 350px;
   text-align: left;
+}
+
+.gh-card-container:hover {
+  text-decoration: none !important;
+  background-color: hsl(0, 0%, 20%);
 }
 
 .gh-card-header {
