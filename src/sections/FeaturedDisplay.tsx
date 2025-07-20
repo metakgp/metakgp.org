@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom"
-import Carousel from "../components/Carousel"
 import { FEATURED_REPO, REPO_DATA_TYPE } from "../utils/types";
 import FeaturedData from "../data/featured_data.json";
 import RepoData from "../data/repo_data.json";
-import RepoCard from "../components/GithubCard";
 import "../styles/components/FeaturedDisplay.css"
 import "../styles/components/Carousel.css";
-import { useEffect, useRef, useState } from "react";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
 interface featured_json {
   screenshot_img: string;
@@ -16,8 +15,6 @@ interface featured_json {
 }
 
 const FeaturedSection = () => {
-  let nav2Ref = useRef<Slider>(null);
-
   const Repos: REPO_DATA_TYPE[] = RepoData as REPO_DATA_TYPE[];
 
   const featuredReposList: featured_json[] = FeaturedData as featured_json[];
@@ -66,11 +63,11 @@ const FeaturedSection = () => {
         ))}
       </Slider>
 
-      <Carousel ref={nav2Ref}>
+      {/* <Carousel>
         {featuredRepos.map((repo, index) => (
           <RepoCard repoData={repo.repo} key={index} />
         ))}
-      </Carousel>
+      </Carousel> */}
     </section>
 
   )
