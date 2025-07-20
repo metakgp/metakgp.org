@@ -7,7 +7,7 @@ import SortDropdown from "../components/SortDropdown";
 import PaginatedCardGrid from "../sections/CardGrid";
 const Projects = () => {
   const repoList: REPO_DATA_TYPE[] = RepoData as REPO_DATA_TYPE[]
-  const [sortField, setSortField] = useState("activity");
+  const [sortField, setSortField] = useState("stars");
   const [sortType, setSortType] = useState("desc")
   const languages = [...new Set(repoList.map(repo => repo.language))];
   const [selectedLanguage, setSelectedLanguage] = useState<string[]>([]);
@@ -15,7 +15,7 @@ const Projects = () => {
 
 
   //sorting based on STARS ,FORKS , NAME
-  // and Also filtered by Language 
+  // and Also filtered by Language
   useEffect(() => {
     let result = repoList.filter((repo) =>
       selectedLanguage.length === 0 || selectedLanguage.includes(repo.language)
@@ -97,7 +97,6 @@ const Projects = () => {
           sortField={sortField}
           sortType={sortType}
         />
-
 
       </div>
       <PaginatedCardGrid repos={FilteredRepos} displayMode="all" />
