@@ -26,18 +26,18 @@ function About() {
               </em></strong>
               <br />
               <br />
-              - <a href='https://github.com/amrav'>Vikrant Varma</a>, MetaKGP co-founder
+              - <a href='https://github.com/amrav'>Vikrant Varma</a>, metaKGP co-founder
             </p>
 
             <p className="description">
-              Metakgp is an <strong>open, student-driven</strong> community at IIT Kharagpur dedicated to improving campus life by sharing knowledge and creating innovative projects. Students from all walks of life come together to <strong>document experiences, build tools, and create resources</strong> that benefit everyone at MetaKGP.
+              metaKGP is an <strong>open, student-driven</strong> community at IIT Kharagpur dedicated to improving campus life by sharing knowledge and creating innovative projects. Students from all walks of life come together to <strong>document experiences, build tools, and create resources</strong> that benefit everyone at metaKGP.
             </p>
           </div>
 
           <div className='image-container'>
-            <img src={GroupPicture} className='metakgp-image' alt='metakgp group picture' />
+            <img src={GroupPicture} className='metakgp-image' alt='metaKGP group picture' />
             <figcaption>
-              A group picture of some active metakgp maintainers
+              A group picture of some active metaKGP maintainers
             </figcaption>
           </div>
         </div>
@@ -45,10 +45,10 @@ function About() {
         <div className='about-bottom-container'>
           <div className='about-bottom-right'>
             <p className='description'>
-              Metakgp hosts <strong>Metasprints</strong> — focused, collaborative sessions where members come together to brainstorm, develop, and enhance projects. These events are a great way for anyone, regardless of experience, to get involved and make a real impact.
+              metaKGP hosts <strong>Metasprints</strong> — focused, collaborative sessions where members come together to brainstorm, develop, and enhance projects. These events are a great way for anyone, regardless of experience, to get involved and make a real impact.
             </p>
             <p className='description'>
-              If you’re passionate about contributing, learning, or simply making campus life better, join Metakgp and help shape a more open and supportive IIT Kharagpur community!
+              If you’re passionate about contributing, learning, or simply making campus life better, join metaKGP and help shape a more open and supportive IIT Kharagpur community!
             </p>
           </div>
 
@@ -68,10 +68,10 @@ function About() {
               <a href='https://wiki.metakgp.org/w/Metakgp:About'>https://wiki.metakgp.org/w/Metakgp:About</a>
             </li>
             <li>
-              <a href='https://wiki.metakgp.org/w/User:Hargup/Why_metakgp%3F'>Why MetaKGP: by Harsh Gupta</a>
+              <a href='https://wiki.metakgp.org/w/User:Hargup/Why_metakgp%3F'>Why metaKGP: by Harsh Gupta</a>
             </li>
             <li>
-              <a href='https://wiki.metakgp.org/w/User:Amrav/Why_metakgp%3F'>Why MetaKGP: by Vikrant Varma</a>
+              <a href='https://wiki.metakgp.org/w/User:Amrav/Why_metakgp%3F'>Why metaKGP: by Vikrant Varma</a>
             </li>
           </ul>
         </p>
