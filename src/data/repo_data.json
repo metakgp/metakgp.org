@@ -1,9 +1,17 @@
 [
     {
+        "name": "hermes",
+        "description": "WIP DC++ replacement for IIT Kharagpur",
+        "stars": 8,
+        "forks": 2,
+        "language": "Svelte",
+        "homepage": null
+    },
+    {
         "name": "metakgp.org",
         "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
         "stars": 3,
-        "forks": 4,
+        "forks": 5,
         "language": "TypeScript",
         "homepage": "http://metakgp.org/"
     },
@@ -86,14 +94,6 @@
         "forks": 7,
         "language": "Python",
         "homepage": "https://pypi.org/project/iitkgp-erp-login/"
-    },
-    {
-        "name": "hermes",
-        "description": "WIP DC++ replacement for IIT Kharagpur",
-        "stars": 6,
-        "forks": 1,
-        "language": "Svelte",
-        "homepage": null
     },
     {
         "name": "kronos",
