@@ -94,7 +94,7 @@ const ContributePage = () => {
               <a href="https://goodfirstissue.dev/">Good First Issues</a>
             </li>
             <li>
-              <a href="https://github.com/orgs/metakgp/projects/4">MetaKGP Dreams: some issues to work on in MetaKGP</a>
+              <a href="https://github.com/orgs/metakgp/projects/4">metaKGP Dreams: some issues to work on in metaKGP</a>
             </li>
           </ul>
         </p>
