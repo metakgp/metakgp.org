@@ -1,11 +1,11 @@
 [
     {
-        "name": "hermes",
-        "description": "WIP DC++ replacement for IIT Kharagpur",
-        "stars": 8,
-        "forks": 2,
-        "language": "Svelte",
-        "homepage": null
+        "name": "iqps-go",
+        "description": "Search for question papers when the library can't save you.",
+        "stars": 24,
+        "forks": 13,
+        "language": "TypeScript",
+        "homepage": "https://qp.metakgp.org"
     },
     {
         "name": "metakgp.org",
@@ -14,6 +14,14 @@
         "forks": 5,
         "language": "TypeScript",
         "homepage": "http://metakgp.org/"
+    },
+    {
+        "name": "hermes",
+        "description": "WIP DC++ replacement for IIT Kharagpur",
+        "stars": 8,
+        "forks": 2,
+        "language": "Svelte",
+        "homepage": null
     },
     {
         "name": "gyft",
@@ -46,14 +54,6 @@
         "forks": 26,
         "language": "Python",
         "homepage": "https://wimp.metakgp.org"
-    },
-    {
-        "name": "iqps-go",
-        "description": "Search for question papers when the library can't save you.",
-        "stars": 24,
-        "forks": 13,
-        "language": "TypeScript",
-        "homepage": "https://qp.metakgp.org"
     },
     {
         "name": "mftp",
