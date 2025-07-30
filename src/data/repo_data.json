@@ -1,11 +1,11 @@
 [
     {
-        "name": "iqps-go",
-        "description": "Search for question papers when the library can't save you.",
-        "stars": 24,
-        "forks": 13,
-        "language": "TypeScript",
-        "homepage": "https://qp.metakgp.org"
+        "name": "naarad-ntfy",
+        "description": "Send push notifications to your phone or desktop using PUT/POST",
+        "stars": 0,
+        "forks": 2,
+        "language": "Go",
+        "homepage": "https://naarad.metakgp.org"
     },
     {
         "name": "metakgp.org",
@@ -14,6 +14,14 @@
         "forks": 5,
         "language": "TypeScript",
         "homepage": "http://metakgp.org/"
+    },
+    {
+        "name": "iqps-go",
+        "description": "Search for question papers when the library can't save you.",
+        "stars": 24,
+        "forks": 13,
+        "language": "TypeScript",
+        "homepage": "https://qp.metakgp.org"
     },
     {
         "name": "hermes",
@@ -174,14 +182,6 @@
         "forks": 4,
         "language": "Python",
         "homepage": ""
-    },
-    {
-        "name": "naarad-ntfy",
-        "description": "Send push notifications to your phone or desktop using PUT/POST",
-        "stars": 0,
-        "forks": 1,
-        "language": "Go",
-        "homepage": "https://naarad.metakgp.org"
     },
     {
         "name": "slack-invite",
