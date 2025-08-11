@@ -1,5 +1,13 @@
 [
     {
+        "name": "events-board",
+        "description": "[WIP] A noticeboard that lists upcoming and previous society events.",
+        "stars": 2,
+        "forks": 1,
+        "language": "TypeScript",
+        "homepage": ""
+    },
+    {
         "name": "metakgp.org",
         "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
         "stars": 3,
@@ -19,7 +27,7 @@
         "name": "chillzone",
         "description": "Find a place to chill during class hours in IIT KGP",
         "stars": 22,
-        "forks": 28,
+        "forks": 27,
         "language": "HTML",
         "homepage": "https://chill.metakgp.org"
     },
@@ -86,14 +94,6 @@
         "forks": 3,
         "language": "Go",
         "homepage": "https://naarad.metakgp.org"
-    },
-    {
-        "name": "events-board",
-        "description": "[WIP] A noticeboard that lists upcoming and previous society events.",
-        "stars": 2,
-        "forks": 1,
-        "language": "TypeScript",
-        "homepage": ""
     },
     {
         "name": "iitkgp-erp-auto-login",
