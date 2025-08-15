@@ -1,5 +1,21 @@
 [
     {
+        "name": "mftp",
+        "description": "CDC noticeboard scraper",
+        "stars": 40,
+        "forks": 44,
+        "language": "Python",
+        "homepage": ""
+    },
+    {
+        "name": "iitkgp-erp-login-rs",
+        "description": "ERP login package in Rust cuz why not. It is also blazingly fast !\ud83d\ude80",
+        "stars": 0,
+        "forks": 0,
+        "language": "Rust",
+        "homepage": null
+    },
+    {
         "name": "events-board",
         "description": "[WIP] A noticeboard that lists upcoming and previous society events.",
         "stars": 2,
@@ -78,14 +94,6 @@
         "forks": 26,
         "language": "Python",
         "homepage": "https://wimp.metakgp.org"
-    },
-    {
-        "name": "mftp",
-        "description": "CDC noticeboard scraper",
-        "stars": 40,
-        "forks": 43,
-        "language": "Python",
-        "homepage": ""
     },
     {
         "name": "naarad",
