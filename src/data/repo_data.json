@@ -1,11 +1,19 @@
 [
     {
-        "name": "mftp",
-        "description": "CDC noticeboard scraper",
-        "stars": 41,
-        "forks": 44,
-        "language": "Python",
-        "homepage": ""
+        "name": "hermes",
+        "description": "WIP DC++ replacement for IIT Kharagpur",
+        "stars": 9,
+        "forks": 3,
+        "language": "Svelte",
+        "homepage": null
+    },
+    {
+        "name": "iqps-go",
+        "description": "Search for question papers when the library can't save you.",
+        "stars": 24,
+        "forks": 13,
+        "language": "TypeScript",
+        "homepage": "https://qp.metakgp.org"
     },
     {
         "name": "metakgp.org",
@@ -14,6 +22,14 @@
         "forks": 5,
         "language": "TypeScript",
         "homepage": "http://metakgp.org/"
+    },
+    {
+        "name": "mftp",
+        "description": "CDC noticeboard scraper",
+        "stars": 41,
+        "forks": 44,
+        "language": "Python",
+        "homepage": ""
     },
     {
         "name": "iitkgp-erp-login-rs",
@@ -32,14 +48,6 @@
         "homepage": ""
     },
     {
-        "name": "hermes",
-        "description": "WIP DC++ replacement for IIT Kharagpur",
-        "stars": 9,
-        "forks": 3,
-        "language": "Svelte",
-        "homepage": null
-    },
-    {
         "name": "chillzone",
         "description": "Find a place to chill during class hours in IIT KGP",
         "stars": 22,
@@ -54,14 +62,6 @@
         "forks": 2,
         "language": "Go",
         "homepage": "https://naarad.metakgp.org"
-    },
-    {
-        "name": "iqps-go",
-        "description": "Search for question papers when the library can't save you.",
-        "stars": 24,
-        "forks": 13,
-        "language": "TypeScript",
-        "homepage": "https://qp.metakgp.org"
     },
     {
         "name": "gyft",
