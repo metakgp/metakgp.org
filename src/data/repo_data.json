@@ -3,9 +3,17 @@
         "name": "iitkgp-erp-login-rs",
         "description": "ERP login package in Rust cuz why not. It is also blazingly fast !\ud83d\ude80",
         "stars": 0,
-        "forks": 0,
+        "forks": 1,
         "language": "Rust",
         "homepage": null
+    },
+    {
+        "name": "metakgp-wiki",
+        "description": "Dockerized source for the metakgp wiki.",
+        "stars": 23,
+        "forks": 20,
+        "language": "Python",
+        "homepage": "https://wiki.metakgp.org"
     },
     {
         "name": "metakgp.org",
@@ -78,14 +86,6 @@
         "forks": 3,
         "language": "CSS",
         "homepage": "https://metakgp.github.io"
-    },
-    {
-        "name": "metakgp-wiki",
-        "description": "Dockerized source for the metakgp wiki.",
-        "stars": 23,
-        "forks": 20,
-        "language": "Python",
-        "homepage": "https://wiki.metakgp.org"
     },
     {
         "name": "wimp",
