@@ -1,5 +1,13 @@
 [
     {
+        "name": "metakgp.org",
+        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
+        "stars": 3,
+        "forks": 5,
+        "language": "TypeScript",
+        "homepage": "http://metakgp.org/"
+    },
+    {
         "name": "iitkgp-erp-login-rs",
         "description": "ERP login package in Rust cuz why not. It is also blazingly fast !\ud83d\ude80",
         "stars": 0,
@@ -14,14 +22,6 @@
         "forks": 20,
         "language": "Python",
         "homepage": "https://wiki.metakgp.org"
-    },
-    {
-        "name": "metakgp.org",
-        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
-        "stars": 3,
-        "forks": 5,
-        "language": "TypeScript",
-        "homepage": "http://metakgp.org/"
     },
     {
         "name": "hermes",
