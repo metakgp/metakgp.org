@@ -1,5 +1,13 @@
 [
     {
+        "name": "cfmn",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "homepage": "https://notes.metakgp.org/"
+    },
+    {
         "name": "metakgp.org",
         "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
         "stars": 3,
@@ -147,7 +155,7 @@
         "name": "metaploy",
         "description": "The metakgp nginx deployment architecture.",
         "stars": 4,
-        "forks": 0,
+        "forks": 1,
         "language": "Shell",
         "homepage": ""
     },
