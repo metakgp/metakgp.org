@@ -1,5 +1,21 @@
 [
     {
+        "name": "iqps-go",
+        "description": "Search for question papers when the library can't save you.",
+        "stars": 24,
+        "forks": 13,
+        "language": "TypeScript",
+        "homepage": "https://qp.metakgp.org"
+    },
+    {
+        "name": "heimdall",
+        "description": "Single source of authorising KGPians for all of metaKGP services",
+        "stars": 4,
+        "forks": 3,
+        "language": "Go",
+        "homepage": "https://heimdall.metakgp.org/"
+    },
+    {
         "name": "cfmn",
         "description": null,
         "stars": 0,
@@ -38,14 +54,6 @@
         "forks": 3,
         "language": "Svelte",
         "homepage": null
-    },
-    {
-        "name": "iqps-go",
-        "description": "Search for question papers when the library can't save you.",
-        "stars": 24,
-        "forks": 13,
-        "language": "TypeScript",
-        "homepage": "https://qp.metakgp.org"
     },
     {
         "name": "mftp",
@@ -134,14 +142,6 @@
         "forks": 4,
         "language": "Python",
         "homepage": "https://kronos.streamlit.app"
-    },
-    {
-        "name": "heimdall",
-        "description": "Single source of authorising KGPians for all of metaKGP services",
-        "stars": 4,
-        "forks": 3,
-        "language": "Go",
-        "homepage": "https://heimdall.metakgp.org/"
     },
     {
         "name": "travel-buddy",
