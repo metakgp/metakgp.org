@@ -1,5 +1,13 @@
 [
     {
+        "name": "mftp",
+        "description": "CDC noticeboard scraper",
+        "stars": 41,
+        "forks": 44,
+        "language": "Python",
+        "homepage": ""
+    },
+    {
         "name": "metakgp.org",
         "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
         "stars": 3,
@@ -54,14 +62,6 @@
         "forks": 3,
         "language": "Svelte",
         "homepage": null
-    },
-    {
-        "name": "mftp",
-        "description": "CDC noticeboard scraper",
-        "stars": 41,
-        "forks": 44,
-        "language": "Python",
-        "homepage": ""
     },
     {
         "name": "events-board",
