@@ -1,11 +1,11 @@
 [
     {
-        "name": "mftp",
-        "description": "CDC noticeboard scraper",
-        "stars": 41,
-        "forks": 44,
+        "name": "gyft",
+        "description": "Get Your Freaking Timetable",
+        "stars": 58,
+        "forks": 65,
         "language": "Python",
-        "homepage": ""
+        "homepage": "https://gyft.metakgp.org"
     },
     {
         "name": "metakgp.org",
@@ -14,6 +14,14 @@
         "forks": 5,
         "language": "TypeScript",
         "homepage": "http://metakgp.org/"
+    },
+    {
+        "name": "mftp",
+        "description": "CDC noticeboard scraper",
+        "stars": 41,
+        "forks": 44,
+        "language": "Python",
+        "homepage": ""
     },
     {
         "name": "iqps-go",
@@ -86,14 +94,6 @@
         "forks": 2,
         "language": "Go",
         "homepage": "https://naarad.metakgp.org"
-    },
-    {
-        "name": "gyft",
-        "description": "Get Your Freaking Timetable",
-        "stars": 58,
-        "forks": 65,
-        "language": "Python",
-        "homepage": "https://gyft.metakgp.org"
     },
     {
         "name": "metakgp.github.io",
