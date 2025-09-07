@@ -1,19 +1,11 @@
 [
     {
-        "name": "iitkgp-erp-login-pypi",
-        "description": "The only python package you will ever need to implement login process in ERP for IIT-KGP",
-        "stars": 28,
-        "forks": 7,
+        "name": "metakgp-wiki",
+        "description": "Dockerized source for the metakgp wiki.",
+        "stars": 23,
+        "forks": 20,
         "language": "Python",
-        "homepage": "https://pypi.org/project/iitkgp-erp-login/"
-    },
-    {
-        "name": "metakgp.org",
-        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
-        "stars": 3,
-        "forks": 5,
-        "language": "TypeScript",
-        "homepage": "http://metakgp.org/"
+        "homepage": "https://wiki.metakgp.org"
     },
     {
         "name": "iqps-go",
@@ -24,20 +16,28 @@
         "homepage": "https://qp.metakgp.org"
     },
     {
+        "name": "metakgp.org",
+        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
+        "stars": 3,
+        "forks": 5,
+        "language": "TypeScript",
+        "homepage": "http://metakgp.org/"
+    },
+    {
+        "name": "iitkgp-erp-login-pypi",
+        "description": "The only python package you will ever need to implement login process in ERP for IIT-KGP",
+        "stars": 28,
+        "forks": 7,
+        "language": "Python",
+        "homepage": "https://pypi.org/project/iitkgp-erp-login/"
+    },
+    {
         "name": "cfmn",
         "description": null,
         "stars": 0,
         "forks": 0,
         "language": "TypeScript",
         "homepage": "https://notes.metakgp.org/"
-    },
-    {
-        "name": "metakgp-wiki",
-        "description": "Dockerized source for the metakgp wiki.",
-        "stars": 23,
-        "forks": 20,
-        "language": "Python",
-        "homepage": "https://wiki.metakgp.org"
     },
     {
         "name": "chillzone",
@@ -59,7 +59,7 @@
         "name": "mftp",
         "description": "CDC noticeboard scraper",
         "stars": 41,
-        "forks": 44,
+        "forks": 46,
         "language": "Python",
         "homepage": ""
     },
@@ -75,7 +75,7 @@
         "name": "iitkgp-erp-login-rs",
         "description": "ERP login package in Rust cuz why not. It is also blazingly fast !\ud83d\ude80",
         "stars": 0,
-        "forks": 1,
+        "forks": 2,
         "language": "Rust",
         "homepage": null
     },
