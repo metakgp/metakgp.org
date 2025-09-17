@@ -1,5 +1,13 @@
 [
     {
+        "name": "naarad",
+        "description": "Self-hosted ntfy.sh server for metakgp",
+        "stars": 16,
+        "forks": 3,
+        "language": "Go",
+        "homepage": "https://naarad.metakgp.org"
+    },
+    {
         "name": "metakgp.org",
         "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
         "stars": 3,
@@ -27,7 +35,7 @@
         "name": "iqps-go",
         "description": "Search for question papers when the library can't save you.",
         "stars": 24,
-        "forks": 13,
+        "forks": 14,
         "language": "TypeScript",
         "homepage": "https://qp.metakgp.org"
     },
@@ -118,14 +126,6 @@
         "forks": 26,
         "language": "Python",
         "homepage": "https://wimp.metakgp.org"
-    },
-    {
-        "name": "naarad",
-        "description": "Self-hosted ntfy.sh server for metakgp",
-        "stars": 16,
-        "forks": 3,
-        "language": "Go",
-        "homepage": "https://naarad.metakgp.org"
     },
     {
         "name": "iitkgp-erp-auto-login",
