@@ -1,11 +1,11 @@
 [
     {
-        "name": "naarad",
-        "description": "Self-hosted ntfy.sh server for metakgp",
-        "stars": 16,
+        "name": "hermes",
+        "description": "WIP DC++ replacement for IIT Kharagpur",
+        "stars": 10,
         "forks": 3,
-        "language": "Go",
-        "homepage": "https://naarad.metakgp.org"
+        "language": "Svelte",
+        "homepage": null
     },
     {
         "name": "metakgp.org",
@@ -16,12 +16,12 @@
         "homepage": "http://metakgp.org/"
     },
     {
-        "name": "hermes",
-        "description": "WIP DC++ replacement for IIT Kharagpur",
-        "stars": 10,
+        "name": "naarad",
+        "description": "Self-hosted ntfy.sh server for metakgp",
+        "stars": 16,
         "forks": 3,
-        "language": "Svelte",
-        "homepage": null
+        "language": "Go",
+        "homepage": "https://naarad.metakgp.org"
     },
     {
         "name": "metakgp-wiki",
