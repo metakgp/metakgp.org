@@ -1,11 +1,11 @@
 [
     {
-        "name": "mftp",
-        "description": "CDC noticeboard scraper",
-        "stars": 41,
-        "forks": 46,
-        "language": "Python",
-        "homepage": ""
+        "name": "iitkgp-erp-login-go",
+        "description": "The only golang package you will ever need to implement login process in ERP for IIT-KGP",
+        "stars": 3,
+        "forks": 1,
+        "language": "Go",
+        "homepage": null
     },
     {
         "name": "naarad",
@@ -14,6 +14,30 @@
         "forks": 3,
         "language": "Go",
         "homepage": "https://naarad.metakgp.org"
+    },
+    {
+        "name": "iqps-go",
+        "description": "Search for question papers when the library can't save you.",
+        "stars": 27,
+        "forks": 14,
+        "language": "TypeScript",
+        "homepage": "https://qp.metakgp.org"
+    },
+    {
+        "name": "mftp",
+        "description": "CDC noticeboard scraper",
+        "stars": 41,
+        "forks": 46,
+        "language": "Python",
+        "homepage": ""
+    },
+    {
+        "name": "metakgp.org",
+        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
+        "stars": 3,
+        "forks": 5,
+        "language": "TypeScript",
+        "homepage": "http://metakgp.org/"
     },
     {
         "name": "heimdall",
@@ -30,22 +54,6 @@
         "forks": 19,
         "language": "Python",
         "homepage": "https://wiki.metakgp.org"
-    },
-    {
-        "name": "metakgp.org",
-        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
-        "stars": 3,
-        "forks": 5,
-        "language": "TypeScript",
-        "homepage": "http://metakgp.org/"
-    },
-    {
-        "name": "iqps-go",
-        "description": "Search for question papers when the library can't save you.",
-        "stars": 26,
-        "forks": 14,
-        "language": "TypeScript",
-        "homepage": "https://qp.metakgp.org"
     },
     {
         "name": "hermes",
@@ -182,14 +190,6 @@
         "forks": 2,
         "language": "JavaScript",
         "homepage": "https://sites.google.com/view/dynac-kgp-erp"
-    },
-    {
-        "name": "iitkgp-erp-login-go",
-        "description": "The only golang package you will ever need to implement login process in ERP for IIT-KGP",
-        "stars": 3,
-        "forks": 0,
-        "language": "Go",
-        "homepage": null
     },
     {
         "name": "mfins",
