@@ -1,11 +1,11 @@
 [
     {
-        "name": "travel-buddy",
-        "description": "Helps find people for ridesharing.",
-        "stars": 8,
-        "forks": 8,
-        "language": "JavaScript",
-        "homepage": "https://travel.metakgp.org"
+        "name": "mftp",
+        "description": "CDC noticeboard scraper",
+        "stars": 41,
+        "forks": 46,
+        "language": "Python",
+        "homepage": ""
     },
     {
         "name": "metakgp.org",
@@ -14,6 +14,14 @@
         "forks": 5,
         "language": "TypeScript",
         "homepage": "http://metakgp.org/"
+    },
+    {
+        "name": "travel-buddy",
+        "description": "Helps find people for ridesharing.",
+        "stars": 8,
+        "forks": 8,
+        "language": "JavaScript",
+        "homepage": "https://travel.metakgp.org"
     },
     {
         "name": "metakgp-wiki",
@@ -46,14 +54,6 @@
         "forks": 14,
         "language": "TypeScript",
         "homepage": "https://qp.metakgp.org"
-    },
-    {
-        "name": "mftp",
-        "description": "CDC noticeboard scraper",
-        "stars": 41,
-        "forks": 46,
-        "language": "Python",
-        "homepage": ""
     },
     {
         "name": "heimdall",
