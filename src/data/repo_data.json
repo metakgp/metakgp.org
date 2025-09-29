@@ -1,10 +1,10 @@
 [
     {
-        "name": "mftp",
-        "description": "CDC noticeboard scraper",
-        "stars": 41,
-        "forks": 46,
-        "language": "Python",
+        "name": "mfins",
+        "description": "Pronounced as 'muffins' | My Freakin' Internal Noticeboard Scrapper",
+        "stars": 0,
+        "forks": 1,
+        "language": "Go",
         "homepage": ""
     },
     {
@@ -14,6 +14,14 @@
         "forks": 5,
         "language": "TypeScript",
         "homepage": "http://metakgp.org/"
+    },
+    {
+        "name": "mftp",
+        "description": "CDC noticeboard scraper",
+        "stars": 41,
+        "forks": 46,
+        "language": "Python",
+        "homepage": ""
     },
     {
         "name": "travel-buddy",
@@ -59,7 +67,7 @@
         "name": "heimdall",
         "description": "Single source of authorising KGPians for all of metaKGP services",
         "stars": 4,
-        "forks": 4,
+        "forks": 5,
         "language": "Go",
         "homepage": "https://heimdall.metakgp.org/"
     },
@@ -190,14 +198,6 @@
         "forks": 2,
         "language": "JavaScript",
         "homepage": "https://sites.google.com/view/dynac-kgp-erp"
-    },
-    {
-        "name": "mfins",
-        "description": "Pronounced as 'muffins' | My Freakin' Internal Noticeboard Scrapper",
-        "stars": 0,
-        "forks": 1,
-        "language": "Shell",
-        "homepage": ""
     },
     {
         "name": "twerp",
