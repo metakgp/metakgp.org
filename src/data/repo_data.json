@@ -1,11 +1,11 @@
 [
     {
-        "name": "mfins",
-        "description": "Pronounced as 'muffins' | My Freakin' Internal Noticeboard Scrapper",
-        "stars": 0,
-        "forks": 1,
+        "name": "naarad",
+        "description": "Self-hosted ntfy.sh server for metakgp",
+        "stars": 16,
+        "forks": 3,
         "language": "Go",
-        "homepage": ""
+        "homepage": "https://naarad.metakgp.org"
     },
     {
         "name": "metakgp.org",
@@ -14,6 +14,14 @@
         "forks": 5,
         "language": "TypeScript",
         "homepage": "http://metakgp.org/"
+    },
+    {
+        "name": "mfins",
+        "description": "Pronounced as 'muffins' | My Freakin' Internal Noticeboard Scrapper",
+        "stars": 0,
+        "forks": 1,
+        "language": "Go",
+        "homepage": ""
     },
     {
         "name": "mftp",
@@ -46,14 +54,6 @@
         "forks": 1,
         "language": "Go",
         "homepage": null
-    },
-    {
-        "name": "naarad",
-        "description": "Self-hosted ntfy.sh server for metakgp",
-        "stars": 16,
-        "forks": 3,
-        "language": "Go",
-        "homepage": "https://naarad.metakgp.org"
     },
     {
         "name": "iqps-go",
