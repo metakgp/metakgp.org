@@ -1,11 +1,19 @@
 [
     {
-        "name": "naarad",
-        "description": "Self-hosted ntfy.sh server for metakgp",
-        "stars": 16,
-        "forks": 3,
+        "name": "travel-buddy",
+        "description": "Helps find people for ridesharing.",
+        "stars": 8,
+        "forks": 8,
+        "language": "JavaScript",
+        "homepage": "https://travel.metakgp.org"
+    },
+    {
+        "name": "heimdall",
+        "description": "Single source of authorising KGPians for all of metaKGP services",
+        "stars": 4,
+        "forks": 5,
         "language": "Go",
-        "homepage": "https://naarad.metakgp.org"
+        "homepage": "https://heimdall.metakgp.org/"
     },
     {
         "name": "metakgp.org",
@@ -14,6 +22,14 @@
         "forks": 5,
         "language": "TypeScript",
         "homepage": "http://metakgp.org/"
+    },
+    {
+        "name": "naarad",
+        "description": "Self-hosted ntfy.sh server for metakgp",
+        "stars": 16,
+        "forks": 3,
+        "language": "Go",
+        "homepage": "https://naarad.metakgp.org"
     },
     {
         "name": "mfins",
@@ -27,17 +43,9 @@
         "name": "mftp",
         "description": "CDC noticeboard scraper",
         "stars": 41,
-        "forks": 46,
+        "forks": 45,
         "language": "Python",
         "homepage": ""
-    },
-    {
-        "name": "travel-buddy",
-        "description": "Helps find people for ridesharing.",
-        "stars": 8,
-        "forks": 8,
-        "language": "JavaScript",
-        "homepage": "https://travel.metakgp.org"
     },
     {
         "name": "metakgp-wiki",
@@ -62,14 +70,6 @@
         "forks": 14,
         "language": "TypeScript",
         "homepage": "https://qp.metakgp.org"
-    },
-    {
-        "name": "heimdall",
-        "description": "Single source of authorising KGPians for all of metaKGP services",
-        "stars": 4,
-        "forks": 5,
-        "language": "Go",
-        "homepage": "https://heimdall.metakgp.org/"
     },
     {
         "name": "hermes",
