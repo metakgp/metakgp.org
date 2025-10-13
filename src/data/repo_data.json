@@ -1,11 +1,11 @@
 [
     {
-        "name": "iitkgp-erp-login-rs",
-        "description": "ERP login package in Rust cuz why not. It is also blazingly fast !\ud83d\ude80",
-        "stars": 0,
-        "forks": 2,
-        "language": "Rust",
-        "homepage": null
+        "name": "iitkgp-erp-login-pypi",
+        "description": "The only python package you will ever need to implement login process in ERP for IIT-KGP",
+        "stars": 28,
+        "forks": 8,
+        "language": "Python",
+        "homepage": "https://pypi.org/project/iitkgp-erp-login/"
     },
     {
         "name": "metakgp.org",
@@ -14,6 +14,14 @@
         "forks": 5,
         "language": "TypeScript",
         "homepage": "http://metakgp.org/"
+    },
+    {
+        "name": "iitkgp-erp-login-rs",
+        "description": "ERP login package in Rust cuz why not. It is also blazingly fast !\ud83d\ude80",
+        "stars": 0,
+        "forks": 2,
+        "language": "Rust",
+        "homepage": null
     },
     {
         "name": "mfins",
@@ -94,14 +102,6 @@
         "forks": 3,
         "language": "Svelte",
         "homepage": null
-    },
-    {
-        "name": "iitkgp-erp-login-pypi",
-        "description": "The only python package you will ever need to implement login process in ERP for IIT-KGP",
-        "stars": 28,
-        "forks": 7,
-        "language": "Python",
-        "homepage": "https://pypi.org/project/iitkgp-erp-login/"
     },
     {
         "name": "cfmn",
