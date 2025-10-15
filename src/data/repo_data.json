@@ -1,5 +1,21 @@
 [
     {
+        "name": "wimp",
+        "description": "Where is my Prof?",
+        "stars": 48,
+        "forks": 26,
+        "language": "Python",
+        "homepage": "https://wimp.metakgp.org"
+    },
+    {
+        "name": "metakgp.org",
+        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
+        "stars": 3,
+        "forks": 5,
+        "language": "TypeScript",
+        "homepage": "http://metakgp.org/"
+    },
+    {
         "name": "gyft",
         "description": "Get Your Freaking Timetable",
         "stars": 58,
@@ -14,14 +30,6 @@
         "forks": 2,
         "language": "Rust",
         "homepage": ""
-    },
-    {
-        "name": "metakgp.org",
-        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
-        "stars": 3,
-        "forks": 5,
-        "language": "TypeScript",
-        "homepage": "http://metakgp.org/"
     },
     {
         "name": "iitkgp-erp-login-pypi",
@@ -150,14 +158,6 @@
         "forks": 3,
         "language": "CSS",
         "homepage": "https://metakgp.github.io"
-    },
-    {
-        "name": "wimp",
-        "description": "Where is my Prof?",
-        "stars": 48,
-        "forks": 26,
-        "language": "Python",
-        "homepage": "https://wimp.metakgp.org"
     },
     {
         "name": "iitkgp-erp-auto-login",
