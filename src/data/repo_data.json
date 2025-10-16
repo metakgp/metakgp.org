@@ -1,11 +1,19 @@
 [
     {
-        "name": "wimp",
-        "description": "Where is my Prof?",
-        "stars": 48,
-        "forks": 26,
-        "language": "Python",
-        "homepage": "https://wimp.metakgp.org"
+        "name": "maintos",
+        "description": " A maintainers' dashboard for all metaKGP projects on the server. ",
+        "stars": 0,
+        "forks": 0,
+        "language": "Rust",
+        "homepage": null
+    },
+    {
+        "name": "iit-kgp-network",
+        "description": "Information repository and Solutions on IIT KGP Internet Problems.",
+        "stars": 52,
+        "forks": 5,
+        "language": "HTML",
+        "homepage": "https://network.metakgp.org/"
     },
     {
         "name": "metakgp.org",
@@ -14,6 +22,14 @@
         "forks": 5,
         "language": "TypeScript",
         "homepage": "http://metakgp.org/"
+    },
+    {
+        "name": "wimp",
+        "description": "Where is my Prof?",
+        "stars": 48,
+        "forks": 26,
+        "language": "Python",
+        "homepage": "https://wimp.metakgp.org"
     },
     {
         "name": "gyft",
