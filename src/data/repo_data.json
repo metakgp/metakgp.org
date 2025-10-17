@@ -3,17 +3,17 @@
         "name": "maintos",
         "description": " A maintainers' dashboard for all metaKGP projects on the server. ",
         "stars": 0,
-        "forks": 0,
+        "forks": 2,
         "language": "Rust",
         "homepage": null
     },
     {
-        "name": "iit-kgp-network",
-        "description": "Information repository and Solutions on IIT KGP Internet Problems.",
-        "stars": 52,
-        "forks": 5,
-        "language": "HTML",
-        "homepage": "https://network.metakgp.org/"
+        "name": "cfmn",
+        "description": null,
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "homepage": "https://notes.metakgp.org/"
     },
     {
         "name": "metakgp.org",
@@ -22,6 +22,14 @@
         "forks": 5,
         "language": "TypeScript",
         "homepage": "http://metakgp.org/"
+    },
+    {
+        "name": "iit-kgp-network",
+        "description": "Information repository and Solutions on IIT KGP Internet Problems.",
+        "stars": 52,
+        "forks": 5,
+        "language": "HTML",
+        "homepage": "https://network.metakgp.org/"
     },
     {
         "name": "wimp",
@@ -134,14 +142,6 @@
         "forks": 3,
         "language": "Svelte",
         "homepage": null
-    },
-    {
-        "name": "cfmn",
-        "description": null,
-        "stars": 0,
-        "forks": 0,
-        "language": "TypeScript",
-        "homepage": "https://notes.metakgp.org/"
     },
     {
         "name": "chillzone",
