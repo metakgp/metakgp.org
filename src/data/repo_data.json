@@ -1,19 +1,19 @@
 [
     {
+        "name": "heimdall",
+        "description": "Single source of authorising KGPians for all of metaKGP services",
+        "stars": 4,
+        "forks": 5,
+        "language": "Go",
+        "homepage": "https://heimdall.metakgp.org/"
+    },
+    {
         "name": "maintos",
-        "description": " A maintainers' dashboard for all metaKGP projects on the server. ",
+        "description": " A maintainers' dashboard for all metaKGP projects deployed on the server. ",
         "stars": 0,
         "forks": 2,
         "language": "Rust",
-        "homepage": null
-    },
-    {
-        "name": "cfmn",
-        "description": null,
-        "stars": 0,
-        "forks": 0,
-        "language": "TypeScript",
-        "homepage": "https://notes.metakgp.org/"
+        "homepage": "https://maintos.metakgp.org"
     },
     {
         "name": "metakgp.org",
@@ -22,6 +22,14 @@
         "forks": 5,
         "language": "TypeScript",
         "homepage": "http://metakgp.org/"
+    },
+    {
+        "name": "cfmn",
+        "description": null,
+        "stars": 0,
+        "forks": 1,
+        "language": "TypeScript",
+        "homepage": "https://notes.metakgp.org/"
     },
     {
         "name": "iit-kgp-network",
@@ -43,7 +51,7 @@
         "name": "gyft",
         "description": "Get Your Freaking Timetable",
         "stars": 58,
-        "forks": 64,
+        "forks": 65,
         "language": "Python",
         "homepage": "https://gyft.metakgp.org"
     },
@@ -86,14 +94,6 @@
         "forks": 8,
         "language": "JavaScript",
         "homepage": "https://travel.metakgp.org"
-    },
-    {
-        "name": "heimdall",
-        "description": "Single source of authorising KGPians for all of metaKGP services",
-        "stars": 4,
-        "forks": 5,
-        "language": "Go",
-        "homepage": "https://heimdall.metakgp.org/"
     },
     {
         "name": "naarad",
