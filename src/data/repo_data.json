@@ -1,11 +1,19 @@
 [
     {
-        "name": "metakgp-wiki",
-        "description": "Dockerized source for the metakgp wiki.",
-        "stars": 23,
-        "forks": 19,
+        "name": "mftp",
+        "description": "CDC noticeboard scraper",
+        "stars": 42,
+        "forks": 46,
         "language": "Python",
-        "homepage": "https://wiki.metakgp.org"
+        "homepage": ""
+    },
+    {
+        "name": "maintos",
+        "description": " A maintainers' dashboard for all metaKGP projects deployed on the server. ",
+        "stars": 0,
+        "forks": 2,
+        "language": "Rust",
+        "homepage": "https://maintos.metakgp.org"
     },
     {
         "name": "metakgp.org",
@@ -16,20 +24,20 @@
         "homepage": "http://metakgp.org/"
     },
     {
+        "name": "metakgp-wiki",
+        "description": "Dockerized source for the metakgp wiki.",
+        "stars": 23,
+        "forks": 19,
+        "language": "Python",
+        "homepage": "https://wiki.metakgp.org"
+    },
+    {
         "name": "heimdall",
         "description": "Single source of authorising KGPians for all of metaKGP services",
         "stars": 4,
         "forks": 5,
         "language": "Go",
         "homepage": "https://heimdall.metakgp.org/"
-    },
-    {
-        "name": "maintos",
-        "description": " A maintainers' dashboard for all metaKGP projects deployed on the server. ",
-        "stars": 0,
-        "forks": 2,
-        "language": "Rust",
-        "homepage": "https://maintos.metakgp.org"
     },
     {
         "name": "cfmn",
@@ -110,14 +118,6 @@
         "forks": 3,
         "language": "Go",
         "homepage": "https://naarad.metakgp.org"
-    },
-    {
-        "name": "mftp",
-        "description": "CDC noticeboard scraper",
-        "stars": 41,
-        "forks": 45,
-        "language": "Python",
-        "homepage": ""
     },
     {
         "name": "iitkgp-erp-login-go",
