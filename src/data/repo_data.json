@@ -1,5 +1,13 @@
 [
     {
+        "name": "iqps-go",
+        "description": "Search for question papers when the library can't save you.",
+        "stars": 27,
+        "forks": 14,
+        "language": "TypeScript",
+        "homepage": "https://qp.metakgp.org"
+    },
+    {
         "name": "metakgp.org",
         "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
         "stars": 3,
@@ -126,14 +134,6 @@
         "forks": 1,
         "language": "Go",
         "homepage": null
-    },
-    {
-        "name": "iqps-go",
-        "description": "Search for question papers when the library can't save you.",
-        "stars": 27,
-        "forks": 14,
-        "language": "TypeScript",
-        "homepage": "https://qp.metakgp.org"
     },
     {
         "name": "hermes",
