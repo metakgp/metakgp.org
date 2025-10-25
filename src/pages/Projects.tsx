@@ -5,6 +5,7 @@ import { REPO_DATA_TYPE } from "../utils/types";
 import RepoData from '../data/repo_data.json';
 import SortDropdown from "../components/SortDropdown";
 import PaginatedCardGrid from "../sections/CardGrid";
+
 const Projects = () => {
   const repoList: REPO_DATA_TYPE[] = RepoData as REPO_DATA_TYPE[]
   const [sortField, setSortField] = useState("stars");
@@ -13,9 +14,6 @@ const Projects = () => {
   const [selectedLanguage, setSelectedLanguage] = useState<string[]>([]);
   const [FilteredRepos, setFilteredRepos] = useState<REPO_DATA_TYPE[]>(repoList);
 
-
-  //sorting based on STARS ,FORKS , NAME
-  // and Also filtered by Language
   useEffect(() => {
     let result = repoList.filter((repo) =>
       selectedLanguage.length === 0 || selectedLanguage.includes(repo.language)
