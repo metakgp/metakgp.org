@@ -3,40 +3,50 @@ import json
 
 ORG_NAME = 'metakgp'
 
-BLACKLISTED_LANGUAGES = {"Dockerfile", None, "Ruby", "CoffeeScript"}
 
 def get_repositories(org_name):
     url = f'https://api.github.com/orgs/{org_name}/repos'
-    
-    repos = []
-    
-    response = requests.get(url, params={'sort':'updated', 'per_page': 100, 'type': 'public'}) # we only have like 70 repos so don't need to handle pagination yet
-    
+
+    repos = dict()
+
+    response = requests.get(url, params={'sort': 'updated', 'per_page': 100, 'type': 'public'})
+
     if response.status_code != 200:
         print(f"Error fetching repositories: {response.status_code} - {response.text}")
         return repos
-    
+
     data = response.json()
-    
+
     for repo in data:
-        if repo['archived'] == False and repo['language'] not in BLACKLISTED_LANGUAGES:
-            repos.append({
-                'name': repo['name'],
-                'description': repo['description'],
-                'stars': repo['stargazers_count'],
-                'forks': repo['forks_count'],
-                'language': repo['language'],
-                'homepage': repo['homepage']
-            })
-    
+        repos[repo.get('name')] = {
+            'stars': repo.get('stargazers_count', 0),
+            'forks': repo.get('forks_count', 0),
+        }
+
     return repos
 
-def save_to_json(data, filename):
-    with open(filename, 'w') as json_file:
-        json.dump(data, json_file, indent=4)
-    print(f"Data saved to {filename}")
+
+def update_repo_data(fetched_repos, filename):
+    with open(filename, 'r') as f:
+        existing = json.load(f)
+
+    updated = []
+
+    for repo in existing:
+        name = repo.get('name')
+        fetched = fetched_repos.get(name)
+        if fetched:
+            repo['stars'] = fetched.get('stars', 0)
+            repo['forks'] = fetched.get('forks', 0)
+
+        updated.append(repo)
+
+    with open(filename, 'w') as f:
+        json.dump(updated, f, indent=4)
+    print(f"Wrote updated data to {filename}")
+
 
 if __name__ == '__main__':
     repositories = get_repositories(ORG_NAME)
-    save_to_json(repositories, "src/data/repo_data.json")
+    update_repo_data(repositories, "src/data/repo_data.json")
 

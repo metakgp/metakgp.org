@@ -5,29 +5,25 @@ import { REPO_DATA_TYPE } from "../utils/types";
 import RepoData from '../data/repo_data.json';
 import SortDropdown from "../components/SortDropdown";
 import PaginatedCardGrid from "../sections/CardGrid";
+
 const Projects = () => {
   const repoList: REPO_DATA_TYPE[] = RepoData as REPO_DATA_TYPE[]
   const [sortField, setSortField] = useState("stars");
   const [sortType, setSortType] = useState("desc")
-  const languages = [...new Set(repoList.map(repo => repo.language))];
-  const [selectedLanguage, setSelectedLanguage] = useState<string[]>([]);
-  const [FilteredRepos, setFilteredRepos] = useState<REPO_DATA_TYPE[]>(repoList);
+  const languages = [...new Set(repoList.map(repo => repo.language).flat())].filter(lang => lang !== null).sort();
+  const [selectedLanguages, setSelectedLanguages] = useState<string[]>([]);
+  const [filteredRepos, setFilteredRepos] = useState<REPO_DATA_TYPE[]>(repoList);
 
-
-  //sorting based on STARS ,FORKS , NAME
-  // and Also filtered by Language
   useEffect(() => {
     let result = repoList.filter((repo) =>
-      selectedLanguage.length === 0 || selectedLanguage.includes(repo.language)
+      selectedLanguages.length === 0 || repo.language.some(lang => selectedLanguages.includes(lang))
     );
 
     if (sortField === "name") {
-
       result.sort((a, b) => {
         const cmp = a.name.toLowerCase().localeCompare(b.name.toLowerCase());
         return sortType === "asc" ? cmp : -cmp;
       });
-
     }
     else if (sortField === "stars") {
       result.sort((a, b) => {
@@ -51,13 +47,13 @@ const Projects = () => {
     }
     setFilteredRepos(result)
 
-  }, [selectedLanguage, sortField, sortType])
+  }, [selectedLanguages, sortField, sortType])
 
 
 
 
   const toggleLanguage = (lang: string) => {
-    setSelectedLanguage(prev => {
+    setSelectedLanguages(prev => {
       if (prev.includes(lang)) {
         const newSelection = prev.filter(l => l !== lang);
         return newSelection;
@@ -66,8 +62,6 @@ const Projects = () => {
       }
     });
   };
-
-  // TODO: Add pagination :sob:
 
   return (
     <div className="page-container">
@@ -82,7 +76,7 @@ const Projects = () => {
           {languages.map(lang => (
             <button
               key={lang}
-              className={`filter-button ${selectedLanguage.includes(lang) ? "active" : ""}`}
+              className={`filter-button ${selectedLanguages.includes(lang) ? "active" : ""}`}
               onClick={() => toggleLanguage(lang)}
             >
               {lang}
@@ -99,7 +93,7 @@ const Projects = () => {
         />
 
       </div>
-      <PaginatedCardGrid repos={FilteredRepos} displayMode="all" />
+      <PaginatedCardGrid repos={filteredRepos} displayMode="all" />
     </div>
   )
 }

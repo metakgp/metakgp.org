@@ -49,16 +49,16 @@
 
 /* Header Objects */
 
-.book-icon {
+.icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 0.5rem;
 }
 
 .gh-repo-name {
   color: #4BA7F8;
   font-weight: 700;
+  margin: 0 0.5rem;
 }
 
 /* Body Objects */
@@ -77,6 +77,16 @@
   display: inline-block;
   background-color: #4BA7F8;
 }
+
+/* https://github.com/ozh/github-colors/blob/master/colors.json */
+.gh-card-lang-go { background-color: #00ADD8; }
+.gh-card-lang-html { background-color: #E34F26; }
+.gh-card-lang-javascript { background-color: #F1E05A; }
+.gh-card-lang-python { background-color: #3572A5; }
+.gh-card-lang-typescript { background-color: #3178c6; }
+.gh-card-lang-rust { background-color: #dea584; }
+.gh-card-lang-shell { background-color: #89e051; }
+.gh-card-lang-svelte { background-color: #ff3e00; }
 
 .gh-card-star-container {
   display: flex;
@@ -107,6 +117,5 @@
 }
 
 .octicon {
-  stroke: #f3f3f3;
   fill: #f3f3f3;
 }
