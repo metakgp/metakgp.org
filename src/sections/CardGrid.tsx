@@ -20,7 +20,7 @@ const CardGrid = (props: Props) => {
 }
 
 const PaginatedCardGrid = (props: Props) => {
-  const itemsPerPage = 12;
+  const itemsPerPage = 15;
   const [itemOffset, setItemOffset] = useState(0);
   const endOffset = itemOffset + itemsPerPage;
   const currentItems = props.repos.slice(itemOffset, endOffset);
