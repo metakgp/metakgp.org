@@ -166,7 +166,7 @@
     {
         "name": "hermes",
         "description": "WIP DC++ replacement for IIT Kharagpur",
-        "stars": 10,
+        "stars": 11,
         "forks": 3,
         "language": [
             "Svelte"
