@@ -23,7 +23,7 @@
     {
         "name": "gyft",
         "description": "Get Your Freaking Timetable",
-        "stars": 59,
+        "stars": 60,
         "forks": 65,
         "language": [
             "Python"
@@ -206,7 +206,7 @@
     {
         "name": "iitkgp-erp-auto-login",
         "description": "[Browser Extension] Auto Login Utility for students' ERP at IIT Kharagpur :octocat:",
-        "stars": 4,
+        "stars": 5,
         "forks": 2,
         "language": [
             "TypeScript"
