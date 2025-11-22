@@ -46,7 +46,7 @@
         "name": "mftp",
         "description": "CDC noticeboard scraper",
         "stars": 42,
-        "forks": 45,
+        "forks": 46,
         "language": [
             "Python"
         ],
