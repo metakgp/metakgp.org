@@ -46,7 +46,7 @@
         "name": "mftp",
         "description": "CDC noticeboard scraper",
         "stars": 43,
-        "forks": 46,
+        "forks": 47,
         "language": [
             "Python"
         ],
@@ -137,7 +137,7 @@
         "name": "travel-buddy",
         "description": "Helps find people for ridesharing.",
         "stars": 8,
-        "forks": 8,
+        "forks": 9,
         "language": [
             "JavaScript"
         ],
