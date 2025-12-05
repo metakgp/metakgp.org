@@ -226,7 +226,7 @@
     {
         "name": "metaploy",
         "description": "The metakgp nginx deployment architecture.",
-        "stars": 5,
+        "stars": 6,
         "forks": 1,
         "language": [
             "Shell"
