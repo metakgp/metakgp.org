@@ -13,7 +13,7 @@
         "name": "wimp",
         "description": "Where is my Prof?",
         "stars": 49,
-        "forks": 27,
+        "forks": 26,
         "language": [
             "Python",
             "TypeScript"
@@ -24,7 +24,7 @@
         "name": "gyft",
         "description": "Get Your Freaking Timetable",
         "stars": 60,
-        "forks": 65,
+        "forks": 64,
         "language": [
             "Python"
         ],
@@ -34,7 +34,7 @@
         "name": "iqps-go",
         "description": "Search for question papers when the library can't save you.",
         "stars": 28,
-        "forks": 14,
+        "forks": 15,
         "language": [
             "TypeScript",
             "Rust",
@@ -46,7 +46,7 @@
         "name": "mftp",
         "description": "CDC noticeboard scraper",
         "stars": 43,
-        "forks": 48,
+        "forks": 49,
         "language": [
             "Python"
         ],
@@ -107,7 +107,7 @@
         "name": "iitkgp-erp-login-pypi",
         "description": "The only python package you will ever need to implement login process in ERP for IIT-KGP",
         "stars": 28,
-        "forks": 8,
+        "forks": 7,
         "language": [
             "Python"
         ],
