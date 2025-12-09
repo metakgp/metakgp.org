@@ -3,7 +3,7 @@
         "name": "metakgp.org",
         "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
         "stars": 4,
-        "forks": 5,
+        "forks": 6,
         "language": [
             "TypeScript"
         ],
@@ -33,8 +33,8 @@
     {
         "name": "iqps-go",
         "description": "Search for question papers when the library can't save you.",
-        "stars": 28,
-        "forks": 15,
+        "stars": 29,
+        "forks": 16,
         "language": [
             "TypeScript",
             "Rust",
@@ -237,7 +237,7 @@
         "name": "gyfe",
         "description": "Get Your Freaking Electives :)",
         "stars": 8,
-        "forks": 10,
+        "forks": 11,
         "language": [
             "TypeScript"
         ],
