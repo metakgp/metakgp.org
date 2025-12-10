@@ -6,19 +6,21 @@
 }
 
 .header {
-  min-width: 0;
-  box-sizing: border-box;
   width: 100%;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 24px;
-  padding-right: 4rem;
-  padding-left: 4rem;
-  gap: 3rem;
 }
-
+.header-inner{
+  display: flex;
+  width: 100%;
+  max-width: 1100px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  gap: 3rem;
+  box-sizing: border-box;
+}
 .nav-bar {
   float: right;
   display: flex;

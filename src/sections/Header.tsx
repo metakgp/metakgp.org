@@ -14,14 +14,17 @@ export const HeaderSection = () => {
 
   return (
     <div className="header">
+      <div className="container">
       <Link to={"/"} className="metakgp-logo-link">
         <img src="one-line.svg" alt="metaKGP Logo" className="metakgp-logo" />
+
       </Link>
       <nav className="nav-bar">
         {pages.map((page) => (
           <NavElement route={page} isActive={location.pathname.slice(1) === page} />
         ))}
       </nav>
+      </div>
     </div>
   )
 }
