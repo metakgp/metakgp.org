@@ -2,8 +2,8 @@
     {
         "name": "metakgp.org",
         "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
-        "stars": 4,
-        "forks": 7,
+        "stars": 5,
+        "forks": 8,
         "language": [
             "TypeScript"
         ],
@@ -23,7 +23,7 @@
     {
         "name": "gyft",
         "description": "Get Your Freaking Timetable",
-        "stars": 60,
+        "stars": 59,
         "forks": 64,
         "language": [
             "Python"
@@ -46,7 +46,7 @@
         "name": "mftp",
         "description": "CDC noticeboard scraper",
         "stars": 43,
-        "forks": 49,
+        "forks": 50,
         "language": [
             "Python"
         ],
@@ -237,7 +237,7 @@
         "name": "gyfe",
         "description": "Get Your Freaking Electives :)",
         "stars": 8,
-        "forks": 11,
+        "forks": 12,
         "language": [
             "TypeScript"
         ],
