@@ -33,10 +33,10 @@
 
 .nav-element {
   position: relative;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   color: #ffffff80;
   border-radius: 20px;
   border: 1px solid transparent;
@@ -55,7 +55,7 @@
 .active-nav-element {
   position: relative;
   box-sizing: border-box;
-  padding: 14px 32px;
+  padding: 8px 20px;
   color: #000;
   border-radius: 20px;
   border: 1px solid transparent;
