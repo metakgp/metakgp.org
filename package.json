@@ -14,6 +14,7 @@
     "@types/react-paginate": "^7.1.4",
     "@types/react-slick": "^0.23.13",
     "@vitejs/plugin-react-swc": "^3.9.0",
+    "framer-motion": "^12.23.26",
     "highlight.js": "^11.11.1",
     "install": "^0.13.0",
     "npm": "^11.3.0",
