@@ -1,7 +1,7 @@
 [
     {
         "name": "metakgp.org",
-        "description": "[WIP] The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
+        "description": "The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
         "stars": 5,
         "forks": 9,
         "language": [
@@ -26,7 +26,8 @@
         "stars": 59,
         "forks": 64,
         "language": [
-            "Python"
+            "Python",
+            "TypeScript"
         ],
         "homepage": "https://gyft.metakgp.org"
     },
@@ -36,15 +37,15 @@
         "stars": 29,
         "forks": 16,
         "language": [
-            "TypeScript",
             "Rust",
+            "TypeScript",
             "Go"
         ],
         "homepage": "https://qp.metakgp.org"
     },
     {
         "name": "mftp",
-        "description": "CDC noticeboard scraper",
+        "description": "(My Freakin Training & Placements) CDC noticeboard scraper",
         "stars": 43,
         "forks": 51,
         "language": [
@@ -69,7 +70,8 @@
         "stars": 23,
         "forks": 19,
         "language": [
-            "Python"
+            "Python",
+            "Dockerfile"
         ],
         "homepage": "https://wiki.metakgp.org"
     },
@@ -79,7 +81,8 @@
         "stars": 4,
         "forks": 5,
         "language": [
-            "Go"
+            "Go",
+            "TypeScript"
         ],
         "homepage": "https://heimdall.metakgp.org/"
     },
@@ -89,6 +92,7 @@
         "stars": 0,
         "forks": 1,
         "language": [
+            "Rust",
             "TypeScript"
         ],
         "homepage": "https://notes.metakgp.org/"
@@ -145,11 +149,12 @@
     },
     {
         "name": "naarad",
-        "description": "Self-hosted ntfy.sh server for metakgp",
+        "description": "Self-hosted ntfy.sh server for metakgp, delivering notifications to KGPians.",
         "stars": 16,
         "forks": 3,
         "language": [
-            "Go"
+            "Go",
+            "TypeScript"
         ],
         "homepage": "https://naarad.metakgp.org"
     },
@@ -165,11 +170,12 @@
     },
     {
         "name": "hermes",
-        "description": "WIP DC++ replacement for IIT Kharagpur",
+        "description": "[WIP] (High speed Encrypted and Real-time Messaging and Efficient Sharing)  A modern P2P replacement for DC++ on KGP networks",
         "stars": 11,
         "forks": 3,
         "language": [
-            "Svelte"
+            "Svelte",
+            "Rust"
         ],
         "homepage": null
     },
@@ -179,7 +185,8 @@
         "stars": 23,
         "forks": 26,
         "language": [
-            "HTML"
+            "TypeScript",
+            "Go"
         ],
         "homepage": "https://chill.metakgp.org"
     },
@@ -189,13 +196,14 @@
         "stars": 2,
         "forks": 1,
         "language": [
-            "TypeScript"
+            "TypeScript",
+            "JavaScript"
         ],
         "homepage": null
     },
     {
         "name": "naarad-ntfy",
-        "description": "Send push notifications to your phone or desktop using PUT/POST",
+        "description": "Custom fork of NTFY for Naarad.",
         "stars": 0,
         "forks": 2,
         "language": [
@@ -205,7 +213,7 @@
     },
     {
         "name": "iitkgp-erp-auto-login",
-        "description": "[Browser Extension] Auto Login Utility for students' ERP at IIT Kharagpur :octocat:",
+        "description": "[Browser Extension] Auto Login Utility for students' ERP at IIT Kharagpur",
         "stars": 5,
         "forks": 2,
         "language": [
@@ -229,7 +237,8 @@
         "stars": 6,
         "forks": 1,
         "language": [
-            "Shell"
+            "Shell",
+            "Dockerfile"
         ],
         "homepage": null
     },
@@ -239,6 +248,7 @@
         "stars": 8,
         "forks": 12,
         "language": [
+            "Python",
             "TypeScript"
         ],
         "homepage": null
@@ -249,7 +259,8 @@
         "stars": 1,
         "forks": 0,
         "language": [
-            "Rust"
+            "Rust",
+            "Go"
         ],
         "homepage": "https://archive.metakgp.org/"
     },
