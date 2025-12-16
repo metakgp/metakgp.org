@@ -25,7 +25,7 @@ const SortDropdown: React.FC<SortDropdownProps> = ({
           <option value="name">Name</option>
           <option value="forks">Forks</option>
           <option value="stars">Stars</option>
-          <option value="activity">Activity</option>
+          {/* <option value="activity">Activity</option> */}
         </select>
       </div>
 
