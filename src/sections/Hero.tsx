@@ -1,5 +1,6 @@
 import React from "react";
 import devFocus from "../assets/undraw_pair_programming_re_or4x.svg";
+import slackLogo from "../assets/slack_icon.webp"
 import "../styles/sections/hero.css";
 import { Link } from "react-router-dom";
 
@@ -23,13 +24,13 @@ export const HeroSection = () => {
               </Link>
             </div>
             <a href={"https://slack.metakgp.org"} className="slack-link">
-              <img src="https://freepnglogo.com/images/all_img/1707837044slack-icon-png.png" width={16} height={16} />
+              <img src={slackLogo} width={16} height={16}/>
               <p>Join Us!</p>
             </a>
           </div>
         </div>
         <div className="hero-image-container">
-          <img className="hero-image" src={devFocus} alt="hero-image" />
+          <img className="hero-image" src={devFocus} alt="hero-image"/>
         </div>
       </div>
     </section>
