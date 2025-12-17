@@ -1,6 +1,6 @@
 import React from 'react';
-import GroupPicture from "../assets/metakgp_group_picture.webp";
-import MetaSpringImage from "../assets/metasprint.webp";
+import GroupPicture from "../assets/metakgp_group_picture.jpeg";
+import MetaSpringImage from "../assets/metasprint.jpeg";
 import { HeroSection } from "../sections/Hero";
 import { StatsSection } from "../sections/Statistics";
 import FeaturedSection from '../sections/FeaturedDisplay';
@@ -35,7 +35,7 @@ function About() {
           </div>
 
           <div className='image-container'>
-            <img src={GroupPicture} className='metakgp-image' alt='metaKGP group picture' loading='lazy'/>
+            <img src={GroupPicture} className='metakgp-image' alt='metaKGP group picture' />
             <figcaption>
               A group picture of some active metaKGP maintainers
             </figcaption>
@@ -53,7 +53,7 @@ function About() {
           </div>
 
           <div className='image-container'>
-            <img src={MetaSpringImage} className='metakgp-image' alt='metasprint' loading='lazy'/>
+            <img src={MetaSpringImage} className='metakgp-image' alt='metasprint' />
             <figcaption>
               A metasprint in progress
             </figcaption>
