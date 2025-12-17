@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/pages/contribute.css";
 import helloImage from "../assets/undraw_hello_ccwj.svg";
+import slackLogo from "../assets/slack_icon.webp"
 import TerminalDisplay from "../components/TerminalDisplay";
 import { Link } from "react-router-dom";
 
@@ -18,7 +19,7 @@ const ContributePage = () => {
               If you ever need help with anything, just ask us in the <code>#general</code> channel on our Slack server.
             </p>
             <a href={"https://slack.metakgp.org"} className="slack-link">
-              <img src="src\assets\slack_icon.webp" width={16} height={16} loading="lazy"/>
+              <img src={slackLogo} width={16} height={16} loading="lazy"/>
               <p>Join the Slack!</p>
             </a>
           </div>

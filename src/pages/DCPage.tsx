@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/pages/dc.css";
+import DCImage from "../assets/DC.webp";
 import TerminalDisplay from "../components/TerminalDisplay";
 
 function DCPage() {
@@ -17,7 +18,7 @@ function DCPage() {
           high speeds.
         </p>
         <figure className="dc-image-container">
-          <img className="dc-image" src="src\assets\DC.webp" loading="lazy"/>
+          <img className="dc-image" src={DCImage} loading="lazy"/>
           <figcaption>300TB+ of free data being shared on DC++</figcaption>
         </figure>
         <p className="description">
