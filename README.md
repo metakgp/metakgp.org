@@ -200,15 +200,13 @@ Don't forget to give the project a star! Thanks again!
 
 The currently active maintainer(s) of this project.
 
-<!-- UPDATE -->
-- [NAME](https://github.com/GITHUB_USERNAME)
+- [Tegan Jain](https://github.com/subzcuber)
 
 ### Creator(s)
 
 Honoring the original creator(s) and ideator(s) of this project.
 
-<!-- UPDATE -->
-- [NAME](https://github.com/GITHUB_USERNAME)
+- [Tegan Jain](https://github.com/subzcuber)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
