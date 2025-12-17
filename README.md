@@ -137,13 +137,13 @@ To get a local copy up and running follow these simple example steps.
 ## Roadmap
 
 - [x] Migrate from `npm` to `pnpm`
-- [ ] Design some fire project cards
+- [X] Design some fire project cards
 - [x] Add `react-router` to setup the various pages
-- [ ] Add the projects sections and relatedly the projects page
-- [ ] Add the contribute page
-- [ ] Add the DC++ page :)
-- [ ] Add a Footer
-- [ ] Use an API to get metaKGP stats (look into organisation stats github apis)
+- [X] Add the projects sections and relatedly the projects page
+- [X] Add the contribute page
+- [X] Add the DC++ page :)
+- [X] Add a Footer
+- [X] Use an API to get metaKGP stats (look into organisation stats github apis)
 
 See the [open issues](https://github.com/metakgp/metakgp.org/issues) for a full list of proposed features (and known issues).
 
