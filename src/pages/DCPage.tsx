@@ -17,7 +17,7 @@ function DCPage() {
           high speeds.
         </p>
         <figure className="dc-image-container">
-          <img className="dc-image" src="https://qph.cf2.quoracdn.net/main-qimg-1113e5179c57e83b940e129278049627" />
+          <img className="dc-image" src="src\assets\DC.webp" loading="lazy"/>
           <figcaption>300TB+ of free data being shared on DC++</figcaption>
         </figure>
         <p className="description">
