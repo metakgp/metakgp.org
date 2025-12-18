@@ -3,7 +3,7 @@
         "name": "metakgp.org",
         "description": "The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
         "stars": 5,
-        "forks": 8,
+        "forks": 9,
         "language": [
             "TypeScript"
         ],
@@ -246,7 +246,7 @@
         "name": "gyfe",
         "description": "Get Your Freaking Electives :)",
         "stars": 8,
-        "forks": 12,
+        "forks": 13,
         "language": [
             "Python",
             "TypeScript"
