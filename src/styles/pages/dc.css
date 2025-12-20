@@ -11,6 +11,7 @@
 .dc-image-container figcaption {
     text-align: center;
     font-style: italic;
+    color: #9ca3af;
 }
 
 .dc-image {
@@ -18,15 +19,56 @@
 }
 
 .client-table {
-    margin: 2rem 0;
+    margin: 2rem auto;
     max-width: 800px;
     width: 100%;
     border-collapse: collapse;
+    background-color: rgba(17, 24, 39, 0.85);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
 }
 
-.client-table th,
-td {
-    padding: 0.5rem;
-    border: 1px solid black;
+.client-table th {
+    padding: 0.9rem 1rem;
     text-align: left;
+    background-color: rgba(31, 41, 55, 0.95);
+    color: #f9fafb;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.client-table td {
+    padding: 0.75rem 1rem;
+    color: #e5e7eb;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.client-table tbody tr:nth-child(even) td {
+    background-color: rgba(31, 41, 55, 0.6);
+}
+
+.client-table tbody tr:hover td {
+    background-color: rgba(55, 65, 81, 0.85);
+}
+
+.client-table td a {
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+.client-table td a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+    .client-table {
+        font-size: 0.875rem;
+    }
+
+    .client-table th,
+    .client-table td {
+        padding: 0.6rem;
+    }
 }
