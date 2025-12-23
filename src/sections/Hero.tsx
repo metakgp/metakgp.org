@@ -3,11 +3,12 @@ import devFocus from "../assets/undraw_pair_programming_re_or4x.svg";
 import slackLogo from "../assets/slack_icon.webp"
 import "../styles/sections/hero.css";
 import { Link } from "react-router-dom";
+import "../styles/layout/container.css";
 
 export const HeroSection = () => {
   return (
     <section className="topic-section">
-      <div className="hero-container">
+      <div className="container hero-container">
         <div className="hero-header-container">
           <h1 className="main-header">For The People</h1>
           <h1 className="main-header">By The People</h1>

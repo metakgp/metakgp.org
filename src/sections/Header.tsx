@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/sections/header.css";
 import { Link, useLocation } from "react-router-dom";
+import "../styles/layout/container.css";
 
 const NavElement = ({ route, isActive }: { route: string, isActive: boolean }) => {
   return (
@@ -15,9 +16,9 @@ export const HeaderSection = () => {
   return (
     <div className="header">
       <div className="container">
+
       <Link to={"/"} className="metakgp-logo-link">
         <img src="one-line.svg" alt="metaKGP Logo" className="metakgp-logo" />
-
       </Link>
       <nav className="nav-bar">
         {pages.map((page) => (
@@ -25,6 +26,7 @@ export const HeaderSection = () => {
         ))}
       </nav>
       </div>
+    </div>
     </div>
   )
 }

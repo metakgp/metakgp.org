@@ -44,8 +44,8 @@
 }
 
 .page-container {
-  margin: 50px 18%;
-  /* width: 100%; */
+  margin: 0 auto;
+  width: 100%;
   text-align: left;
   display: flex;
   justify-content: center;
@@ -54,8 +54,9 @@
 }
 
 .content-page-container {
-  margin: 50px 18%;
-  /* width: 100%; */
+  /* margin: 50px 18%; */
+  width: 100%;
+  margin: 0 auto;
   text-align: left;
   display: flex;
   justify-content: center;
@@ -108,16 +109,16 @@
 
 @media screen and (max-width: 1570px) {
   .content-page-container {
-    margin: 15px 20%;
+    margin: 15px 0;
   }
 }
 
 @media screen and (max-width: 480px) {
   .page-container {
-    margin: 10px 5%;
+    margin: 10px 0;
   }
 
   .content-page-container {
-    margin: 10px 5%;
+    margin: 10px 0;
   }
 }
