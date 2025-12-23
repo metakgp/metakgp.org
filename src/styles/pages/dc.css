@@ -26,17 +26,19 @@
     background-color: rgba(17, 24, 39, 0.85);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.client-table thead tr {
+    background-color: rgba(31, 41, 55, 0.95);
 }
 
 .client-table th {
     padding: 0.9rem 1rem;
     text-align: left;
-    background-color: rgba(31, 41, 55, 0.95);
     color: #f9fafb;
     font-weight: 600;
     font-size: 0.9rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .client-table td {
@@ -45,12 +47,8 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-.client-table tbody tr:nth-child(even) td {
-    background-color: rgba(31, 41, 55, 0.6);
-}
-
 .client-table tbody tr:hover td {
-    background-color: rgba(55, 65, 81, 0.85);
+    background-color: rgba(55, 65, 81, 0.6);
 }
 
 .client-table td a {
