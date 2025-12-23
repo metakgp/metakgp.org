@@ -200,13 +200,14 @@ Don't forget to give the project a star! Thanks again!
 
 The currently active maintainer(s) of this project.
 
-- [Tegan Jain](https://github.com/subzcuber)
+- [Dipam Sen](https://github.com/dipamsen)
+- [Tegan Jain](https://github.com/Majestic9169)
 
 ### Creator(s)
 
 Honoring the original creator(s) and ideator(s) of this project.
 
-- [Tegan Jain](https://github.com/subzcuber)
+- [Vikrant Varma](https://github.com/amrav)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -231,9 +232,6 @@ Use this space to list resources you find helpful and would like to give credit 
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
