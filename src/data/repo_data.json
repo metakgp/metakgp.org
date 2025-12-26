@@ -140,7 +140,7 @@
     {
         "name": "travel-buddy",
         "description": "Helps find people for ridesharing.",
-        "stars": 9,
+        "stars": 10,
         "forks": 9,
         "language": [
             "JavaScript"
