@@ -30,6 +30,7 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className="hero-image-container">
+          <img src="one-line.svg" alt="metaKGP Logo" className="hero-logo"/>
           <img className="hero-image" src={devFocus} alt="hero-image"/>
         </div>
       </div>

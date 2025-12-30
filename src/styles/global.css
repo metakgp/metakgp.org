@@ -1,3 +1,7 @@
+:root {
+  --mono-primary: 'Inconsolata', monospace;
+}
+
 html,
 body,
 #root {
@@ -32,7 +36,7 @@ body,
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: "Source Code Pro", Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 

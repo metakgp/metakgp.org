@@ -1,7 +1,8 @@
 /* Header Element Styling*/
 
-.metakgp-logo-link {
-  color: #fff;
+.metakgp-logo {
+  height: 2.5em;
+  margin: 1.8em 0;
 }
 
 .header {
