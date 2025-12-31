@@ -1,7 +1,0 @@
-.container {
-    width: 100%;
-    max-width: 80rem;
-    margin-inline: auto;
-    padding-inline: clamp(1rem, 5vw, 4rem);
-    box-sizing: border-box;
-}
