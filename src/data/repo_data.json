@@ -182,7 +182,7 @@
     {
         "name": "chillzone",
         "description": "Find a place to chill during class hours in IIT KGP",
-        "stars": 24,
+        "stars": 25,
         "forks": 27,
         "language": [
             "TypeScript",
