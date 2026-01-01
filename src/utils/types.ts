@@ -8,6 +8,7 @@ export interface REPO_DATA_TYPE {
 }
 
 export interface FEATURED_REPO {
+  display_name: string;
   screenshot_img: string;
   usage: string;
   repo: REPO_DATA_TYPE;

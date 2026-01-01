@@ -14,8 +14,8 @@ export const HeaderSection = () => {
 
   return (
     <div className="header">
-      <Link to={"https://wiki.metakgp.org"} className="metakgp-logo-link">
-        <h1 className='metakgp-logo' data-set="metaKGP" ><span className='bold'>meta</span><span className='black'>KGP</span></h1>
+      <Link to={"/"} className="metakgp-logo-link">
+        <img src="one-line.svg" alt="metaKGP Logo" className="metakgp-logo" />
       </Link>
       <nav className="nav-bar">
         {pages.map((page) => (
