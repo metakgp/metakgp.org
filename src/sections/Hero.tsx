@@ -4,6 +4,7 @@ import slackLogo from "../assets/slack_icon.webp"
 import "../styles/sections/hero.css";
 import { Link } from "react-router-dom";
 
+
 export const HeroSection = () => {
   return (
     <section className="topic-section">
