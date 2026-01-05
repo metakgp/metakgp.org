@@ -17,16 +17,16 @@ export const FooterSection = () => {
           &lt;/&gt;
           by metaKGP
           <div className="social-icons ">
-            <a href="https://www.facebook.com/metakgp/">
+            <a href="https://www.facebook.com/metakgp/" aria-label="Visit our Facebook page">
               <i className="fa-brands fa-facebook"></i>
             </a>
-            <a href="https://slack.metakgp.org/">
+            <a href="https://slack.metakgp.org/" aria-label="Join our Slack workspace">
               <i className="fa-brands fa-slack"></i>
             </a>
-            <a href="https://www.linkedin.com/company/metakgp-org/?originalSubdomain=in">
+            <a href="https://www.linkedin.com/company/metakgp-org/?originalSubdomain=in" aria-label="Visit our LinkedIn page">
               <i className="fa-brands fa-linkedin"></i>
             </a>
-            <a href="https://github.com/metakgp">
+            <a href="https://github.com/metakgp" aria-label="Visit our GitHub organization">
               <i className="fa-brands fa-github"></i>
             </a>
           </div>
