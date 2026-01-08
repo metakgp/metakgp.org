@@ -1,3 +1,15 @@
+:root{
+  --left_background: #28313b;
+  --right_background: #485461;
+  --text: #fcfcfc;
+}
+
+[data-theme="light"]{
+  --left_background: #c1c1bf;
+  --right_background: #ededea;
+  --text: #393f45;
+}
+
 html,
 body,
 #root {
@@ -7,10 +19,10 @@ body,
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   /* background: #2f2f2f69; */
-  background: linear-gradient(90deg, #28313b, #485461);
+  background: linear-gradient(90deg, var(--left_background), var(--right_background));
   /* background: linear-gradient(90deg, #2c3e50, #000000); */
   animation: gradient_anim 23s ease infinte;
-  color: #fcfcfc;
+  color: var(--text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;

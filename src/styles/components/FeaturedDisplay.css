@@ -1,3 +1,11 @@
+:root{
+  --title_color: white;
+}
+
+[data-theme="light"]{
+  --title_color: #485461;
+}
+
 .featured-display {
   display: flex;
   flex-direction: column;
@@ -52,7 +60,7 @@
 }
 
 .featured-repo-title {
-  color: white;
+  color: var(--title_color);
   text-decoration: none;
 }
 
