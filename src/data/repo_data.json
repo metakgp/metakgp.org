@@ -3,7 +3,7 @@
         "name": "metakgp.org",
         "description": "The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
         "stars": 6,
-        "forks": 11,
+        "forks": 12,
         "language": [
             "TypeScript"
         ],
@@ -141,7 +141,7 @@
         "name": "travel-buddy",
         "description": "Helps find people for ridesharing.",
         "stars": 11,
-        "forks": 9,
+        "forks": 10,
         "language": [
             "JavaScript"
         ],
@@ -246,7 +246,7 @@
         "name": "gyfe",
         "description": "Get Your Freaking Electives :)",
         "stars": 8,
-        "forks": 14,
+        "forks": 15,
         "language": [
             "Python",
             "TypeScript"
