@@ -3,7 +3,7 @@
         "name": "metakgp.org",
         "description": "The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
         "stars": 6,
-        "forks": 10,
+        "forks": 13,
         "language": [
             "TypeScript"
         ],
@@ -13,7 +13,7 @@
         "name": "wimp",
         "description": "Where is my Prof?",
         "stars": 49,
-        "forks": 26,
+        "forks": 25,
         "language": [
             "Python",
             "TypeScript"
@@ -24,7 +24,7 @@
         "name": "gyft",
         "description": "Get Your Freaking Timetable",
         "stars": 60,
-        "forks": 65,
+        "forks": 64,
         "language": [
             "Python",
             "TypeScript"
@@ -47,7 +47,7 @@
         "name": "mftp",
         "description": "(My Freakin Training & Placements) CDC noticeboard scraper",
         "stars": 43,
-        "forks": 51,
+        "forks": 50,
         "language": [
             "Python"
         ],
@@ -141,7 +141,7 @@
         "name": "travel-buddy",
         "description": "Helps find people for ridesharing.",
         "stars": 11,
-        "forks": 9,
+        "forks": 10,
         "language": [
             "JavaScript"
         ],
@@ -151,7 +151,7 @@
         "name": "naarad",
         "description": "Self-hosted ntfy.sh server for metakgp, delivering notifications to KGPians.",
         "stars": 16,
-        "forks": 3,
+        "forks": 4,
         "language": [
             "Go",
             "TypeScript"
@@ -246,7 +246,7 @@
         "name": "gyfe",
         "description": "Get Your Freaking Electives :)",
         "stars": 8,
-        "forks": 14,
+        "forks": 15,
         "language": [
             "Python",
             "TypeScript"
