@@ -1,3 +1,11 @@
+:root{
+    --dc_image_text: #9ca3af;
+}
+
+[data-theme="light"]{
+    --dc_image_text: #2f2f2f;
+}
+
 .dc-image-container {
     display: flex;
     justify-content: center;
@@ -11,7 +19,7 @@
 .dc-image-container figcaption {
     text-align: center;
     font-style: italic;
-    color: #9ca3af;
+    color: var(--dc_image_text);
 }
 
 .dc-image {

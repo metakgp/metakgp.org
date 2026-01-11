@@ -1,5 +1,23 @@
 /* Header Element Styling*/
 
+:root{
+  --metakgp_text: #fff;
+}
+
+[data-theme="light"]{
+  --metakgp_text: #2f2f2f;
+}
+
+.metakgp-logo-link {
+  color: var(--metakgp_text);
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 .metakgp-logo {
   height: 2.5em;
   margin: 1.8em 0;
@@ -19,6 +37,11 @@
   gap: 3rem;
 }
 
+.theme-toggle {
+  cursor: pointer;
+}
+
+.theme-toggle,
 .nav-bar {
   float: right;
   display: flex;
@@ -77,6 +100,7 @@
     gap: 0.5rem;
   }
 
+  .theme-toggle,
   .nav-bar {
     justify-content: space-between;
     width: 100%;
@@ -86,7 +110,7 @@
   .nav-element,
   .active-nav-element,
   .slack-link {
-    padding: 6px 12px;
+    padding: 6px 7px;
     font-size: 1rem;
     white-space: nowrap;
   }
