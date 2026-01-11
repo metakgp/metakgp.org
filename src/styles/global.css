@@ -2,6 +2,7 @@
   --left_background: #28313b;
   --right_background: #485461;
   --text: #fcfcfc;
+  --mono-primary: 'Inconsolata', monospace;
 }
 
 [data-theme="light"]{
@@ -44,7 +45,7 @@ body,
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: "Source Code Pro", Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 

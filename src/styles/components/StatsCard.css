@@ -50,7 +50,7 @@
 .card-description {
   font-size: 1rem;
   color: #f0f0f0;
-  font-family: "Space Mono", monospace;
+  font-family: var(--mono-primary);
   font-weight: 400;
   font-style: normal;
 }

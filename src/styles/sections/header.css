@@ -18,6 +18,11 @@
   gap: 5px;
 }
 
+.metakgp-logo {
+  height: 2.5em;
+  margin: 1.8em 0;
+}
+
 .header {
   min-width: 0;
   box-sizing: border-box;

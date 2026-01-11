@@ -12,6 +12,7 @@ interface featured_json {
   screenshot_img: string;
   usage: string;
   name: string;
+  display_name: string;
 }
 
 const FeaturedSection = () => {
@@ -20,6 +21,7 @@ const FeaturedSection = () => {
   const featuredReposList: featured_json[] = FeaturedData as featured_json[];
   const featuredRepos: FEATURED_REPO[] = featuredReposList.map((featured_repo) => {
     return {
+      display_name: featured_repo.display_name,
       screenshot_img: featured_repo.screenshot_img,
       usage: featured_repo.usage,
       repo: Repos.find(repo => repo.name == featured_repo.name)!
@@ -51,7 +53,7 @@ const FeaturedSection = () => {
               </Link>
               <div className='featured-desc-container'>
                 <a href={`https://github.com/metakgp/${featuredRepo.repo.name}`} className="no-highlight featured-repo-title">
-                  <h2 className='section-header-left'>{featuredRepo.repo.name}</h2>
+                  <h2 className='section-header-left'>{featuredRepo.display_name}</h2>
                 </a>
                 <p className='description'>{featuredRepo.usage}</p>
                 <a href={featuredRepo.repo.homepage} className='featured-button no-highlight'>

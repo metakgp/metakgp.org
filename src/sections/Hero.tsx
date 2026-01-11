@@ -24,12 +24,13 @@ export const HeroSection = () => {
               </Link>
             </div>
             <a href={"https://slack.metakgp.org"} className="slack-link">
-              <img src={slackLogo} width={16} height={16}/>
+              <img src={slackLogo} width={16} height={16} alt="Slack logo"/>
               <p>Join Us!</p>
             </a>
           </div>
         </div>
         <div className="hero-image-container">
+          <img src="one-line.svg" alt="metaKGP Logo" className="hero-logo"/>
           <img className="hero-image" src={devFocus} alt="hero-image"/>
         </div>
       </div>

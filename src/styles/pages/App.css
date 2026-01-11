@@ -64,7 +64,7 @@
 }
 
 .description {
-  font-family: "Nanum Gothic Coding", monospace;
+  font-family: var(--mono-primary);
   font-weight: 400;
   font-style: normal;
   font-size: 1.3rem;
@@ -83,7 +83,7 @@
   font-family: "Titillium Web", sans-serif;
   font-weight: 900;
   font-style: normal;
-  font-size: clamp(3rem, 2vw, 4rem);
+  font-size: clamp(2.5rem, 2vw, 4rem);
   text-align: left;
   margin: 1.5rem 0;
 }

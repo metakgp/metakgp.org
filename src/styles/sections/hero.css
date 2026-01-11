@@ -35,7 +35,8 @@
 }
 
 .hero-description {
-  font-family: "Space Mono", monospace;
+  font-family: var(--mono-primary);
+  line-height: 1.2;
   font-weight: 400;
   font-style: normal;
   font-size: 1.3rem;
@@ -58,6 +59,10 @@
   height: auto;
   margin: 0;
   padding: 0;
+}
+
+.hero-logo {
+  display: none;
 }
 
 .hero-button-container {
@@ -139,6 +144,7 @@
     align-items: center;
     padding: 1rem;
     gap: 2rem;
+    margin: 0;
   }
 
   .hero-header-container {
@@ -153,7 +159,7 @@
   }
 
   .main-header {
-    font-size: clamp(3rem, 8vw, 4rem);
+    font-size: clamp(2.5rem, 8vw, 4rem);
     line-height: 0.8;
     text-align: left;
     margin: 1rem 0;
@@ -187,10 +193,17 @@
     padding: 0;
     max-width: 100%;
     text-align: center;
+    margin: 0;
   }
 
   .hero-image {
     max-width: 80%;
     height: auto;
+  }
+
+  .hero-logo {
+    display: block;
+    width: 60%;
+    margin:0 auto 2rem auto;
   }
 }
