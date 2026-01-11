@@ -19,7 +19,7 @@ const ContributePage = () => {
               If you ever need help with anything, just ask us in the <code>#general</code> channel on our Slack server.
             </p>
             <a href={"https://slack.metakgp.org"} className="slack-link">
-              <img src={slackLogo} width={16} height={16} loading="lazy"/>
+              <img src={slackLogo} width={16} height={16} alt="Slack logo" loading="lazy"/>
               <p>Join the Slack!</p>
             </a>
           </div>
