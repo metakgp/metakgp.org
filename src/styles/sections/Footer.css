@@ -1,7 +1,7 @@
 /*Footer Section Styling*/
 
 .footer-section {
-  font-family: "Space Mono", monospace;
+  font-family: var(--mono-primary);
   display: flex;
   flex-wrap: wrap;
   background-color: #1a1717;
@@ -46,4 +46,11 @@
 .social-icons a:hover i {
   color: black;
   transition: .5s;
+}
+
+
+@media screen and (max-width: 768px) {
+  .footer-col {
+    width: 100%;
+  }
 }
