@@ -3,7 +3,7 @@
         "name": "metakgp.org",
         "description": "The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
         "stars": 6,
-        "forks": 12,
+        "forks": 13,
         "language": [
             "TypeScript"
         ],
@@ -151,7 +151,7 @@
         "name": "naarad",
         "description": "Self-hosted ntfy.sh server for metakgp, delivering notifications to KGPians.",
         "stars": 16,
-        "forks": 3,
+        "forks": 4,
         "language": [
             "Go",
             "TypeScript"
