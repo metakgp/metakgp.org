@@ -15,6 +15,7 @@ export const HeaderSection = () => {
 
   return (
     <div className="header">
+      <div className="container header-inner">
       <Link to={"/"} className="metakgp-logo-link">
         <img src="one-line.svg" alt="metaKGP Logo" className="metakgp-logo" />
       </Link>
@@ -23,6 +24,7 @@ export const HeaderSection = () => {
           <NavElement route={page} isActive={location.pathname.slice(1) === page} />
         ))}
       </nav>
+      </div>
       </div>
   )
 }
