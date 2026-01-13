@@ -3,12 +3,20 @@
   --right_background: #485461;
   --text: #fcfcfc;
   --mono-primary: 'Inconsolata', monospace;
+  --title_color: white;
+  --hero_text: #fcfcfcbf;
+  --dc_image_text: #9ca3af;
+  --link_color: #93aff1;
 }
 
 [data-theme="light"]{
   --left_background: #c1c1bf;
   --right_background: #ededea;
   --text: #393f45;
+  --title_color: #485461;
+  --hero_text: #2f2f2f;
+  --dc_image_text: #2f2f2f;
+  --link_color: #376cea;
 }
 
 html,
@@ -51,15 +59,15 @@ code {
 
 
 a:not(.nav-element):not(.active-nav-element):not(.slack-link):not(.metakgp-logo-link):not(.no-highlight) {
-  color: #93aff1;
+  color: var(--link_color);
   text-decoration: none;
 }
 
 a:hover:not(.nav-element):not(.active-nav-element):not(.slack-link):not(.metakgp-logo-link):not(.no-highlight) {
-  color: #5fb49c;
+  color: #43a488;
   text-decoration: underline;
 }
 
 a:visited:not(.nav-element):not(.active-nav-element):not(.slack-link):not(.metakgp-logo-link):not(.no-highlight) {
-  color: #e75a7c;
+  color: #e53c64;
 }

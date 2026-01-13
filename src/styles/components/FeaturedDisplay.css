@@ -1,11 +1,3 @@
-:root{
-  --title_color: white;
-}
-
-[data-theme="light"]{
-  --title_color: #485461;
-}
-
 .featured-display {
   display: flex;
   flex-direction: column;

@@ -1,17 +1,5 @@
 /* Header Element Styling*/
 
-:root{
-  --metakgp_text: #fff;
-}
-
-[data-theme="light"]{
-  --metakgp_text: #2f2f2f;
-}
-
-.metakgp-logo-link {
-  color: var(--metakgp_text);
-}
-
 .nav-container {
   display: flex;
   align-items: center;
@@ -19,7 +7,7 @@
 }
 
 .metakgp-logo {
-  height: 2.5em;
+  height: 1.5em;
   margin: 1.8em 0;
 }
 

@@ -1,13 +1,5 @@
 /* Hero Section Styling */
 
-:root{
-  --hero_text: #fcfcfcbf;
-}
-
-[data-theme="light"]{
-  --hero_text: #2f2f2f;
-}
-
 .hero-container {
   display: flex;
   flex-direction: row;

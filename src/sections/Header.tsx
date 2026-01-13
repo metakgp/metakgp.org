@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react"; 
 import "../styles/sections/header.css";
 import DarkMode from "../assets/darkmode.svg";
 import LightMode from "../assets/lightmode.svg";
+import LogoDark from "../assets/metakgp_logo_one_line-cropped.svg";
+import LogoLight from "../assets/one-line-light.svg";
 import { Link, useLocation } from "react-router-dom";
 
 const NavElement = ({ route, isActive }: { route: string, isActive: boolean }) => {
@@ -10,21 +12,23 @@ const NavElement = ({ route, isActive }: { route: string, isActive: boolean }) =
   )
 }
 
-export const HeaderSection = () => {
+type HeaderSectionProps = {
+  theme: "light" | "dark";
+  setTheme: (theme: "light" | "dark") => void;
+};
+
+export const HeaderSection = ({ theme, setTheme }: HeaderSectionProps) => {
   const location = useLocation();
   const pages = ["about", "projects", "contribute", "dc"];
-  const [theme, setTheme] = useState(() => {
-    return localStorage.getItem("theme") || "dark";
-  });
-  useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
-    localStorage.setItem("theme", theme);
-  }, [theme]);
 
   return (
     <div className="header">
       <Link to={"/"} className="metakgp-logo-link">
-        <img src="one-line.svg" alt="metaKGP Logo" className="metakgp-logo" />
+        <img
+            src={theme === "dark" ? LogoDark : LogoLight}
+            alt="metaKGP Logo"
+            className="metakgp-logo"
+          />
       </Link>
       <div className="nav-container">
         <nav className="nav-bar">
