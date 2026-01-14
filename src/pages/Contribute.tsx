@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/pages/contribute.css";
-import helloImage from "../assets/undraw_hello_ccwj.svg";
+import helloImage from "../assets/hello.webp";
 import slackLogo from "../assets/slack_icon.webp"
 import TerminalDisplay from "../components/TerminalDisplay";
 import { Link } from "react-router-dom";

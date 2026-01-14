@@ -11,7 +11,7 @@
 .dc-image-container figcaption {
     text-align: center;
     font-style: italic;
-    color: #9ca3af;
+    color: var(--dc_image_text);
 }
 
 .dc-image {

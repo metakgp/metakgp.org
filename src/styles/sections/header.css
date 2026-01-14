@@ -1,7 +1,13 @@
 /* Header Element Styling*/
 
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 .metakgp-logo {
-  height: 2.5em;
+  height: 1.5em;
   margin: 1.8em 0;
 }
 
@@ -19,6 +25,11 @@
   gap: 3rem;
 }
 
+.theme-toggle {
+  cursor: pointer;
+}
+
+.theme-toggle,
 .nav-bar {
   float: right;
   display: flex;
@@ -77,6 +88,7 @@
     gap: 0.5rem;
   }
 
+  .theme-toggle,
   .nav-bar {
     justify-content: space-between;
     width: 100%;
@@ -86,7 +98,7 @@
   .nav-element,
   .active-nav-element,
   .slack-link {
-    padding: 6px 12px;
+    padding: 6px 7px;
     font-size: 1rem;
     white-space: nowrap;
   }
