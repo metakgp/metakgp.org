@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import devFocus from "../assets/undraw_pair_programming_re_or4x.svg";
 import slackLogo from "../assets/slack_icon.webp"
 import "../styles/sections/hero.css";
-import LogoDark from "../assets/metakgp_logo_one_line-cropped.svg";
-import LogoLight from "../assets/one-line-light.svg";
 import { Link,useOutletContext } from "react-router-dom";
+import { MetaKGPLogo } from "../components/MetaKgpLogo";
 
 type OutletContextType = {
   theme: "light" | "dark";
@@ -37,11 +36,7 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className="hero-image-container">
-          <img
-            src={theme === "dark" ? LogoDark : LogoLight}
-            alt="metaKGP Logo"
-            className="hero-logo"
-          />
+          <MetaKGPLogo theme={theme} className="hero-logo" />
           <img className="hero-image" src={devFocus} alt="hero-image"/>
         </div>
       </div>

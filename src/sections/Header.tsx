@@ -2,9 +2,8 @@ import React from "react";
 import "../styles/sections/header.css";
 import DarkMode from "../assets/darkmode.svg";
 import LightMode from "../assets/lightmode.svg";
-import LogoDark from "../assets/metakgp_logo_one_line-cropped.svg";
-import LogoLight from "../assets/one-line-light.svg";
 import { Link, useLocation } from "react-router-dom";
+import { MetaKGPLogo } from "../components/MetaKgpLogo";
 
 const NavElement = ({ route, isActive }: { route: string, isActive: boolean }) => {
   return (
@@ -24,11 +23,7 @@ export const HeaderSection = ({ theme, setTheme }: HeaderSectionProps) => {
   return (
     <div className="header">
       <Link to={"/"} className="metakgp-logo-link">
-        <img
-            src={theme === "dark" ? LogoDark : LogoLight}
-            alt="metaKGP Logo"
-            className="metakgp-logo"
-          />
+        <MetaKGPLogo theme={theme} className="metakgp-logo" />
       </Link>
       <div className="nav-container">
         <nav className="nav-bar">
