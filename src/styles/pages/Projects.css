@@ -14,6 +14,13 @@
   flex-direction: column;
 }
 
+.search-sort-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .filter-button {
   border: none;
   padding: 8px 15px;
@@ -35,8 +42,20 @@
   font-weight: bold;
 }
 
+.results-info {
+  color: #a0a0a0;
+  font-size: 14px;
+  margin: 10px 0;
+  font-style: italic;
+}
+
 @media (max-width:1024px) {
   .filter-container {
     flex-direction: column;
+  }
+  
+  .search-sort-row {
+    flex-direction: column;
+    width: 100%;
   }
 }
