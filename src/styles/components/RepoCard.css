@@ -23,14 +23,20 @@
   width: 100%;
 }
 
+.gh-card-header .header-links {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .gh-card-header .header-link {
   display: flex;
   align-items: center;
   gap: 6px;
 
-  margin-left: auto;
-
-  padding: 4px;
+  height: 100%;
+  padding: 4px 8px;
   border-radius: 5px;
 
   background-color: hsl(0, 0%, 20%);
@@ -62,7 +68,7 @@
 }
 
 .gh-repo-name {
-  color: #4BA7F8;
+  color: #e53c64;
   font-weight: 700;
 }
 
