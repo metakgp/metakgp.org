@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #2f2f2f;
+  background-color: hsl(0, 0%, 15%);
   /* border: 1px solid #222; */
   border-radius: 0.375rem;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
@@ -15,17 +15,37 @@
   text-align: left;
 }
 
-.gh-card-container:hover {
-  text-decoration: none !important;
-  background-color: hsl(0, 0%, 20%);
-}
-
 .gh-card-header {
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: center;
   width: 100%;
+}
+
+.gh-card-header .header-links {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gh-card-header .header-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  height: 100%;
+  padding: 4px 8px;
+  border-radius: 5px;
+
+  background-color: hsl(0, 0%, 20%);
+  color: #f3f3f3 !important;
+}
+
+.gh-card-header .header-link:hover {
+  text-decoration: none !important;
+  background-color: hsl(0, 0%, 25%);
 }
 
 .gh-card-body {
@@ -38,14 +58,6 @@
   height: 100%;
 }
 
-.gh-card-footer {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  align-items: center;
-  gap: 1rem;
-}
 
 /* Header Objects */
 
@@ -56,9 +68,16 @@
 }
 
 .gh-repo-name {
-  color: #4BA7F8;
+  color: #e53c64;
   font-weight: 700;
-  margin: 0 0.5rem;
+}
+
+.project-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  font-size: 1.05rem;
 }
 
 /* Body Objects */
@@ -66,7 +85,15 @@
 /* Footer Objects */
 
 .gh-card-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+
   color: #f3f3f3;
+  user-select: none;
 }
 
 .gh-card-circle {
