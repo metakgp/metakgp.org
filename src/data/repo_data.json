@@ -3,7 +3,7 @@
         "name": "metakgp.org",
         "description": "The website for metaKGP. Showcases all metaKGP projects since it is more than just a Wiki.",
         "stars": 7,
-        "forks": 13,
+        "forks": 12,
         "language": [
             "TypeScript"
         ],
