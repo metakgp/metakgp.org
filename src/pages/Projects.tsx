@@ -78,6 +78,7 @@ const Projects = () => {
               key={lang}
               className={`filter-button ${selectedLanguages.includes(lang) ? "active" : ""}`}
               onClick={() => toggleLanguage(lang)}
+              aria-pressed={selectedLanguages.includes(lang)}
             >
               {lang}
             </button>
