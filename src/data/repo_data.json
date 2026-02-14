@@ -57,7 +57,7 @@
         "name": "maintos",
         "description": "A maintainers' dashboard for all metaKGP projects deployed on the server. ",
         "stars": 0,
-        "forks": 2,
+        "forks": 1,
         "language": [
             "Rust",
             "TypeScript"
