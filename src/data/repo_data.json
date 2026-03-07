@@ -214,7 +214,7 @@
     {
         "name": "iitkgp-erp-auto-login",
         "description": "[Browser Extension] Auto Login Utility for students' ERP at IIT Kharagpur",
-        "stars": 5,
+        "stars": 4,
         "forks": 2,
         "language": [
             "TypeScript"
