@@ -34,7 +34,7 @@
     {
         "name": "iqps-go",
         "description": "Search for question papers when the library can't save you.",
-        "stars": 29,
+        "stars": 30,
         "forks": 18,
         "language": [
             "Rust",
@@ -246,7 +246,7 @@
         "name": "gyfe",
         "description": "Get Your Freaking Electives :)",
         "stars": 7,
-        "forks": 14,
+        "forks": 13,
         "language": [
             "Python",
             "TypeScript"
