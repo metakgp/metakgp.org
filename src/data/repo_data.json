@@ -67,8 +67,8 @@
     {
         "name": "metakgp-wiki",
         "description": "Dockerized source for the metakgp wiki.",
-        "stars": 23,
-        "forks": 19,
+        "stars": 24,
+        "forks": 20,
         "language": [
             "Python",
             "Dockerfile"
@@ -224,7 +224,7 @@
     {
         "name": "kronos",
         "description": "A webapp to serve past year grade distributions of IIT KGP students, for IIT KGP students",
-        "stars": 5,
+        "stars": 6,
         "forks": 4,
         "language": [
             "Python"
