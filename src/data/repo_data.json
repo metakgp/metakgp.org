@@ -151,7 +151,7 @@
         "name": "naarad",
         "description": "Self-hosted ntfy.sh server for metakgp, delivering notifications to KGPians.",
         "stars": 16,
-        "forks": 4,
+        "forks": 5,
         "language": [
             "Go",
             "TypeScript"
