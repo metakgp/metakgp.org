@@ -89,7 +89,7 @@
     {
         "name": "cfmn",
         "description": "Can't Find My Notes",
-        "stars": 0,
+        "stars": 1,
         "forks": 1,
         "language": [
             "Rust",
