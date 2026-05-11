@@ -29,7 +29,7 @@ const SortDropdown: React.FC<SortDropdownProps> = ({
         </select>
       </div>
 
-      <div className="sort-Arrow-container" onClick={toggleSort}>
+      <div className="sort-Arrow-container" onClick={toggleSort} aria-label="Toggle sort order">
         {sortType === "asc" ? <><FaArrowDownShortWide /> Ascending</> : <><FaArrowDownWideShort /> Descending</>}
       </div>
     </div>
