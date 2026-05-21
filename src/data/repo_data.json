@@ -131,7 +131,7 @@
         "name": "societytable",
         "description": "A periodic table of the KGPian societies. Originally created by TSA.",
         "stars": 2,
-        "forks": 6,
+        "forks": 7,
         "language": [
             "TypeScript"
         ],
