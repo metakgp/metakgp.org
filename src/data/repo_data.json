@@ -225,7 +225,7 @@
         "name": "kronos",
         "description": "A webapp to serve past year grade distributions of IIT KGP students, for IIT KGP students",
         "stars": 6,
-        "forks": 4,
+        "forks": 5,
         "language": [
             "Python"
         ],
