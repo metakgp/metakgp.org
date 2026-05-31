@@ -12,7 +12,7 @@
     {
         "name": "wimp",
         "description": "Where is my Prof?",
-        "stars": 49,
+        "stars": 50,
         "forks": 26,
         "language": [
             "Python",
@@ -23,7 +23,7 @@
     {
         "name": "gyft",
         "description": "Get Your Freaking Timetable",
-        "stars": 60,
+        "stars": 59,
         "forks": 61,
         "language": [
             "Python",
@@ -171,7 +171,7 @@
     {
         "name": "hermes",
         "description": "[WIP] (High speed Encrypted and Real-time Messaging and Efficient Sharing)  A modern P2P replacement for DC++ on KGP networks",
-        "stars": 12,
+        "stars": 13,
         "forks": 4,
         "language": [
             "Svelte",
