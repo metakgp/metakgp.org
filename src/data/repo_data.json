@@ -150,7 +150,7 @@
     {
         "name": "naarad",
         "description": "Self-hosted ntfy.sh server for metakgp, delivering notifications to KGPians.",
-        "stars": 17,
+        "stars": 18,
         "forks": 5,
         "language": [
             "Go",
