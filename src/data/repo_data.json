@@ -162,7 +162,7 @@
         "name": "iitkgp-erp-login-go",
         "description": "The only golang package you will ever need to implement login process in ERP for IIT-KGP",
         "stars": 3,
-        "forks": 2,
+        "forks": 3,
         "language": [
             "Go"
         ],
