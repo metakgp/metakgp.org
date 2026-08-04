@@ -110,7 +110,7 @@
     {
         "name": "iitkgp-erp-login-pypi",
         "description": "The only python package you will ever need to implement login process in ERP for IIT-KGP",
-        "stars": 28,
+        "stars": 29,
         "forks": 8,
         "language": [
             "Python"
