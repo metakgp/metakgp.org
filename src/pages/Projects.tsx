@@ -5,6 +5,7 @@ import { REPO_DATA_TYPE } from "../utils/types";
 import RepoData from '../data/repo_data.json';
 import SortDropdown from "../components/SortDropdown";
 import PaginatedCardGrid from "../sections/CardGrid";
+import SearchBar from "../components/SearchBar";
 
 const Projects = () => {
   const repoList: REPO_DATA_TYPE[] = RepoData as REPO_DATA_TYPE[]
@@ -12,12 +13,21 @@ const Projects = () => {
   const [sortType, setSortType] = useState("desc")
   const languages = [...new Set(repoList.map(repo => repo.language).flat())].filter(lang => lang !== null).sort();
   const [selectedLanguages, setSelectedLanguages] = useState<string[]>([]);
+  const [searchQuery, setSearchQuery] = useState("");
   const [filteredRepos, setFilteredRepos] = useState<REPO_DATA_TYPE[]>(repoList);
 
   useEffect(() => {
-    let result = repoList.filter((repo) =>
-      selectedLanguages.length === 0 || repo.language.some(lang => selectedLanguages.includes(lang))
-    );
+    let result = repoList.filter((repo) => {
+      // Filter by language
+      const languageMatch = selectedLanguages.length === 0 || repo.language.some(lang => selectedLanguages.includes(lang));
+      
+      // Filter by search query (name or description)
+      const searchMatch = searchQuery === "" || 
+        repo.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        repo.description.toLowerCase().includes(searchQuery.toLowerCase());
+      
+      return languageMatch && searchMatch;
+    });
 
     if (sortField === "name") {
       result.sort((a, b) => {
@@ -47,7 +57,7 @@ const Projects = () => {
     }
     setFilteredRepos(result)
 
-  }, [selectedLanguages, sortField, sortType])
+  }, [selectedLanguages, sortField, sortType, searchQuery])
 
 
 
@@ -72,6 +82,19 @@ const Projects = () => {
         </p>
       </section>
       <div className="filter-container">
+        <div className="search-sort-row">
+          <SearchBar 
+            searchQuery={searchQuery}
+            setSearchQuery={setSearchQuery}
+            placeholder="Search projects by name or description..."
+          />
+          <SortDropdown
+            setSortField={setSortField}
+            setSortType={setSortType}
+            sortField={sortField}
+            sortType={sortType}
+          />
+        </div>
         <div className="language-filter">
           {languages.map(lang => (
             <button
@@ -84,14 +107,9 @@ const Projects = () => {
           ))}
 
         </div>
-
-        <SortDropdown
-          setSortField={setSortField}
-          setSortType={setSortType}
-          sortField={sortField}
-          sortType={sortType}
-        />
-
+      </div>
+      <div className="results-info">
+        Showing {filteredRepos.length} of {repoList.length} projects
       </div>
       <PaginatedCardGrid repos={filteredRepos} displayMode="all" />
     </div>
