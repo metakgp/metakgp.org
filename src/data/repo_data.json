@@ -34,7 +34,7 @@
     {
         "name": "iqps-go",
         "description": "Search for question papers when the library can't save you.",
-        "stars": 31,
+        "stars": 32,
         "forks": 20,
         "language": [
             "Rust",
