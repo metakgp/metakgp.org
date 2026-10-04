@@ -13,7 +13,7 @@
         "name": "wimp",
         "description": "Where is my Prof?",
         "stars": 51,
-        "forks": 27,
+        "forks": 26,
         "language": [
             "Python",
             "TypeScript"
@@ -111,7 +111,7 @@
         "name": "iitkgp-erp-login-pypi",
         "description": "The only python package you will ever need to implement login process in ERP for IIT-KGP",
         "stars": 29,
-        "forks": 8,
+        "forks": 7,
         "language": [
             "Python"
         ],
