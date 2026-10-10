@@ -172,7 +172,7 @@
         "name": "hermes",
         "description": "[WIP] (High speed Encrypted and Real-time Messaging and Efficient Sharing)  A modern P2P replacement for DC++ on KGP networks",
         "stars": 14,
-        "forks": 4,
+        "forks": 5,
         "language": [
             "Svelte",
             "Rust"
