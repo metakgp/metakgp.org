@@ -46,7 +46,7 @@
     {
         "name": "mftp",
         "description": "(My Freakin Training & Placements) CDC noticeboard scraper",
-        "stars": 44,
+        "stars": 45,
         "forks": 49,
         "language": [
             "Python"
